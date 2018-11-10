@@ -1,6 +1,7 @@
 import axios from 'axios'
 
 export default {
+  basePath: '/my-decade/',
   getSiteData: () => ({
     title: 'React Static',
   }),
@@ -35,5 +36,5 @@ export default {
       },
     ]
   },
-  siteRoot: '/my-decade',
+  siteRoot: 'https://mckelvey.github.io',
 }
