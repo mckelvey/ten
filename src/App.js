@@ -5,6 +5,9 @@ import { hot } from 'react-hot-loader'
 import Routes from 'react-static-routes'
 
 import './app.css'
+import data from '../data/commit-history.json'
+
+console.log(data);
 
 const App = () => (
   <Router>
