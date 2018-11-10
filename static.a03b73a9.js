@@ -67,7 +67,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/my-decade/";
+/******/ 	__webpack_require__.p = "https://mckelvey.github.io/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 10);
@@ -1541,4 +1541,4 @@ module.exports = {"history":{"2008-12-06":{"count":1,"totalToDate":1},"2008-12-0
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.a43d5db2.js.map
+//# sourceMappingURL=static.a03b73a9.js.map

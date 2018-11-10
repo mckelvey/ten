@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "b0a07a42527bd05338e3",
-  "time": 5938,
-  "publicPath": "/my-decade/",
+  "hash": "c6dd1689a910f82b8c60",
+  "time": 5857,
+  "publicPath": "https://mckelvey.github.io/",
   "assetsByChunkName": {
     "src/containers/Home": [
       "templates/src/containers/Home.d041be4f.js",
@@ -27,19 +27,19 @@
       "templates/src/containers/404.78fd131c.js.map"
     ],
     "main": [
-      "main.e4aa0cfe.js",
-      "styles.b0a07a42.css",
-      "main.e4aa0cfe.js.map",
-      "styles.b0a07a42.css.map"
+      "main.ecad2657.js",
+      "styles.c6dd1689.css",
+      "main.ecad2657.js.map",
+      "styles.c6dd1689.css.map"
     ],
     "bootstrap": [
-      "bootstrap.e3acdb13.js",
-      "bootstrap.e3acdb13.js.map"
+      "bootstrap.41506635.js",
+      "bootstrap.41506635.js.map"
     ]
   },
   "assets": [
     {
-      "name": "styles.b0a07a42.css",
+      "name": "styles.c6dd1689.css",
       "size": 383,
       "chunks": [
         5
@@ -101,8 +101,8 @@
       "emitted": true
     },
     {
-      "name": "main.e4aa0cfe.js",
-      "size": 418267,
+      "name": "main.ecad2657.js",
+      "size": 418347,
       "chunks": [
         5
       ],
@@ -113,8 +113,8 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.e3acdb13.js",
-      "size": 1627,
+      "name": "bootstrap.41506635.js",
+      "size": 1643,
       "chunks": [
         6
       ],
@@ -190,8 +190,8 @@
       "emitted": true
     },
     {
-      "name": "main.e4aa0cfe.js.map",
-      "size": 2027671,
+      "name": "main.ecad2657.js.map",
+      "size": 2027754,
       "chunks": [
         5
       ],
@@ -201,7 +201,7 @@
       "emitted": true
     },
     {
-      "name": "styles.b0a07a42.css.map",
+      "name": "styles.c6dd1689.css.map",
       "size": 96,
       "chunks": [
         5
@@ -212,8 +212,8 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.e3acdb13.js.map",
-      "size": 14706,
+      "name": "bootstrap.41506635.js.map",
+      "size": 14739,
       "chunks": [
         6
       ],
@@ -231,12 +231,12 @@
         5
       ],
       "assets": [
-        "bootstrap.e3acdb13.js",
-        "bootstrap.e3acdb13.js.map",
-        "main.e4aa0cfe.js",
-        "styles.b0a07a42.css",
-        "main.e4aa0cfe.js.map",
-        "styles.b0a07a42.css.map"
+        "bootstrap.41506635.js",
+        "bootstrap.41506635.js.map",
+        "main.ecad2657.js",
+        "styles.c6dd1689.css",
+        "main.ecad2657.js.map",
+        "styles.c6dd1689.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -693,12 +693,12 @@
         "main"
       ],
       "files": [
-        "main.e4aa0cfe.js",
-        "styles.b0a07a42.css",
-        "main.e4aa0cfe.js.map",
-        "styles.b0a07a42.css.map"
+        "main.ecad2657.js",
+        "styles.c6dd1689.css",
+        "main.ecad2657.js.map",
+        "styles.c6dd1689.css.map"
       ],
-      "hash": "e4aa0cfe5643eafc7746",
+      "hash": "ecad26577dc661b53ff9",
       "parents": [
         6
       ],
@@ -2011,9 +2011,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/my-decade/node_modules/react-static/lib/client/components/Prefetch.js",
-          "issuerId": 117,
-          "issuerName": "./node_modules/react-static/lib/client/components/Prefetch.js",
+          "issuer": "/Users/david/Sites/my-decade/node_modules/react-static/lib/client/components/SiteData.js",
+          "issuerId": 114,
+          "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2201,9 +2201,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/my-decade/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/david/Sites/my-decade/dist/react-static-routes.js",
-          "issuerId": 130,
-          "issuerName": "./dist/react-static-routes.js",
+          "issuer": "/Users/david/Sites/my-decade/node_modules/react-static/lib/client/components/RouteData.js",
+          "issuerId": 92,
+          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3415,9 +3415,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/my-decade/node_modules/history/es/createHashHistory.js",
-          "issuerId": 66,
-          "issuerName": "./node_modules/history/es/createHashHistory.js",
+          "issuer": "/Users/david/Sites/my-decade/node_modules/history/es/createBrowserHistory.js",
+          "issuerId": 65,
+          "issuerName": "./node_modules/history/es/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3633,9 +3633,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/my-decade/node_modules/react-router/es/generatePath.js",
-          "issuerId": 34,
-          "issuerName": "./node_modules/react-router/es/generatePath.js",
+          "issuer": "/Users/david/Sites/my-decade/node_modules/react-router/es/matchPath.js",
+          "issuerId": 21,
+          "issuerName": "./node_modules/react-router/es/matchPath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -7675,10 +7675,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.e3acdb13.js",
-        "bootstrap.e3acdb13.js.map"
+        "bootstrap.41506635.js",
+        "bootstrap.41506635.js.map"
       ],
-      "hash": "e3acdb13775300307029",
+      "hash": "41506635563e83ed5e3c",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -8994,9 +8994,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/Users/david/Sites/my-decade/node_modules/react-static/lib/client/components/Prefetch.js",
-      "issuerId": 117,
-      "issuerName": "./node_modules/react-static/lib/client/components/Prefetch.js",
+      "issuer": "/Users/david/Sites/my-decade/node_modules/react-static/lib/client/components/SiteData.js",
+      "issuerId": 114,
+      "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9184,9 +9184,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/Users/david/Sites/my-decade/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/david/Sites/my-decade/dist/react-static-routes.js",
-      "issuerId": 130,
-      "issuerName": "./dist/react-static-routes.js",
+      "issuer": "/Users/david/Sites/my-decade/node_modules/react-static/lib/client/components/RouteData.js",
+      "issuerId": 92,
+      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10398,9 +10398,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/Users/david/Sites/my-decade/node_modules/history/es/createHashHistory.js",
-      "issuerId": 66,
-      "issuerName": "./node_modules/history/es/createHashHistory.js",
+      "issuer": "/Users/david/Sites/my-decade/node_modules/history/es/createBrowserHistory.js",
+      "issuerId": 65,
+      "issuerName": "./node_modules/history/es/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10616,9 +10616,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/Users/david/Sites/my-decade/node_modules/react-router/es/generatePath.js",
-      "issuerId": 34,
-      "issuerName": "./node_modules/react-router/es/generatePath.js",
+      "issuer": "/Users/david/Sites/my-decade/node_modules/react-router/es/matchPath.js",
+      "issuerId": 21,
+      "issuerName": "./node_modules/react-router/es/matchPath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -14914,7 +14914,7 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "/my-decade/",
+      "publicPath": "https://mckelvey.github.io/",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -14940,7 +14940,7 @@
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "f2e01e09f8d2935c73bc",
+          "hash": "8b3cb591a881b769a67b",
           "parents": [],
           "modules": [
             {
