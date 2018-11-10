@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "c6dd1689a910f82b8c60",
-  "time": 5857,
-  "publicPath": "https://mckelvey.github.io/",
+  "hash": "b0a07a42527bd05338e3",
+  "time": 5842,
+  "publicPath": "/my-decade/",
   "assetsByChunkName": {
     "src/containers/Home": [
       "templates/src/containers/Home.d041be4f.js",
@@ -27,19 +27,19 @@
       "templates/src/containers/404.78fd131c.js.map"
     ],
     "main": [
-      "main.ecad2657.js",
-      "styles.c6dd1689.css",
-      "main.ecad2657.js.map",
-      "styles.c6dd1689.css.map"
+      "main.e4aa0cfe.js",
+      "styles.b0a07a42.css",
+      "main.e4aa0cfe.js.map",
+      "styles.b0a07a42.css.map"
     ],
     "bootstrap": [
-      "bootstrap.41506635.js",
-      "bootstrap.41506635.js.map"
+      "bootstrap.e3acdb13.js",
+      "bootstrap.e3acdb13.js.map"
     ]
   },
   "assets": [
     {
-      "name": "styles.c6dd1689.css",
+      "name": "styles.b0a07a42.css",
       "size": 383,
       "chunks": [
         5
@@ -101,8 +101,8 @@
       "emitted": true
     },
     {
-      "name": "main.ecad2657.js",
-      "size": 418347,
+      "name": "main.e4aa0cfe.js",
+      "size": 418267,
       "chunks": [
         5
       ],
@@ -113,8 +113,8 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.41506635.js",
-      "size": 1643,
+      "name": "bootstrap.e3acdb13.js",
+      "size": 1627,
       "chunks": [
         6
       ],
@@ -190,8 +190,8 @@
       "emitted": true
     },
     {
-      "name": "main.ecad2657.js.map",
-      "size": 2027754,
+      "name": "main.e4aa0cfe.js.map",
+      "size": 2027671,
       "chunks": [
         5
       ],
@@ -201,7 +201,7 @@
       "emitted": true
     },
     {
-      "name": "styles.c6dd1689.css.map",
+      "name": "styles.b0a07a42.css.map",
       "size": 96,
       "chunks": [
         5
@@ -212,8 +212,8 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.41506635.js.map",
-      "size": 14739,
+      "name": "bootstrap.e3acdb13.js.map",
+      "size": 14706,
       "chunks": [
         6
       ],
@@ -231,12 +231,12 @@
         5
       ],
       "assets": [
-        "bootstrap.41506635.js",
-        "bootstrap.41506635.js.map",
-        "main.ecad2657.js",
-        "styles.c6dd1689.css",
-        "main.ecad2657.js.map",
-        "styles.c6dd1689.css.map"
+        "bootstrap.e3acdb13.js",
+        "bootstrap.e3acdb13.js.map",
+        "main.e4aa0cfe.js",
+        "styles.b0a07a42.css",
+        "main.e4aa0cfe.js.map",
+        "styles.b0a07a42.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -693,12 +693,12 @@
         "main"
       ],
       "files": [
-        "main.ecad2657.js",
-        "styles.c6dd1689.css",
-        "main.ecad2657.js.map",
-        "styles.c6dd1689.css.map"
+        "main.e4aa0cfe.js",
+        "styles.b0a07a42.css",
+        "main.e4aa0cfe.js.map",
+        "styles.b0a07a42.css.map"
       ],
-      "hash": "ecad26577dc661b53ff9",
+      "hash": "e4aa0cfe5643eafc7746",
       "parents": [
         6
       ],
@@ -7675,10 +7675,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.41506635.js",
-        "bootstrap.41506635.js.map"
+        "bootstrap.e3acdb13.js",
+        "bootstrap.e3acdb13.js.map"
       ],
-      "hash": "41506635563e83ed5e3c",
+      "hash": "e3acdb13775300307029",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -14914,7 +14914,7 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "https://mckelvey.github.io/",
+      "publicPath": "/my-decade/",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -14940,7 +14940,7 @@
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "8b3cb591a881b769a67b",
+          "hash": "f2e01e09f8d2935c73bc",
           "parents": [],
           "modules": [
             {
