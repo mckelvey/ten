@@ -1,25 +1,29 @@
 import React from 'react'
-import { Router, Link } from 'react-static'
+import { Router, Link, Route, Switch } from 'react-static'
+import universal from 'react-universal-component'
 import { hot } from 'react-hot-loader'
 //
 import Routes from 'react-static-routes'
 
 import './app.css'
-import data from '../data/commit-history.json'
 
-console.log(data);
+// Use universal-react-component for code-splitting non-static routes :)
+const Day = universal(import('./containers/Day'))
 
 const App = () => (
   <Router>
     <div>
       <nav>
         <Link exact to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
+        <Link to="/day/2008-12-06">Day</Link>
+        <Link to="/i-dont-match-any-route">Non-Matching Route</Link>
       </nav>
-      <div className="content">
-        <Routes />
-      </div>
+      <main>
+        <Switch>
+          <Route path="/day/:date" component={Day} />
+          <Routes />
+        </Switch>
+      </main>
     </div>
   </Router>
 )

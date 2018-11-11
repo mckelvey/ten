@@ -1,11 +1,13 @@
 import React from 'react'
 import { withSiteData } from 'react-static'
-//
-import logoImg from '../logo.png'
+
+import { summary } from '../store/commit-history';
+
+console.log(summary);
 
 export default withSiteData(() => (
   <div>
-    <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
-    <img src={logoImg} alt="" style={{ display: 'block', margin: '0 auto' }} />
+    <h1 style={{ textAlign: 'center' }}>Hello</h1>
+    {summary.commitCount}
   </div>
 ))
