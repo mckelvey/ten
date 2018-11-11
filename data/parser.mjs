@@ -41,8 +41,6 @@ const collectData = (jsObject, yearMatcher) => _.reduce(
   []
 );
 
-const data = {};
-
 readdir(svgFolder, (error, items) => {
   if (error) {
     throw error;
@@ -70,15 +68,15 @@ readdir(svgFolder, (error, items) => {
       }
     ))
     .then(data => {
-      const orderedData = _.sortBy(_.flatten(data), 'date');
+      const series = _.sortBy(_.flatten(data), 'date');
       const summary = {
         commitCount: 0,
         dayCount: 0,
-        firstDate: _.head(orderedData).date,
-        lastDate: _.last(orderedData).date,
+        firstDate: _.head(series).date,
+        lastDate: _.last(series).date,
       };
       const history = _.reduce(
-        orderedData,
+        series,
         (result, { count, date }) => {
           const numericCount = parseInt(count, 10);
           summary.commitCount += numericCount;
@@ -90,7 +88,7 @@ readdir(svgFolder, (error, items) => {
         },
         {}
       );
-      return { history, summary };
+      return { history, summary, series };
     })
     .then(data => {
       writeFile(
