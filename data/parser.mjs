@@ -74,6 +74,7 @@ readdir(svgFolder, (error, items) => {
         dayCount: 0,
         firstDate: _.head(series).date,
         lastDate: _.last(series).date,
+        maxCommitsPerDay: -Infinity,
       };
       const history = _.reduce(
         series,
@@ -81,6 +82,9 @@ readdir(svgFolder, (error, items) => {
           const numericCount = parseInt(count, 10);
           summary.commitCount += numericCount;
           summary.dayCount += 1;
+          if (numericCount > summary.maxCommitsPerDay) {
+            summary.maxCommitsPerDay = numericCount;
+          }
           return {
             ...result,
             [date]: { count: numericCount, totalToDate: summary.commitCount },
@@ -88,7 +92,7 @@ readdir(svgFolder, (error, items) => {
         },
         {}
       );
-      return { history, summary, series };
+      return { history, series, summary };
     })
     .then(data => {
       writeFile(
