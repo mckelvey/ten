@@ -92,7 +92,11 @@ readdir(svgFolder, (error, items) => {
         },
         {}
       );
-      return { history, series, summary };
+      return {
+        history,
+        series: _.map(series, 'date'),
+        summary,
+      };
     })
     .then(data => {
       writeFile(
