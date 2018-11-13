@@ -2,7 +2,8 @@ import map from 'lodash/map';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { day, series, summary } from '../../store/commit-history';
+import { currentIndex, day, series, summary } from '../../store/commit-history';
+import './Graph.scss';
 
 class Graph extends React.PureComponent {
 
@@ -16,17 +17,19 @@ class Graph extends React.PureComponent {
   }
 
   renderCommit(currentDate, date, index) {
-    const { height } = this.props;
+    const { barWidth, height } = this.props;
     const { count } = day(date);
     if (typeof count === 'number') {
-      const barHeight =
+      const y =
         height - (count / summary.maxCommitsPerDay * (height - 1)) - 1;
       return (
-        <path
-          d={`M ${index},${height - 1} L ${index},${barHeight} Z`}
-          fill="none"
+        <rect
+          x={index * barWidth}
+          y={y}
+          width={barWidth}
+          height={height - y}
+          fill="rebeccapurple"
           key={date}
-          stroke="rebeccapurple"
           style={{ opacity: currentDate === date ? 1 : 0.25 }}
         />
       );
@@ -35,15 +38,17 @@ class Graph extends React.PureComponent {
   }
 
   render() {
-    const { date: currentDate, height } = this.props;
+    const { barWidth, date: currentDate, height } = this.props;
+    const left = currentIndex(currentDate) / summary.dayCount * -100;
     return (
       <svg
-        viewBox={`0 0 ${summary.dayCount} ${height}`}
+        viewBox={`0 0 ${summary.dayCount * barWidth} ${height}`}
         xmlns="http://www.w3.org/2000/svg"
+        style={{ transform: `translateX(${left}%)` }}
       >
         <g>
           <path
-            d={`M 0,${height - 1} L ${summary.dayCount},${height - 1} Z`}
+            d={`M 0,${height - 1} L ${summary.dayCount * barWidth},${height - 1} Z`}
             fill="none"
             stroke="rebeccapurple"
           />
@@ -58,10 +63,12 @@ class Graph extends React.PureComponent {
 }
 
 Graph.propTypes = {
+  barWidth: PropTypes.number,
   height: PropTypes.number,
 };
 
 Graph.defaultProps = {
+  barWidth: 2,
   height: 300,
 };
 

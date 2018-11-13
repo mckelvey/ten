@@ -10,8 +10,11 @@ export const summary = get(data, 'summary');
 
 export const day = (dateString) => get(history, dateString);
 
+export const currentIndex = (dateString) =>
+  sortedIndexOf(series, dateString);
+
 export const previous = (dateString) => {
-  const index = sortedIndexOf(series, dateString);
+  const index = currentIndex(dateString);
   if (index > 0) {
     return series[index - 1];
   }
@@ -19,7 +22,7 @@ export const previous = (dateString) => {
 };
 
 export const next = (dateString) => {
-  const index = sortedIndexOf(series, dateString);
+  const index = currentIndex(dateString);
   if (index >= 0 && index < series.length - 1) {
     return series[index + 1];
   }
@@ -27,6 +30,7 @@ export const next = (dateString) => {
 };
 
 export default {
+  currentIndex,
   day,
   history,
   next,

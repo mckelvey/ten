@@ -1,7 +1,7 @@
 import React from 'react'
 import { withSiteData } from 'react-static'
 
-import { summary } from '../store/commit-history';
+import { summary } from '../../store/commit-history';
 
 console.log(summary);
 
