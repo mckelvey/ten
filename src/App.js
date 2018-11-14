@@ -1,17 +1,19 @@
-import React from 'react'
-import { Router, Link, Route, Switch } from 'react-static'
-import universal from 'react-universal-component'
-import { hot } from 'react-hot-loader'
+import React from 'react';
+import { Head, Router, Link, Route, Switch } from 'react-static';
+import universal from 'react-universal-component';
+import { hot } from 'react-hot-loader';
 
-import Routes from 'react-static-routes'
-import './App.scss'
+import Routes from 'react-static-routes';
+import './App.scss';
 
-// Use universal-react-component for code-splitting non-static routes :)
-const Day = universal(import('./containers/Day'))
+const Day = universal(import('./containers/Day'));
 
 const App = () => (
   <Router>
     <div>
+      <Head>
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i|Zilla+Slab:500,700&amp;subset=latin-ext" rel="stylesheet" />
+      </Head>
       <main>
         <Switch>
           <Route path="/day/:date" component={Day} />
@@ -25,6 +27,6 @@ const App = () => (
       </nav>
     </div>
   </Router>
-)
+);
 
-export default hot(module)(App)
+export default hot(module)(App);

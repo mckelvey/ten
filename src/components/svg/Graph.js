@@ -24,13 +24,13 @@ class Graph extends React.PureComponent {
         height - (count / summary.maxCommitsPerDay * (height - 1)) - 1;
       return (
         <rect
+          className={currentDate === date ? 'current' : ''}
+          fill="rebeccapurple"
+          height={height - y}
+          key={date}
+          width={barWidth}
           x={index * barWidth}
           y={y}
-          width={barWidth}
-          height={height - y}
-          fill="rebeccapurple"
-          key={date}
-          style={{ opacity: currentDate === date ? 1 : 0.25 }}
         />
       );
     }
@@ -47,13 +47,6 @@ class Graph extends React.PureComponent {
         style={{ transform: `translateX(${left}%)` }}
       >
         <g>
-          <path
-            d={`M 0,${height - 1} L ${summary.dayCount * barWidth},${height - 1} Z`}
-            fill="none"
-            stroke="rebeccapurple"
-          />
-        </g>
-        <g>
           {map(series, (date, index) => this.renderCommit(currentDate, date, index))}
         </g>
       </svg>
@@ -68,7 +61,7 @@ Graph.propTypes = {
 };
 
 Graph.defaultProps = {
-  barWidth: 2,
+  barWidth: 50,
   height: 300,
 };
 

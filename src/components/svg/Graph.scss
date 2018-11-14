@@ -1,7 +1,22 @@
+// Graph
 
 svg {
   position: absolute;
   bottom: 5vh;
   left: 50vw;
   height: 80vh;
+  border-bottom: 3px solid var(--color-primary);
+  transition: left 233ms ease;
+}
+
+rect {
+  fill: var(--color-secondary);
+  stroke: transparent;
+  transform: scaleY(0);
+  transition: transform 233ms ease;
+
+  &.current {
+    fill: var(--color-primary);
+    transform: scaleY(1);
+  }
 }
