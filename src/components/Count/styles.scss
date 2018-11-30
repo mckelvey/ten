@@ -1,0 +1,17 @@
+// Count
+
+[data-term] {
+  span + span {
+    &::before {
+      content: '/';
+      display: inline-block;
+      padding: 0 0.145em;
+    }
+  }
+}
+
+[data-term="commits"] {
+  padding-left: 5vw;
+  height: 5vh;
+  color: var(--color-primary);
+}
