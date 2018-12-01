@@ -1,0 +1,15 @@
+// Underlines
+
+@mixin underline($color, $width: 0.75em, $vertical-position: 1.05em) {
+  padding-right: 0.05em;
+  padding-left: 0.05em;
+  background-image: linear-gradient(to right, $color 0%, $color 100%);
+  background-position: 0 $vertical-position;
+  background-repeat: repeat-x;
+  background-size: 100% floor(strip-units($width) / 1 * $base-font-size);
+}
+
+@mixin no-underlines() {
+  background-image: none;
+  text-decoration: none;
+}

@@ -1,11 +1,15 @@
 // App
 
-@import './styles/typography';
-@import '~normalize-scss/fork-versions/default/normalize';
+@import "./styles/index";
 
 :root {
   --color-primary: rebeccapurple;
   --color-secondary: rgba(0, 0, 0, 0.25);
+  --color-blue: #{$blue};
+  --color-teal: #{$teal};
+  --color-light-grey: #{lighten($dark-grey, 34%)};
+  --color-grey: #{lighten($dark-grey, 13%)};
+  --color-dark-grey: #{$dark-grey};
 }
 
 html,
@@ -19,18 +23,63 @@ body {
 body {
   @include sans-serif();
 
-  display: flex;
-  flex-direction: column;
+  color: $dark-grey;
 }
 
-h1 {
-  @include serif(700);
+#root {
+  height: 100vh;
 
-  letter-spacing: -0.03em;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(135deg, rgba($orange, 0.55) 0%, rgba($orange, 0.89) 100%);
+    z-index: -1;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba($yellow, 0.55) 0%, rgba($yellow, 0.89) 100%);
+    z-index: -1;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
 }
 
 nav {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+h1 {
+  @include serif(700);
+
+  display: inline;
+  letter-spacing: -0.03em;
+}
+
+p {
+  margin-bottom: 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
 }

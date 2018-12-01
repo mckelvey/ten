@@ -8,11 +8,11 @@ export default {
   getRoutes: async () => [
     {
       path: '/',
-      component: 'src/containers/Home',
+      component: 'src/pages/Home',
     },
     {
       is404: true,
-      component: 'src/containers/404',
+      component: 'src/pages/404',
     },
   ],
   siteRoot: 'https://mckelvey.github.io',

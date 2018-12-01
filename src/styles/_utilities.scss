@@ -1,0 +1,13 @@
+// Utilities
+
+@function strip-units($number) {
+  @return $number / ($number * 0 + 1);
+}
+
+@function pixels-to-rem($pixels) {
+  @return ($pixels / $base-font-size * 1rem);
+}
+
+@function rem-to-pixels($rems) {
+  @return ($rems / 1rem * $base-font-size);
+}

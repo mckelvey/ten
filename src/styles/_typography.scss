@@ -17,7 +17,7 @@ $h5-font-size: 1.618  * $base-font-size;
 $h6-font-size: 1      * $base-font-size;
 
 @mixin sans-serif($weight: 400, $style: normal) {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: $weight;
   font-style: $style;
   letter-spacing: -0.01em;
