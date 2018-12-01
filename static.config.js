@@ -1,7 +1,7 @@
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 export default {
-  basePath: '/my-decade/',
+  basePath: '/ten/',
   getSiteData: () => ({
     title: 'My Decade',
   }),
