@@ -2,13 +2,13 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "62b7fdc081d23add72cc",
-  "time": 7869,
+  "hash": "85bc449ac4585e99a71b",
+  "time": 6997,
   "publicPath": "https://mckelvey.github.io/ten/",
   "assetsByChunkName": {
     "pages/Day": [
-      "templates/pages/Day.a18a965d.js",
-      "templates/pages/Day.a18a965d.js.map"
+      "templates/pages/Day.dc085b85.js",
+      "templates/pages/Day.dc085b85.js.map"
     ],
     "src/pages/Home": [
       "templates/src/pages/Home.92dd1f96.js",
@@ -20,19 +20,19 @@
     ],
     "main": [
       "main.29566e44.js",
-      "styles.62b7fdc0.css",
+      "styles.85bc449a.css",
       "main.29566e44.js.map",
-      "styles.62b7fdc0.css.map"
+      "styles.85bc449a.css.map"
     ],
     "bootstrap": [
-      "bootstrap.1dac5c94.js",
-      "bootstrap.1dac5c94.js.map"
+      "bootstrap.5922e6ee.js",
+      "bootstrap.5922e6ee.js.map"
     ]
   },
   "assets": [
     {
-      "name": "templates/pages/Day.a18a965d.js.map",
-      "size": 952677,
+      "name": "templates/pages/Day.dc085b85.js.map",
+      "size": 952667,
       "chunks": [
         0
       ],
@@ -42,8 +42,8 @@
       "emitted": true
     },
     {
-      "name": "templates/pages/Day.a18a965d.js",
-      "size": 219404,
+      "name": "templates/pages/Day.dc085b85.js",
+      "size": 219393,
       "chunks": [
         0
       ],
@@ -76,7 +76,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.1dac5c94.js",
+      "name": "bootstrap.5922e6ee.js",
       "size": 1552,
       "chunks": [
         4
@@ -87,8 +87,8 @@
       "emitted": true
     },
     {
-      "name": "styles.62b7fdc0.css",
-      "size": 9200,
+      "name": "styles.85bc449a.css",
+      "size": 8184,
       "chunks": [
         3
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.62b7fdc0.css.map",
+      "name": "styles.85bc449a.css.map",
       "size": 96,
       "chunks": [
         3
@@ -153,7 +153,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.1dac5c94.js.map",
+      "name": "bootstrap.5922e6ee.js.map",
       "size": 14453,
       "chunks": [
         4
@@ -172,12 +172,12 @@
         3
       ],
       "assets": [
-        "bootstrap.1dac5c94.js",
-        "bootstrap.1dac5c94.js.map",
+        "bootstrap.5922e6ee.js",
+        "bootstrap.5922e6ee.js.map",
         "main.29566e44.js",
-        "styles.62b7fdc0.css",
+        "styles.85bc449a.css",
         "main.29566e44.js.map",
-        "styles.62b7fdc0.css.map"
+        "styles.85bc449a.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -189,15 +189,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 317884,
+      "size": 317887,
       "names": [
         "pages/Day"
       ],
       "files": [
-        "templates/pages/Day.a18a965d.js",
-        "templates/pages/Day.a18a965d.js.map"
+        "templates/pages/Day.dc085b85.js",
+        "templates/pages/Day.dc085b85.js.map"
       ],
-      "hash": "a18a965d809be8a904b7",
+      "hash": "dc085b852b601f129ad2",
       "parents": [
         3
       ],
@@ -208,7 +208,7 @@
           "name": "./src/pages/Day/index.js",
           "index": 193,
           "index2": 275,
-          "size": 4149,
+          "size": 4152,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -247,7 +247,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 2,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _delay = require('lodash/delay');\n\nvar _delay2 = _interopRequireDefault(_delay);\n\nvar _get = require('lodash/get');\n\nvar _get2 = _interopRequireDefault(_get);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _Count = require('../../components/Count');\n\nvar _Count2 = _interopRequireDefault(_Count);\n\nvar _Graph = require('../../components/Graph');\n\nvar _Graph2 = _interopRequireDefault(_Graph);\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Day = function (_React$PureComponent) {\n  _inherits(Day, _React$PureComponent);\n\n  function Day() {\n    _classCallCheck(this, Day);\n\n    return _possibleConstructorReturn(this, (Day.__proto__ || Object.getPrototypeOf(Day)).apply(this, arguments));\n  }\n\n  _createClass(Day, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      this.next();\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      this.next();\n    }\n  }, {\n    key: 'next',\n    value: function next() {\n      var _this2 = this;\n\n      (0, _delay2.default)(function () {\n        var date = (0, _get2.default)(_this2.props, 'match.params.date');\n        _this2.props.history.push('/day/' + (0, _commitHistory.next)(date));\n      }, 89);\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var date = (0, _get2.default)(this.props, 'match.params.date');\n      var counts = (0, _commitHistory.day)(date);\n      if (date) {\n        return _react2.default.createElement(\n          'div',\n          { className: 'day' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            _react2.default.createElement(\n              'span',\n              { className: 'title' },\n              'Day'\n            ),\n            _react2.default.createElement(_Count2.default, {\n              count: (0, _commitHistory.currentIndex)(date) + 1,\n              term: 'day',\n              total: _commitHistory.summary.dayCount\n            })\n          ),\n          _react2.default.createElement(_Graph2.default, { date: date }),\n          counts && _react2.default.createElement(_Count2.default, {\n            count: counts.totalToDate,\n            term: 'commits',\n            total: _commitHistory.summary.commitCount\n          })\n        );\n      }\n      return null;\n    }\n  }]);\n\n  return Day;\n}(_react2.default.PureComponent);\n\nexports.default = (0, _reactStatic.withRouter)(Day);"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _delay = require('lodash/delay');\n\nvar _delay2 = _interopRequireDefault(_delay);\n\nvar _get = require('lodash/get');\n\nvar _get2 = _interopRequireDefault(_get);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _Count = require('../../components/Count');\n\nvar _Count2 = _interopRequireDefault(_Count);\n\nvar _Graph = require('../../components/Graph');\n\nvar _Graph2 = _interopRequireDefault(_Graph);\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Day = function (_React$PureComponent) {\n  _inherits(Day, _React$PureComponent);\n\n  function Day() {\n    _classCallCheck(this, Day);\n\n    return _possibleConstructorReturn(this, (Day.__proto__ || Object.getPrototypeOf(Day)).apply(this, arguments));\n  }\n\n  _createClass(Day, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      this.next();\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      // this.next();\n    }\n  }, {\n    key: 'next',\n    value: function next() {\n      var _this2 = this;\n\n      (0, _delay2.default)(function () {\n        var date = (0, _get2.default)(_this2.props, 'match.params.date');\n        _this2.props.history.push('/day/' + (0, _commitHistory.next)(date));\n      }, 89);\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var date = (0, _get2.default)(this.props, 'match.params.date');\n      var counts = (0, _commitHistory.day)(date);\n      if (date) {\n        return _react2.default.createElement(\n          'div',\n          { className: 'day' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            _react2.default.createElement(\n              'span',\n              { className: 'title' },\n              'Day'\n            ),\n            _react2.default.createElement(_Count2.default, {\n              count: (0, _commitHistory.currentIndex)(date) + 1,\n              term: 'day',\n              total: _commitHistory.summary.dayCount\n            })\n          ),\n          _react2.default.createElement(_Graph2.default, { date: date }),\n          counts && _react2.default.createElement(_Count2.default, {\n            count: counts.totalToDate,\n            term: 'commits',\n            total: _commitHistory.summary.commitCount\n          })\n        );\n      }\n      return null;\n    }\n  }]);\n\n  return Day;\n}(_react2.default.PureComponent);\n\nexports.default = (0, _reactStatic.withRouter)(Day);"
         },
         {
           "id": 135,
@@ -664,9 +664,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_hashClear.js",
-          "issuerId": 168,
-          "issuerName": "./node_modules/lodash/_hashClear.js",
+          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_hashGet.js",
+          "issuerId": 174,
+          "issuerName": "./node_modules/lodash/_hashGet.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -796,9 +796,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_mapCacheDelete.js",
-          "issuerId": 182,
-          "issuerName": "./node_modules/lodash/_mapCacheDelete.js",
+          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_mapCacheGet.js",
+          "issuerId": 184,
+          "issuerName": "./node_modules/lodash/_mapCacheGet.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -7026,9 +7026,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_hashClear.js",
-          "issuerId": 168,
-          "issuerName": "./node_modules/lodash/_hashClear.js",
+          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_hashGet.js",
+          "issuerId": 174,
+          "issuerName": "./node_modules/lodash/_hashGet.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -7158,9 +7158,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_mapCacheDelete.js",
-          "issuerId": 182,
-          "issuerName": "./node_modules/lodash/_mapCacheDelete.js",
+          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_mapCacheGet.js",
+          "issuerId": 184,
+          "issuerName": "./node_modules/lodash/_mapCacheGet.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -9710,9 +9710,9 @@
       ],
       "files": [
         "main.29566e44.js",
-        "styles.62b7fdc0.css",
+        "styles.85bc449a.css",
         "main.29566e44.js.map",
-        "styles.62b7fdc0.css.map"
+        "styles.85bc449a.css.map"
       ],
       "hash": "29566e448b52ca09c353",
       "parents": [
@@ -16734,10 +16734,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.1dac5c94.js",
-        "bootstrap.1dac5c94.js.map"
+        "bootstrap.5922e6ee.js",
+        "bootstrap.5922e6ee.js.map"
       ],
-      "hash": "1dac5c94da5141b0589a",
+      "hash": "5922e6eeff0b613ed61b",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -20760,7 +20760,7 @@
       "name": "./src/pages/Day/index.js",
       "index": 193,
       "index2": 275,
-      "size": 4149,
+      "size": 4152,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -20799,7 +20799,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 2,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _delay = require('lodash/delay');\n\nvar _delay2 = _interopRequireDefault(_delay);\n\nvar _get = require('lodash/get');\n\nvar _get2 = _interopRequireDefault(_get);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _Count = require('../../components/Count');\n\nvar _Count2 = _interopRequireDefault(_Count);\n\nvar _Graph = require('../../components/Graph');\n\nvar _Graph2 = _interopRequireDefault(_Graph);\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Day = function (_React$PureComponent) {\n  _inherits(Day, _React$PureComponent);\n\n  function Day() {\n    _classCallCheck(this, Day);\n\n    return _possibleConstructorReturn(this, (Day.__proto__ || Object.getPrototypeOf(Day)).apply(this, arguments));\n  }\n\n  _createClass(Day, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      this.next();\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      this.next();\n    }\n  }, {\n    key: 'next',\n    value: function next() {\n      var _this2 = this;\n\n      (0, _delay2.default)(function () {\n        var date = (0, _get2.default)(_this2.props, 'match.params.date');\n        _this2.props.history.push('/day/' + (0, _commitHistory.next)(date));\n      }, 89);\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var date = (0, _get2.default)(this.props, 'match.params.date');\n      var counts = (0, _commitHistory.day)(date);\n      if (date) {\n        return _react2.default.createElement(\n          'div',\n          { className: 'day' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            _react2.default.createElement(\n              'span',\n              { className: 'title' },\n              'Day'\n            ),\n            _react2.default.createElement(_Count2.default, {\n              count: (0, _commitHistory.currentIndex)(date) + 1,\n              term: 'day',\n              total: _commitHistory.summary.dayCount\n            })\n          ),\n          _react2.default.createElement(_Graph2.default, { date: date }),\n          counts && _react2.default.createElement(_Count2.default, {\n            count: counts.totalToDate,\n            term: 'commits',\n            total: _commitHistory.summary.commitCount\n          })\n        );\n      }\n      return null;\n    }\n  }]);\n\n  return Day;\n}(_react2.default.PureComponent);\n\nexports.default = (0, _reactStatic.withRouter)(Day);"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _delay = require('lodash/delay');\n\nvar _delay2 = _interopRequireDefault(_delay);\n\nvar _get = require('lodash/get');\n\nvar _get2 = _interopRequireDefault(_get);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _Count = require('../../components/Count');\n\nvar _Count2 = _interopRequireDefault(_Count);\n\nvar _Graph = require('../../components/Graph');\n\nvar _Graph2 = _interopRequireDefault(_Graph);\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Day = function (_React$PureComponent) {\n  _inherits(Day, _React$PureComponent);\n\n  function Day() {\n    _classCallCheck(this, Day);\n\n    return _possibleConstructorReturn(this, (Day.__proto__ || Object.getPrototypeOf(Day)).apply(this, arguments));\n  }\n\n  _createClass(Day, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      this.next();\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      // this.next();\n    }\n  }, {\n    key: 'next',\n    value: function next() {\n      var _this2 = this;\n\n      (0, _delay2.default)(function () {\n        var date = (0, _get2.default)(_this2.props, 'match.params.date');\n        _this2.props.history.push('/day/' + (0, _commitHistory.next)(date));\n      }, 89);\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var date = (0, _get2.default)(this.props, 'match.params.date');\n      var counts = (0, _commitHistory.day)(date);\n      if (date) {\n        return _react2.default.createElement(\n          'div',\n          { className: 'day' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            _react2.default.createElement(\n              'span',\n              { className: 'title' },\n              'Day'\n            ),\n            _react2.default.createElement(_Count2.default, {\n              count: (0, _commitHistory.currentIndex)(date) + 1,\n              term: 'day',\n              total: _commitHistory.summary.dayCount\n            })\n          ),\n          _react2.default.createElement(_Graph2.default, { date: date }),\n          counts && _react2.default.createElement(_Count2.default, {\n            count: counts.totalToDate,\n            term: 'commits',\n            total: _commitHistory.summary.commitCount\n          })\n        );\n      }\n      return null;\n    }\n  }]);\n\n  return Day;\n}(_react2.default.PureComponent);\n\nexports.default = (0, _reactStatic.withRouter)(Day);"
     },
     {
       "id": 56,
@@ -24291,9 +24291,9 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/david/Sites/ten/node_modules/lodash/_hashClear.js",
-      "issuerId": 168,
-      "issuerName": "./node_modules/lodash/_hashClear.js",
+      "issuer": "/Users/david/Sites/ten/node_modules/lodash/_hashGet.js",
+      "issuerId": 174,
+      "issuerName": "./node_modules/lodash/_hashGet.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -24423,9 +24423,9 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/david/Sites/ten/node_modules/lodash/_mapCacheDelete.js",
-      "issuerId": 182,
-      "issuerName": "./node_modules/lodash/_mapCacheDelete.js",
+      "issuer": "/Users/david/Sites/ten/node_modules/lodash/_mapCacheGet.js",
+      "issuerId": 184,
+      "issuerName": "./node_modules/lodash/_mapCacheGet.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -30223,12 +30223,12 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 2725,
+          "size": 2672,
           "names": [],
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "fb49a3f76eb75688c839",
+          "hash": "8600b6cd194a12a920b0",
           "parents": [],
           "modules": [
             {
@@ -30237,7 +30237,7 @@
               "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/pages/Day/styles.scss",
               "index": 0,
               "index2": 1,
-              "size": 465,
+              "size": 412,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -30257,7 +30257,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"div.day{position:relative;display:flex;flex-direction:column;height:100vh;min-height:100vh;max-height:100vh;overflow:hidden}div.day h1{position:absolute;top:3vh;left:5vw;margin:0;color:var(--color-primary)}div.day h1 [data-term]{font-size:3rem;line-height:1;font-weight:400}\", \"\"]);\n\n// exports\n"
+              "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"div.day{position:relative;display:flex;flex-direction:column;width:100%;height:95vh;overflow:hidden}div.day h1{position:absolute;top:0;left:5vw;margin:0}div.day h1 [data-term]{font-size:3rem;line-height:1;font-weight:400}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -30318,7 +30318,7 @@
           "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/pages/Day/styles.scss",
           "index": 0,
           "index2": 1,
-          "size": 465,
+          "size": 412,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -30338,7 +30338,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"div.day{position:relative;display:flex;flex-direction:column;height:100vh;min-height:100vh;max-height:100vh;overflow:hidden}div.day h1{position:absolute;top:3vh;left:5vw;margin:0;color:var(--color-primary)}div.day h1 [data-term]{font-size:3rem;line-height:1;font-weight:400}\", \"\"]);\n\n// exports\n"
+          "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"div.day{position:relative;display:flex;flex-direction:column;width:100%;height:95vh;overflow:hidden}div.day h1{position:absolute;top:0;left:5vw;margin:0}div.day h1 [data-term]{font-size:3rem;line-height:1;font-weight:400}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -30591,12 +30591,12 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 2756,
+          "size": 2781,
           "names": [],
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "6bae8bf5ee546b5645ce",
+          "hash": "7ba9ae31539bde5fc0bd",
           "parents": [],
           "modules": [
             {
@@ -30605,7 +30605,7 @@
               "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Graph/styles.scss",
               "index": 0,
               "index2": 1,
-              "size": 496,
+              "size": 521,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -30625,7 +30625,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"#graph-container{flex:1 1 99%;position:relative;margin:5vh 0 0}svg{position:absolute;top:0;left:0;margin:0 5vw;height:100%}rect{fill:var(--color-primary);stroke:transparent}g rect{fill:var(--color-secondary)}g rect.current,g rect:hover{fill:var(--color-primary);opacity:1}path{stroke:var(--color-primary)}\", \"\"]);\n\n// exports\n"
+              "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"#graph-container{flex:1 1 99%;position:relative;margin:5vh 0 0}svg{position:absolute;top:0;left:0;margin:0 5vw;height:100%}rect{fill:var(--color-teal,#eb7c22);stroke:transparent}g rect{fill:var(--color-teal-medium,#eb7c22)}g rect.current,g rect:hover{fill:var(--color-teal,#eb7c22);opacity:1}path{stroke:var(--color-teal,#eb7c22)}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -30686,7 +30686,7 @@
           "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Graph/styles.scss",
           "index": 0,
           "index2": 1,
-          "size": 496,
+          "size": 521,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -30706,7 +30706,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"#graph-container{flex:1 1 99%;position:relative;margin:5vh 0 0}svg{position:absolute;top:0;left:0;margin:0 5vw;height:100%}rect{fill:var(--color-primary);stroke:transparent}g rect{fill:var(--color-secondary)}g rect.current,g rect:hover{fill:var(--color-primary);opacity:1}path{stroke:var(--color-primary)}\", \"\"]);\n\n// exports\n"
+          "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"#graph-container{flex:1 1 99%;position:relative;margin:5vh 0 0}svg{position:absolute;top:0;left:0;margin:0 5vw;height:100%}rect{fill:var(--color-teal,#eb7c22);stroke:transparent}g rect{fill:var(--color-teal-medium,#eb7c22)}g rect.current,g rect:hover{fill:var(--color-teal,#eb7c22);opacity:1}path{stroke:var(--color-teal,#eb7c22)}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -30775,12 +30775,12 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 6383,
+          "size": 3674,
           "names": [],
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "3f42adc0c24cecdd1359",
+          "hash": "5314b400ea15105b541c",
           "parents": [],
           "modules": [
             {
@@ -30789,7 +30789,7 @@
               "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/pages/Home/styles.scss",
               "index": 0,
               "index2": 1,
-              "size": 4123,
+              "size": 1414,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -30809,7 +30809,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */html{font-family:Nunito,sans-serif;font-size:112.5%;line-height:1.5em;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:8rem;line-height:9rem}h1,h2{margin:1.5rem 0}h2{font-size:5rem;line-height:6rem}h3{font-size:3rem;line-height:4.5rem;margin:1.5rem 0}h4{font-size:2rem}h4,h5{line-height:3rem;margin:1.5rem 0}h5{font-size:1.618rem}h6{font-size:1rem;line-height:1.5rem;margin:1.5rem 0}blockquote{margin:1.5rem 1.35em}dl,ol,ul{margin:1.5rem 0}ol ol,ol ul,ul ol,ul ul{margin:0}dd{margin:0 0 0 1.35em}ol,ul{padding:0 0 0 1.35em}figcaption,figure{display:block}figure{margin:1.5rem 1.35em}hr{box-sizing:content-box;height:0;overflow:visible}main{display:block}p,pre{margin:1.5rem 0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{line-height:1.5rem;font-family:Nunito,sans-serif;font-size:100%;margin:0}button{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}input{overflow:visible}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;display:table;max-width:100%;padding:0;color:inherit;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}details{display:block}summary{display:list-item}menu{display:block;margin:1.5rem 0;padding:0 0 0 1.35em}menu menu,ol menu,ul menu{margin:0}canvas{display:inline-block}[hidden],template{display:none}.index{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;margin:auto 0 3em;padding:0 3rem;max-width:21em;text-align:center}.index h1{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,#4a4a4a 0,#4a4a4a);background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px;color:#4a4a4a}.index h1+p{margin-top:0;font-size:.89em}.index .commits{display:inline-block;padding:.5em .75em;color:#fff;background-color:#eb7c22;border-radius:1.5em}.index .commits:hover{background-image:none;text-decoration:none}.index .name{margin-top:0}.index .name:before{content:\\\"~\\\";display:inline-block;width:100%;line-height:1}.index .begin{position:relative;display:block;width:3.777em;height:3.777em;color:transparent;background-color:#eb7c22;border-radius:50%;opacity:.75;transform:scale(1);transition:opacity 144ms ease,transform 144ms ease}.index .begin:before{content:\\\"\\\\25B6\\\";display:block;position:absolute;top:53%;left:55%;color:#fff;font-size:1.5em;line-height:1;transform:translate(-50%,-50%)}.index .begin:hover{background-image:none;text-decoration:none;opacity:1;transform:scale(1.1)}\", \"\"]);\n\n// exports\n"
+              "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".index{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;margin:auto 0 3em;padding:0 3rem;max-width:21em;text-align:center}.index h1{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey,#4a4a4a) 0,var(--color-dark-grey,#4a4a4a));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}.index h1+p{margin-top:0;font-size:.89em}.index .commits{display:inline-block;padding:.5em .75em;color:#fff;background-color:var(--color-primary,#eb7c22);border-radius:1.5em}.index .commits:hover{background-image:none;text-decoration:none}.index .name{margin-top:0}.index .name:before{content:\\\"~\\\";display:inline-block;width:100%;line-height:1}.index .begin{position:relative;display:block;width:3.777em;height:3.777em;color:transparent;background-color:var(--color-primary,#eb7c22);border-radius:50%;opacity:.75;transform:scale(1);transition:opacity 144ms ease,transform 144ms ease}.index .begin:before{content:\\\"\\\\25B6\\\";display:block;position:absolute;top:53%;left:55%;color:#fff;font-size:1.5em;line-height:1;transform:translate(-50%,-50%)}.index .begin:hover{background-image:none;text-decoration:none;opacity:1;transform:scale(1.1)}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -30870,7 +30870,7 @@
           "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/pages/Home/styles.scss",
           "index": 0,
           "index2": 1,
-          "size": 4123,
+          "size": 1414,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -30890,7 +30890,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */html{font-family:Nunito,sans-serif;font-size:112.5%;line-height:1.5em;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:8rem;line-height:9rem}h1,h2{margin:1.5rem 0}h2{font-size:5rem;line-height:6rem}h3{font-size:3rem;line-height:4.5rem;margin:1.5rem 0}h4{font-size:2rem}h4,h5{line-height:3rem;margin:1.5rem 0}h5{font-size:1.618rem}h6{font-size:1rem;line-height:1.5rem;margin:1.5rem 0}blockquote{margin:1.5rem 1.35em}dl,ol,ul{margin:1.5rem 0}ol ol,ol ul,ul ol,ul ul{margin:0}dd{margin:0 0 0 1.35em}ol,ul{padding:0 0 0 1.35em}figcaption,figure{display:block}figure{margin:1.5rem 1.35em}hr{box-sizing:content-box;height:0;overflow:visible}main{display:block}p,pre{margin:1.5rem 0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{line-height:1.5rem;font-family:Nunito,sans-serif;font-size:100%;margin:0}button{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}input{overflow:visible}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;display:table;max-width:100%;padding:0;color:inherit;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}details{display:block}summary{display:list-item}menu{display:block;margin:1.5rem 0;padding:0 0 0 1.35em}menu menu,ol menu,ul menu{margin:0}canvas{display:inline-block}[hidden],template{display:none}.index{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;margin:auto 0 3em;padding:0 3rem;max-width:21em;text-align:center}.index h1{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,#4a4a4a 0,#4a4a4a);background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px;color:#4a4a4a}.index h1+p{margin-top:0;font-size:.89em}.index .commits{display:inline-block;padding:.5em .75em;color:#fff;background-color:#eb7c22;border-radius:1.5em}.index .commits:hover{background-image:none;text-decoration:none}.index .name{margin-top:0}.index .name:before{content:\\\"~\\\";display:inline-block;width:100%;line-height:1}.index .begin{position:relative;display:block;width:3.777em;height:3.777em;color:transparent;background-color:#eb7c22;border-radius:50%;opacity:.75;transform:scale(1);transition:opacity 144ms ease,transform 144ms ease}.index .begin:before{content:\\\"\\\\25B6\\\";display:block;position:absolute;top:53%;left:55%;color:#fff;font-size:1.5em;line-height:1;transform:translate(-50%,-50%)}.index .begin:hover{background-image:none;text-decoration:none;opacity:1;transform:scale(1.1)}\", \"\"]);\n\n// exports\n"
+          "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".index{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;margin:auto 0 3em;padding:0 3rem;max-width:21em;text-align:center}.index h1{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey,#4a4a4a) 0,var(--color-dark-grey,#4a4a4a));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}.index h1+p{margin-top:0;font-size:.89em}.index .commits{display:inline-block;padding:.5em .75em;color:#fff;background-color:var(--color-primary,#eb7c22);border-radius:1.5em}.index .commits:hover{background-image:none;text-decoration:none}.index .name{margin-top:0}.index .name:before{content:\\\"~\\\";display:inline-block;width:100%;line-height:1}.index .begin{position:relative;display:block;width:3.777em;height:3.777em;color:transparent;background-color:var(--color-primary,#eb7c22);border-radius:50%;opacity:.75;transform:scale(1);transition:opacity 144ms ease,transform 144ms ease}.index .begin:before{content:\\\"\\\\25B6\\\";display:block;position:absolute;top:53%;left:55%;color:#fff;font-size:1.5em;line-height:1;transform:translate(-50%,-50%)}.index .begin:hover{background-image:none;text-decoration:none;opacity:1;transform:scale(1.1)}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -30959,12 +30959,12 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 6940,
+          "size": 8661,
           "names": [],
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "3bf9a7c81292beac71f0",
+          "hash": "4fe882b06e1f03b32eed",
           "parents": [],
           "modules": [
             {
@@ -30973,7 +30973,7 @@
               "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/App.scss",
               "index": 0,
               "index2": 1,
-              "size": 4680,
+              "size": 6401,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -30993,7 +30993,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */html{font-family:Nunito,sans-serif;font-size:112.5%;line-height:1.5em;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:8rem;line-height:9rem}h1,h2{margin:1.5rem 0}h2{font-size:5rem;line-height:6rem}h3{font-size:3rem;line-height:4.5rem;margin:1.5rem 0}h4{font-size:2rem}h4,h5{line-height:3rem;margin:1.5rem 0}h5{font-size:1.618rem}h6{font-size:1rem;line-height:1.5rem;margin:1.5rem 0}blockquote{margin:1.5rem 1.35em}dl,ol,ul{margin:1.5rem 0}ol ol,ol ul,ul ol,ul ul{margin:0}dd{margin:0 0 0 1.35em}ol,ul{padding:0 0 0 1.35em}figcaption,figure{display:block}figure{margin:1.5rem 1.35em}hr{box-sizing:content-box;height:0;overflow:visible}main{display:block}p,pre{margin:1.5rem 0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{line-height:1.5rem;font-family:Nunito,sans-serif;font-size:100%;margin:0}button{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}input{overflow:visible}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;display:table;max-width:100%;padding:0;color:inherit;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}details{display:block}summary{display:list-item}menu{display:block;margin:1.5rem 0;padding:0 0 0 1.35em}menu menu,ol menu,ul menu{margin:0}canvas{display:inline-block}[hidden],template{display:none}:root{--color-primary:#eb7c22;--color-secondary:rgba(235,124,34,.55);--color-blue:#0ed2f7;--color-teal:#06beb6;--color-light-grey:#979797;--color-grey:#707070;--color-dark-grey:#4a4a4a}body,html{margin:0;padding:0;width:100vw;height:100vh;font-size:3.777vmin}@media screen and (min-width:768px){body,html{font-size:2vmin}}body{font-family:Roboto,sans-serif;font-weight:400;font-style:normal;letter-spacing:-.01em;color:#4a4a4a}#root{height:100vh}#root:before{background:linear-gradient(135deg,rgba(235,124,34,.34),rgba(235,124,34,.89))}#root:after,#root:before{content:\\\"\\\";position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1}#root:after{background:linear-gradient(90deg,rgba(248,181,0,.34),rgba(248,181,0,.89))}#root>div{display:flex;flex-direction:column;justify-content:flex-end;height:100vh}h1{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;display:inline-block;letter-spacing:-.03em}h1,p{margin-bottom:0}a{color:var(--color-dark-grey);font-weight:500;text-decoration:none}a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,#0ed2f7 0,#0ed2f7);background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}nav{display:none;position:absolute;top:0;right:0}footer,main{display:flex;flex-direction:column;justify-content:flex-end;align-items:center}footer{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;min-height:13vh}footer p{margin-bottom:1em;font-size:1.2em}footer a{font-weight:600}footer a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,#4a4a4a 0,#4a4a4a);background-position:0 1em;background-repeat:repeat-x;background-size:100% 2px}\", \"\"]);\n\n// exports\n"
+              "source": "exports = module.exports = require(\"../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */html{font-family:Nunito,sans-serif;font-size:112.5%;line-height:1.5em;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:8rem;line-height:9rem}h1,h2{margin:1.5rem 0}h2{font-size:5rem;line-height:6rem}h3{font-size:3rem;line-height:4.5rem;margin:1.5rem 0}h4{font-size:2rem}h4,h5{line-height:3rem;margin:1.5rem 0}h5{font-size:1.618rem}h6{font-size:1rem;line-height:1.5rem;margin:1.5rem 0}blockquote{margin:1.5rem 1.35em}dl,ol,ul{margin:1.5rem 0}ol ol,ol ul,ul ol,ul ul{margin:0}dd{margin:0 0 0 1.35em}ol,ul{padding:0 0 0 1.35em}figcaption,figure{display:block}figure{margin:1.5rem 1.35em}hr{box-sizing:content-box;height:0;overflow:visible}main{display:block}p,pre{margin:1.5rem 0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{line-height:1.5rem;font-family:Nunito,sans-serif;font-size:100%;margin:0}button{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}input{overflow:visible}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;display:table;max-width:100%;padding:0;color:inherit;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}details{display:block}summary{display:list-item}menu{display:block;margin:1.5rem 0;padding:0 0 0 1.35em}menu menu,ol menu,ul menu{margin:0}canvas{display:inline-block}[hidden],template{display:none}:root{--color-yellow:#f8b500;--color-yellow-strong:rgba(248,181,0,.89);--color-yellow-medium:rgba(248,181,0,.55);--color-yellow-pale:rgba(248,181,0,.34);--color-orange:#eb7c22;--color-orange-strong:rgba(235,124,34,.89);--color-orange-medium:rgba(235,124,34,.55);--color-orange-pale:rgba(235,124,34,.34);--color-teal:#06beb6;--color-teal-strong:rgba(6,190,182,.89);--color-teal-medium:rgba(6,190,182,.55);--color-teal-pale:rgba(6,190,182,.34);--color-blue:#0ed2f7;--color-blue-strong:rgba(14,210,247,.89);--color-blue-medium:rgba(14,210,247,.55);--color-blue-pale:rgba(14,210,247,.34);--color-dark-grey:#4a4a4a;--color-grey:#707070;--color-light-grey:#979797;--color-primary:var(--color-orange,#eb7c22);--color-primary-strong:var(--color-orange-strong,rgba(235,124,34,.89));--color-primary-medium:var(--color-orange-medium,rgba(235,124,34,.55));--color-primary-pale:var(--color-orange-pale,rgba(235,124,34,.34));--color-primary-gradient-strong:var(--color-orange-strong,rgba(235,124,34,.89));--color-primary-gradient-pale:var(--color-orange-pale,rgba(235,124,34,.34));--color-secondary-gradient-strong:var(--color-yellow-strong,rgba(248,181,0,.89));--color-secondary-gradient-pale:var(--color-yellow-pale,rgba(248,181,0,.34));--color-secondary:var(--color-yellow,#f8b500);--color-secondary-strong:var(--color-yellow-strong,rgba(248,181,0,.89));--color-secondary-medium:var(--color-yellow-medium,rgba(248,181,0,.55));--color-secondary-pale:var(--color-yellow-pale,rgba(248,181,0,.34));--angle-primary-gradient:135deg;--angle-secondary-gradient:90deg}body,html{margin:0;padding:0;width:100vw;height:100vh;font-size:3.777vmin}@media screen and (min-width:768px){body,html{font-size:2vmin}}body{font-family:Roboto,sans-serif;font-weight:400;font-style:normal;letter-spacing:-.01em;color:var(--color-dark-grey,#4a4a4a)}#root{height:100vh}#root:before{background:linear-gradient(var(--angle-primary-gradient,135deg),var(--color-primary-gradient-pale,rgba(235,124,34,.34)),var(--color-primary-gradient-strong,rgba(235,124,34,.99)))}#root:after,#root:before{content:\\\"\\\";position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1}#root:after{background:linear-gradient(var(--angle-secondary-gradient,90deg),var(--color-secondary-gradient-pale,rgba(248,181,0,.34)),var(--color-secondary-gradient-strong,rgba(248,181,0,.89)))}#root>div{display:flex;flex-direction:column;justify-content:flex-end;height:100vh}h1{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;color:var(--color-dark-grey,#4a4a4a);display:inline-block;letter-spacing:-.03em}h1,p{margin-bottom:0}a{color:var(--color-dark-grey);font-weight:500;text-decoration:none}a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-primary,#0ed2f7) 0,var(--color-primary,#0ed2f7));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}nav{display:none;position:absolute;top:0;right:0}main{max-height:95vh}footer,main{display:flex;flex-direction:column;justify-content:flex-end;align-items:center}footer{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;max-height:5vh}footer p{margin:.5em 0;font-size:1.2em}footer a{font-weight:600}footer a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey) 0,var(--color-dark-grey));background-position:0 1em;background-repeat:repeat-x;background-size:100% 2px}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -31054,7 +31054,7 @@
           "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/App.scss",
           "index": 0,
           "index2": 1,
-          "size": 4680,
+          "size": 6401,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -31074,7 +31074,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */html{font-family:Nunito,sans-serif;font-size:112.5%;line-height:1.5em;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:8rem;line-height:9rem}h1,h2{margin:1.5rem 0}h2{font-size:5rem;line-height:6rem}h3{font-size:3rem;line-height:4.5rem;margin:1.5rem 0}h4{font-size:2rem}h4,h5{line-height:3rem;margin:1.5rem 0}h5{font-size:1.618rem}h6{font-size:1rem;line-height:1.5rem;margin:1.5rem 0}blockquote{margin:1.5rem 1.35em}dl,ol,ul{margin:1.5rem 0}ol ol,ol ul,ul ol,ul ul{margin:0}dd{margin:0 0 0 1.35em}ol,ul{padding:0 0 0 1.35em}figcaption,figure{display:block}figure{margin:1.5rem 1.35em}hr{box-sizing:content-box;height:0;overflow:visible}main{display:block}p,pre{margin:1.5rem 0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{line-height:1.5rem;font-family:Nunito,sans-serif;font-size:100%;margin:0}button{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}input{overflow:visible}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;display:table;max-width:100%;padding:0;color:inherit;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}details{display:block}summary{display:list-item}menu{display:block;margin:1.5rem 0;padding:0 0 0 1.35em}menu menu,ol menu,ul menu{margin:0}canvas{display:inline-block}[hidden],template{display:none}:root{--color-primary:#eb7c22;--color-secondary:rgba(235,124,34,.55);--color-blue:#0ed2f7;--color-teal:#06beb6;--color-light-grey:#979797;--color-grey:#707070;--color-dark-grey:#4a4a4a}body,html{margin:0;padding:0;width:100vw;height:100vh;font-size:3.777vmin}@media screen and (min-width:768px){body,html{font-size:2vmin}}body{font-family:Roboto,sans-serif;font-weight:400;font-style:normal;letter-spacing:-.01em;color:#4a4a4a}#root{height:100vh}#root:before{background:linear-gradient(135deg,rgba(235,124,34,.34),rgba(235,124,34,.89))}#root:after,#root:before{content:\\\"\\\";position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1}#root:after{background:linear-gradient(90deg,rgba(248,181,0,.34),rgba(248,181,0,.89))}#root>div{display:flex;flex-direction:column;justify-content:flex-end;height:100vh}h1{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;display:inline-block;letter-spacing:-.03em}h1,p{margin-bottom:0}a{color:var(--color-dark-grey);font-weight:500;text-decoration:none}a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,#0ed2f7 0,#0ed2f7);background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}nav{display:none;position:absolute;top:0;right:0}footer,main{display:flex;flex-direction:column;justify-content:flex-end;align-items:center}footer{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;min-height:13vh}footer p{margin-bottom:1em;font-size:1.2em}footer a{font-weight:600}footer a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,#4a4a4a 0,#4a4a4a);background-position:0 1em;background-repeat:repeat-x;background-size:100% 2px}\", \"\"]);\n\n// exports\n"
+          "source": "exports = module.exports = require(\"../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */html{font-family:Nunito,sans-serif;font-size:112.5%;line-height:1.5em;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:8rem;line-height:9rem}h1,h2{margin:1.5rem 0}h2{font-size:5rem;line-height:6rem}h3{font-size:3rem;line-height:4.5rem;margin:1.5rem 0}h4{font-size:2rem}h4,h5{line-height:3rem;margin:1.5rem 0}h5{font-size:1.618rem}h6{font-size:1rem;line-height:1.5rem;margin:1.5rem 0}blockquote{margin:1.5rem 1.35em}dl,ol,ul{margin:1.5rem 0}ol ol,ol ul,ul ol,ul ul{margin:0}dd{margin:0 0 0 1.35em}ol,ul{padding:0 0 0 1.35em}figcaption,figure{display:block}figure{margin:1.5rem 1.35em}hr{box-sizing:content-box;height:0;overflow:visible}main{display:block}p,pre{margin:1.5rem 0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{line-height:1.5rem;font-family:Nunito,sans-serif;font-size:100%;margin:0}button{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}input{overflow:visible}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;display:table;max-width:100%;padding:0;color:inherit;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}details{display:block}summary{display:list-item}menu{display:block;margin:1.5rem 0;padding:0 0 0 1.35em}menu menu,ol menu,ul menu{margin:0}canvas{display:inline-block}[hidden],template{display:none}:root{--color-yellow:#f8b500;--color-yellow-strong:rgba(248,181,0,.89);--color-yellow-medium:rgba(248,181,0,.55);--color-yellow-pale:rgba(248,181,0,.34);--color-orange:#eb7c22;--color-orange-strong:rgba(235,124,34,.89);--color-orange-medium:rgba(235,124,34,.55);--color-orange-pale:rgba(235,124,34,.34);--color-teal:#06beb6;--color-teal-strong:rgba(6,190,182,.89);--color-teal-medium:rgba(6,190,182,.55);--color-teal-pale:rgba(6,190,182,.34);--color-blue:#0ed2f7;--color-blue-strong:rgba(14,210,247,.89);--color-blue-medium:rgba(14,210,247,.55);--color-blue-pale:rgba(14,210,247,.34);--color-dark-grey:#4a4a4a;--color-grey:#707070;--color-light-grey:#979797;--color-primary:var(--color-orange,#eb7c22);--color-primary-strong:var(--color-orange-strong,rgba(235,124,34,.89));--color-primary-medium:var(--color-orange-medium,rgba(235,124,34,.55));--color-primary-pale:var(--color-orange-pale,rgba(235,124,34,.34));--color-primary-gradient-strong:var(--color-orange-strong,rgba(235,124,34,.89));--color-primary-gradient-pale:var(--color-orange-pale,rgba(235,124,34,.34));--color-secondary-gradient-strong:var(--color-yellow-strong,rgba(248,181,0,.89));--color-secondary-gradient-pale:var(--color-yellow-pale,rgba(248,181,0,.34));--color-secondary:var(--color-yellow,#f8b500);--color-secondary-strong:var(--color-yellow-strong,rgba(248,181,0,.89));--color-secondary-medium:var(--color-yellow-medium,rgba(248,181,0,.55));--color-secondary-pale:var(--color-yellow-pale,rgba(248,181,0,.34));--angle-primary-gradient:135deg;--angle-secondary-gradient:90deg}body,html{margin:0;padding:0;width:100vw;height:100vh;font-size:3.777vmin}@media screen and (min-width:768px){body,html{font-size:2vmin}}body{font-family:Roboto,sans-serif;font-weight:400;font-style:normal;letter-spacing:-.01em;color:var(--color-dark-grey,#4a4a4a)}#root{height:100vh}#root:before{background:linear-gradient(var(--angle-primary-gradient,135deg),var(--color-primary-gradient-pale,rgba(235,124,34,.34)),var(--color-primary-gradient-strong,rgba(235,124,34,.99)))}#root:after,#root:before{content:\\\"\\\";position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1}#root:after{background:linear-gradient(var(--angle-secondary-gradient,90deg),var(--color-secondary-gradient-pale,rgba(248,181,0,.34)),var(--color-secondary-gradient-strong,rgba(248,181,0,.89)))}#root>div{display:flex;flex-direction:column;justify-content:flex-end;height:100vh}h1{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;color:var(--color-dark-grey,#4a4a4a);display:inline-block;letter-spacing:-.03em}h1,p{margin-bottom:0}a{color:var(--color-dark-grey);font-weight:500;text-decoration:none}a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-primary,#0ed2f7) 0,var(--color-primary,#0ed2f7));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}nav{display:none;position:absolute;top:0;right:0}main{max-height:95vh}footer,main{display:flex;flex-direction:column;justify-content:flex-end;align-items:center}footer{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;max-height:5vh}footer p{margin:.5em 0;font-size:1.2em}footer a{font-weight:600}footer a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey) 0,var(--color-dark-grey));background-position:0 1em;background-repeat:repeat-x;background-size:100% 2px}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
