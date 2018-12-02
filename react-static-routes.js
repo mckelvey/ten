@@ -19,8 +19,8 @@ const universalOptions = {
   },
 }
 
-  const t_0 = universal(import('../src/containers/Home'), universalOptions)
-const t_1 = universal(import('../src/containers/404'), universalOptions)
+  const t_0 = universal(import('../src/pages/Home'), universalOptions)
+const t_1 = universal(import('../src/pages/404'), universalOptions)
 
 
 // Template Map

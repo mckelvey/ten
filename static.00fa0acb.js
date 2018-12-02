@@ -89,12 +89,6 @@ module.exports = require("react-static");
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = require("prop-types");
-
-/***/ }),
-/* 3 */
-/***/ (function(module, exports) {
-
 /*
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
@@ -172,6 +166,12 @@ function toComment(sourceMap) {
 	return '/*# ' + data + ' */';
 }
 
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+module.exports = require("prop-types");
 
 /***/ }),
 /* 4 */
@@ -329,7 +329,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(2);
+var _propTypes = __webpack_require__(3);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -768,12 +768,14 @@ var _reactStatic = __webpack_require__(1);
 
 var _commitHistory = __webpack_require__(5);
 
+__webpack_require__(26);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = (0, _reactStatic.withSiteData)(function () {
   return _react2.default.createElement(
     'div',
-    null,
+    { className: 'index' },
     _react2.default.createElement(
       'h1',
       null,
@@ -784,11 +786,46 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
       null,
       'Celebrating my decade on GitHub.'
     ),
-    _commitHistory.summary.commitCount,
     _react2.default.createElement(
-      _reactStatic.Link,
-      { to: '/day/2008-12-06' },
-      'Begin'
+      'p',
+      null,
+      _react2.default.createElement(
+        _reactStatic.Link,
+        { className: 'commits', to: '/day/2008-12-06' },
+        _commitHistory.summary.commitCount,
+        ' Commits'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'This is a simple and fun celebration of my decade on GitHub. Naturally, you can fork',
+      ' ',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://github.com/mckelvey/ten', target: '_blank', rel: 'noreferrer noopener' },
+        'this repo'
+      ),
+      ' ',
+      'and make it your own. If you do, let me know as I\u2019d love to see where this goes.'
+    ),
+    _react2.default.createElement(
+      'p',
+      { className: 'name' },
+      _react2.default.createElement(
+        'a',
+        { href: 'mailto:david@mckelveycreative.co' },
+        'David'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement(
+        _reactStatic.Link,
+        { className: 'begin', to: '/day/2008-12-06' },
+        'Begin'
+      )
     )
   );
 });
@@ -843,7 +880,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _delay = __webpack_require__(27);
+var _delay = __webpack_require__(28);
 
 var _delay2 = _interopRequireDefault(_delay);
 
@@ -857,17 +894,17 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(1);
 
-var _Count = __webpack_require__(28);
+var _Count = __webpack_require__(29);
 
 var _Count2 = _interopRequireDefault(_Count);
 
-var _Graph = __webpack_require__(30);
+var _Graph = __webpack_require__(31);
 
 var _Graph2 = _interopRequireDefault(_Graph);
 
 var _commitHistory = __webpack_require__(5);
 
-__webpack_require__(33);
+__webpack_require__(34);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1034,28 +1071,28 @@ var _reactStaticRoutes = __webpack_require__(22);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
-__webpack_require__(26);
+__webpack_require__(27);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Day = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
-  id: './containers/Day',
+  id: './pages/Day',
   file: '/Users/david/Sites/ten/src/App.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 14)), (0, _importCss3.default)('containers/Day', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 14)), (0, _importCss3.default)('pages/Day', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return _path3.default.join(__dirname, './containers/Day');
+    return _path3.default.join(__dirname, './pages/Day');
   },
   resolve: function resolve() {
     return /*require.resolve*/(14);
   },
   chunkName: function chunkName() {
-    return 'containers/Day';
+    return 'pages/Day';
   }
 }));
 
@@ -1069,17 +1106,7 @@ var App = function App() {
       _react2.default.createElement(
         _reactStatic.Head,
         null,
-        _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Nunito:400,400i|Zilla+Slab:500,700&subset=latin-ext', rel: 'stylesheet' })
-      ),
-      _react2.default.createElement(
-        'main',
-        null,
-        _react2.default.createElement(
-          _reactStatic.Switch,
-          null,
-          _react2.default.createElement(_reactStatic.Route, { path: '/day/:date', component: Day }),
-          _react2.default.createElement(_reactStaticRoutes2.default, null)
-        )
+        _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Roboto:400,500|Zilla+Slab:500,700&subset=latin-ext', rel: 'stylesheet' })
       ),
       _react2.default.createElement(
         'nav',
@@ -1093,11 +1120,29 @@ var App = function App() {
           _reactStatic.Link,
           { to: '/day/2008-12-06' },
           'Day'
-        ),
+        )
+      ),
+      _react2.default.createElement(
+        'main',
+        null,
         _react2.default.createElement(
-          _reactStatic.Link,
-          { to: '/i-dont-match-any-route' },
-          'Non-Matching Route'
+          _reactStatic.Switch,
+          null,
+          _react2.default.createElement(_reactStatic.Route, { path: '/day/:date', component: Day }),
+          _react2.default.createElement(_reactStaticRoutes2.default, null)
+        )
+      ),
+      _react2.default.createElement(
+        'footer',
+        null,
+        _react2.default.createElement(
+          'p',
+          null,
+          _react2.default.createElement(
+            'a',
+            { href: 'https://sitesmade4people.co' },
+            'Sites Made for People'
+          )
         )
       )
     )
@@ -1306,7 +1351,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(2);
+var _propTypes = __webpack_require__(3);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -1428,43 +1473,43 @@ var universalOptions = {
 };
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
-  id: '../src/containers/Home',
+  id: '../src/pages/Home',
   file: '/Users/david/Sites/ten/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 11)), (0, _importCss3.default)('src/containers/Home', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 11)), (0, _importCss3.default)('src/pages/Home', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return _path3.default.join(__dirname, '../src/containers/Home');
+    return _path3.default.join(__dirname, '../src/pages/Home');
   },
   resolve: function resolve() {
     return /*require.resolve*/(11);
   },
   chunkName: function chunkName() {
-    return 'src/containers/Home';
+    return 'src/pages/Home';
   }
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
-  id: '../src/containers/404',
+  id: '../src/pages/404',
   file: '/Users/david/Sites/ten/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 13)), (0, _importCss3.default)('src/containers/404', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 13)), (0, _importCss3.default)('src/pages/404', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return _path3.default.join(__dirname, '../src/containers/404');
+    return _path3.default.join(__dirname, '../src/pages/404');
   },
   resolve: function resolve() {
     return /*require.resolve*/(13);
   },
   chunkName: function chunkName() {
-    return 'src/containers/404';
+    return 'src/pages/404';
   }
 }), universalOptions);
 
@@ -1569,24 +1614,38 @@ module.exports = {"history":{"2008-12-06":{"count":1,"totalToDate":1},"2008-12-0
 /* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
 // module
-exports.push([module.i, "/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */\n/* Document\n   ========================================================================== */\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in\n *    IE on Windows Phone and in iOS.\n */\nhtml {\n  /* Change the default font family in all browsers (opinionated). */\n  font-family: \"Nunito\", sans-serif;\n  font-size: 112.5%;\n  line-height: 1.5em;\n  /* 1 */\n  -ms-text-size-adjust: 100%;\n  /* 2 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers (opinionated).\n */\nbody {\n  margin: 0; }\n\n/**\n * Add the correct display in IE 9-.\n */\narticle,\naside,\nfooter,\nheader,\nnav,\nsection {\n  display: block; }\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 8rem;\n  line-height: 9rem;\n  /* Set 1 unit of vertical rhythm on the top and bottom margins. */\n  margin: 1.5rem 0; }\n\nh2 {\n  font-size: 5rem;\n  line-height: 6rem;\n  margin: 1.5rem 0; }\n\nh3 {\n  font-size: 3rem;\n  line-height: 4.5rem;\n  margin: 1.5rem 0; }\n\nh4 {\n  font-size: 2rem;\n  line-height: 3rem;\n  margin: 1.5rem 0; }\n\nh5 {\n  font-size: 1.618rem;\n  line-height: 3rem;\n  margin: 1.5rem 0; }\n\nh6 {\n  font-size: 1rem;\n  line-height: 1.5rem;\n  margin: 1.5rem 0; }\n\n/* Grouping content\n   ========================================================================== */\n/**\n   * Set 1 unit of vertical rhythm on the top and bottom margin.\n   */\nblockquote {\n  margin: 1.5rem 1.35em; }\n\ndl,\nol,\nul {\n  margin: 1.5rem 0; }\n\n/**\n   * Turn off margins on nested lists.\n   */\nol ol,\nol ul,\nul ol,\nul ul {\n  margin: 0; }\n\ndd {\n  margin: 0 0 0 1.35em; }\n\nol,\nul {\n  padding: 0 0 0 1.35em; }\n\n/**\n * Add the correct display in IE 9-.\n */\nfigcaption,\nfigure {\n  display: block; }\n\n/**\n * Add the correct margin in IE 8.\n */\nfigure {\n  margin: 1.5rem 1.35em; }\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */ }\n\n/**\n * Add the correct display in IE.\n */\nmain {\n  display: block; }\n\n/**\n   * Set 1 unit of vertical rhythm on the top and bottom margin.\n   */\np,\npre {\n  margin: 1.5rem 0; }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre, code,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/* Links\n   ========================================================================== */\n/**\n * 1. Remove the gray background on active links in IE 10.\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\n */\na {\n  background-color: transparent;\n  /* 1 */\n  -webkit-text-decoration-skip: objects;\n  /* 2 */ }\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * 1. Remove the bottom border in Chrome 57- and Firefox 39-.\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  text-decoration: underline dotted;\n  /* 2 */ }\n\n/**\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\n */\nb,\nstrong {\n  font-weight: inherit; }\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder; }\n\n/**\n * Add the correct font style in Android 4.3-.\n */\ndfn {\n  font-style: italic; }\n\n/**\n * Add the correct background and color in IE 9-.\n */\nmark {\n  background-color: #ff0;\n  color: #000; }\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%; }\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\n\nsub {\n  bottom: -0.25em; }\n\nsup {\n  top: -0.5em; }\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\naudio,\nvideo {\n  display: inline-block; }\n\n/**\n * Add the correct display in iOS 4-7.\n */\naudio:not([controls]) {\n  display: none;\n  height: 0; }\n\n/**\n * Remove the border on images inside links in IE 10-.\n */\nimg {\n  border-style: none; }\n\n/**\n * Hide the overflow in IE.\n */\nsvg:not(:root) {\n  overflow: hidden; }\n\n/* Forms\n   ========================================================================== */\n/**\n * Known issues:\n * - `select`:\n *   By default, Chrome on OS X and Safari on OS X allow very limited styling of\n *   select, unless a border property is set. The default font weight on\n *   optgroup elements cannot safely be changed in Chrome on OSX and Safari on\n *   OS X.\n * - `[type=\"checkbox\"]`:\n *   It is recommended that you do not style checkbox and radio inputs as\n *   Firefox's implementation does not respect box-sizing, padding, or width.\n * - `[type=\"number\"]`:\n *   Certain font size values applied to number inputs cause the cursor style of\n *   the decrement button to change from `default` to `text`.\n * - `[type=\"search\"]`:\n *   The search input is not fully stylable by default. In Chrome and Safari on\n *   OSX/iOS you can't control `font`, `padding`, `border`, or `background`. In\n *   Chrome and Safari on Windows you can't control `border` properly. It will\n *   apply `border-width` but will only show a border color (which cannot be\n *   controlled) for the outer 1px of that border. Applying\n *   `-webkit-appearance: textfield` addresses these issues without removing the\n *   benefits of search inputs (e.g. showing past searches). Safari (but not\n *   Chrome) will clip the cancel button on when it has padding (and `textfield`\n *   appearance).\n * - `::placeholder`:\n *   In Edge, placeholders will disappear on `relative` or `absolute` positioned\n *   `<input>` elements if you use `opacity` less than `1` due to a\n *   [bug](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/3901363/).\n */\n/**\n * 1. Change the font styles in all browsers (opinionated).\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  line-height: 1.5rem;\n  /* 1 */\n  font-family: \"Nunito\", sans-serif;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  margin: 0;\n  /* 2 */ }\n\n/**\n * Show the overflow in IE.\n */\nbutton {\n  overflow: visible; }\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none; }\n\n/**\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\n *    controls in Android 4.\n * 2. Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\nhtml [type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */ }\n\nbutton,\n[type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  /**\n   * Remove the inner border and padding in Firefox.\n   */\n  /**\n   * Restore the focus styles unset by the previous rule.\n   */ }\n  button::-moz-focus-inner,\n  [type=\"button\"]::-moz-focus-inner,\n  [type=\"reset\"]::-moz-focus-inner,\n  [type=\"submit\"]::-moz-focus-inner {\n    border-style: none;\n    padding: 0; }\n  button:-moz-focusring,\n  [type=\"button\"]:-moz-focusring,\n  [type=\"reset\"]:-moz-focusring,\n  [type=\"submit\"]:-moz-focusring {\n    outline: 1px dotted ButtonText; }\n\n/**\n * Show the overflow in Edge.\n */\ninput {\n  overflow: visible; }\n\n/**\n * 1. Add the correct box sizing in IE 10-.\n * 2. Remove the padding in IE 10-.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n  /**\n   * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.\n   */ }\n  [type=\"search\"]::-webkit-search-cancel-button, [type=\"search\"]::-webkit-search-decoration {\n    -webkit-appearance: none; }\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */ }\n\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em; }\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  color: inherit;\n  /* 2 */\n  white-space: normal;\n  /* 1 */ }\n\n/**\n * 1. Add the correct display in IE 9-.\n * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */ }\n\n/**\n * Remove the default vertical scrollbar in IE.\n */\ntextarea {\n  overflow: auto; }\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in Edge, IE, and Firefox.\n */\ndetails {\n  display: block; }\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item; }\n\n/*\n * Add the correct display in IE 9-.\n */\nmenu {\n  display: block;\n  /*\n     * 1. Set 1 unit of vertical rhythm on the top and bottom margin.\n     * 2. Set consistent space for the list style image.\n     */\n  margin: 1.5rem 0;\n  /* 1 */\n  padding: 0 0 0 1.35em;\n  /* 2 */\n  /**\n     * Turn off margins on nested lists.\n     */ }\n  menu menu,\n  ol menu,\n  ul menu {\n    margin: 0; }\n\n/* Scripting\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\ncanvas {\n  display: inline-block; }\n\n/**\n * Add the correct display in IE.\n */\ntemplate {\n  display: none; }\n\n/* Hidden\n   ========================================================================== */\n/**\n * Add the correct display in IE 10-.\n */\n[hidden] {\n  display: none; }\n\n:root {\n  --color-primary: rebeccapurple;\n  --color-secondary: rgba(0, 0, 0, 0.25); }\n\nhtml,\nbody {\n  margin: 0;\n  padding: 0;\n  width: 100vw;\n  height: 100vh; }\n\nbody {\n  font-family: 'Nunito', sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  letter-spacing: -0.01em;\n  display: flex;\n  flex-direction: column; }\n\nh1 {\n  font-family: 'Zilla Slab', serif;\n  font-weight: 700;\n  font-style: normal;\n  letter-spacing: -0.01em;\n  letter-spacing: -0.03em; }\n\nnav {\n  position: absolute;\n  top: 0;\n  right: 0; }\n", ""]);
+exports.push([module.i, "/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */\n/* Document\n   ========================================================================== */\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in\n *    IE on Windows Phone and in iOS.\n */\nhtml {\n  /* Change the default font family in all browsers (opinionated). */\n  font-family: \"Nunito\", sans-serif;\n  font-size: 112.5%;\n  line-height: 1.5em;\n  /* 1 */\n  -ms-text-size-adjust: 100%;\n  /* 2 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers (opinionated).\n */\nbody {\n  margin: 0; }\n\n/**\n * Add the correct display in IE 9-.\n */\narticle,\naside,\nfooter,\nheader,\nnav,\nsection {\n  display: block; }\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 8rem;\n  line-height: 9rem;\n  /* Set 1 unit of vertical rhythm on the top and bottom margins. */\n  margin: 1.5rem 0; }\n\nh2 {\n  font-size: 5rem;\n  line-height: 6rem;\n  margin: 1.5rem 0; }\n\nh3 {\n  font-size: 3rem;\n  line-height: 4.5rem;\n  margin: 1.5rem 0; }\n\nh4 {\n  font-size: 2rem;\n  line-height: 3rem;\n  margin: 1.5rem 0; }\n\nh5 {\n  font-size: 1.618rem;\n  line-height: 3rem;\n  margin: 1.5rem 0; }\n\nh6 {\n  font-size: 1rem;\n  line-height: 1.5rem;\n  margin: 1.5rem 0; }\n\n/* Grouping content\n   ========================================================================== */\n/**\n   * Set 1 unit of vertical rhythm on the top and bottom margin.\n   */\nblockquote {\n  margin: 1.5rem 1.35em; }\n\ndl,\nol,\nul {\n  margin: 1.5rem 0; }\n\n/**\n   * Turn off margins on nested lists.\n   */\nol ol,\nol ul,\nul ol,\nul ul {\n  margin: 0; }\n\ndd {\n  margin: 0 0 0 1.35em; }\n\nol,\nul {\n  padding: 0 0 0 1.35em; }\n\n/**\n * Add the correct display in IE 9-.\n */\nfigcaption,\nfigure {\n  display: block; }\n\n/**\n * Add the correct margin in IE 8.\n */\nfigure {\n  margin: 1.5rem 1.35em; }\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */ }\n\n/**\n * Add the correct display in IE.\n */\nmain {\n  display: block; }\n\n/**\n   * Set 1 unit of vertical rhythm on the top and bottom margin.\n   */\np,\npre {\n  margin: 1.5rem 0; }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre, code,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/* Links\n   ========================================================================== */\n/**\n * 1. Remove the gray background on active links in IE 10.\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\n */\na {\n  background-color: transparent;\n  /* 1 */\n  -webkit-text-decoration-skip: objects;\n  /* 2 */ }\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * 1. Remove the bottom border in Chrome 57- and Firefox 39-.\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  text-decoration: underline dotted;\n  /* 2 */ }\n\n/**\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\n */\nb,\nstrong {\n  font-weight: inherit; }\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder; }\n\n/**\n * Add the correct font style in Android 4.3-.\n */\ndfn {\n  font-style: italic; }\n\n/**\n * Add the correct background and color in IE 9-.\n */\nmark {\n  background-color: #ff0;\n  color: #000; }\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%; }\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\n\nsub {\n  bottom: -0.25em; }\n\nsup {\n  top: -0.5em; }\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\naudio,\nvideo {\n  display: inline-block; }\n\n/**\n * Add the correct display in iOS 4-7.\n */\naudio:not([controls]) {\n  display: none;\n  height: 0; }\n\n/**\n * Remove the border on images inside links in IE 10-.\n */\nimg {\n  border-style: none; }\n\n/**\n * Hide the overflow in IE.\n */\nsvg:not(:root) {\n  overflow: hidden; }\n\n/* Forms\n   ========================================================================== */\n/**\n * Known issues:\n * - `select`:\n *   By default, Chrome on OS X and Safari on OS X allow very limited styling of\n *   select, unless a border property is set. The default font weight on\n *   optgroup elements cannot safely be changed in Chrome on OSX and Safari on\n *   OS X.\n * - `[type=\"checkbox\"]`:\n *   It is recommended that you do not style checkbox and radio inputs as\n *   Firefox's implementation does not respect box-sizing, padding, or width.\n * - `[type=\"number\"]`:\n *   Certain font size values applied to number inputs cause the cursor style of\n *   the decrement button to change from `default` to `text`.\n * - `[type=\"search\"]`:\n *   The search input is not fully stylable by default. In Chrome and Safari on\n *   OSX/iOS you can't control `font`, `padding`, `border`, or `background`. In\n *   Chrome and Safari on Windows you can't control `border` properly. It will\n *   apply `border-width` but will only show a border color (which cannot be\n *   controlled) for the outer 1px of that border. Applying\n *   `-webkit-appearance: textfield` addresses these issues without removing the\n *   benefits of search inputs (e.g. showing past searches). Safari (but not\n *   Chrome) will clip the cancel button on when it has padding (and `textfield`\n *   appearance).\n * - `::placeholder`:\n *   In Edge, placeholders will disappear on `relative` or `absolute` positioned\n *   `<input>` elements if you use `opacity` less than `1` due to a\n *   [bug](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/3901363/).\n */\n/**\n * 1. Change the font styles in all browsers (opinionated).\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  line-height: 1.5rem;\n  /* 1 */\n  font-family: \"Nunito\", sans-serif;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  margin: 0;\n  /* 2 */ }\n\n/**\n * Show the overflow in IE.\n */\nbutton {\n  overflow: visible; }\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none; }\n\n/**\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\n *    controls in Android 4.\n * 2. Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\nhtml [type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */ }\n\nbutton,\n[type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  /**\n   * Remove the inner border and padding in Firefox.\n   */\n  /**\n   * Restore the focus styles unset by the previous rule.\n   */ }\n  button::-moz-focus-inner,\n  [type=\"button\"]::-moz-focus-inner,\n  [type=\"reset\"]::-moz-focus-inner,\n  [type=\"submit\"]::-moz-focus-inner {\n    border-style: none;\n    padding: 0; }\n  button:-moz-focusring,\n  [type=\"button\"]:-moz-focusring,\n  [type=\"reset\"]:-moz-focusring,\n  [type=\"submit\"]:-moz-focusring {\n    outline: 1px dotted ButtonText; }\n\n/**\n * Show the overflow in Edge.\n */\ninput {\n  overflow: visible; }\n\n/**\n * 1. Add the correct box sizing in IE 10-.\n * 2. Remove the padding in IE 10-.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n  /**\n   * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.\n   */ }\n  [type=\"search\"]::-webkit-search-cancel-button, [type=\"search\"]::-webkit-search-decoration {\n    -webkit-appearance: none; }\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */ }\n\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em; }\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  color: inherit;\n  /* 2 */\n  white-space: normal;\n  /* 1 */ }\n\n/**\n * 1. Add the correct display in IE 9-.\n * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */ }\n\n/**\n * Remove the default vertical scrollbar in IE.\n */\ntextarea {\n  overflow: auto; }\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in Edge, IE, and Firefox.\n */\ndetails {\n  display: block; }\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item; }\n\n/*\n * Add the correct display in IE 9-.\n */\nmenu {\n  display: block;\n  /*\n     * 1. Set 1 unit of vertical rhythm on the top and bottom margin.\n     * 2. Set consistent space for the list style image.\n     */\n  margin: 1.5rem 0;\n  /* 1 */\n  padding: 0 0 0 1.35em;\n  /* 2 */\n  /**\n     * Turn off margins on nested lists.\n     */ }\n  menu menu,\n  ol menu,\n  ul menu {\n    margin: 0; }\n\n/* Scripting\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\ncanvas {\n  display: inline-block; }\n\n/**\n * Add the correct display in IE.\n */\ntemplate {\n  display: none; }\n\n/* Hidden\n   ========================================================================== */\n/**\n * Add the correct display in IE 10-.\n */\n[hidden] {\n  display: none; }\n\n.index {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  align-items: center;\n  margin: auto 0 3em;\n  padding: 0 3rem;\n  max-width: 21em;\n  text-align: center; }\n  .index h1 {\n    padding-right: 0.05em;\n    padding-left: 0.05em;\n    background-image: linear-gradient(to right, #4a4a4a 0%, #4a4a4a 100%);\n    background-position: 0 1em;\n    background-repeat: repeat-x;\n    background-size: 100% 13px;\n    color: #4a4a4a; }\n    .index h1 + p {\n      margin-top: 0;\n      font-size: 0.89em; }\n  .index .commits {\n    display: inline-block;\n    padding: 0.5em 0.75em;\n    color: white;\n    background-color: #eb7c22;\n    border-radius: 1.5em; }\n    .index .commits:hover {\n      background-image: none;\n      text-decoration: none; }\n  .index .name {\n    margin-top: 0; }\n    .index .name::before {\n      content: '~';\n      display: inline-block;\n      width: 100%;\n      line-height: 1; }\n  .index .begin {\n    position: relative;\n    display: block;\n    width: 3.777em;\n    height: 3.777em;\n    color: transparent;\n    background-color: #eb7c22;\n    border-radius: 50%;\n    opacity: 0.75;\n    transform: scale(1);\n    transition: opacity 144ms ease, transform 144ms ease; }\n    .index .begin::before {\n      content: '\\25B6';\n      display: block;\n      position: absolute;\n      top: 53%;\n      left: 55%;\n      color: white;\n      font-size: 1.5em;\n      line-height: 1;\n      transform: translate(-50%, -50%); }\n    .index .begin:hover {\n      background-image: none;\n      text-decoration: none;\n      opacity: 1;\n      transform: scale(1.1); }\n", ""]);
 
 // exports
 
 
 /***/ }),
 /* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */\n/* Document\n   ========================================================================== */\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in\n *    IE on Windows Phone and in iOS.\n */\nhtml {\n  /* Change the default font family in all browsers (opinionated). */\n  font-family: \"Nunito\", sans-serif;\n  font-size: 112.5%;\n  line-height: 1.5em;\n  /* 1 */\n  -ms-text-size-adjust: 100%;\n  /* 2 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers (opinionated).\n */\nbody {\n  margin: 0; }\n\n/**\n * Add the correct display in IE 9-.\n */\narticle,\naside,\nfooter,\nheader,\nnav,\nsection {\n  display: block; }\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 8rem;\n  line-height: 9rem;\n  /* Set 1 unit of vertical rhythm on the top and bottom margins. */\n  margin: 1.5rem 0; }\n\nh2 {\n  font-size: 5rem;\n  line-height: 6rem;\n  margin: 1.5rem 0; }\n\nh3 {\n  font-size: 3rem;\n  line-height: 4.5rem;\n  margin: 1.5rem 0; }\n\nh4 {\n  font-size: 2rem;\n  line-height: 3rem;\n  margin: 1.5rem 0; }\n\nh5 {\n  font-size: 1.618rem;\n  line-height: 3rem;\n  margin: 1.5rem 0; }\n\nh6 {\n  font-size: 1rem;\n  line-height: 1.5rem;\n  margin: 1.5rem 0; }\n\n/* Grouping content\n   ========================================================================== */\n/**\n   * Set 1 unit of vertical rhythm on the top and bottom margin.\n   */\nblockquote {\n  margin: 1.5rem 1.35em; }\n\ndl,\nol,\nul {\n  margin: 1.5rem 0; }\n\n/**\n   * Turn off margins on nested lists.\n   */\nol ol,\nol ul,\nul ol,\nul ul {\n  margin: 0; }\n\ndd {\n  margin: 0 0 0 1.35em; }\n\nol,\nul {\n  padding: 0 0 0 1.35em; }\n\n/**\n * Add the correct display in IE 9-.\n */\nfigcaption,\nfigure {\n  display: block; }\n\n/**\n * Add the correct margin in IE 8.\n */\nfigure {\n  margin: 1.5rem 1.35em; }\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */ }\n\n/**\n * Add the correct display in IE.\n */\nmain {\n  display: block; }\n\n/**\n   * Set 1 unit of vertical rhythm on the top and bottom margin.\n   */\np,\npre {\n  margin: 1.5rem 0; }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre, code,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/* Links\n   ========================================================================== */\n/**\n * 1. Remove the gray background on active links in IE 10.\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\n */\na {\n  background-color: transparent;\n  /* 1 */\n  -webkit-text-decoration-skip: objects;\n  /* 2 */ }\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * 1. Remove the bottom border in Chrome 57- and Firefox 39-.\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  text-decoration: underline dotted;\n  /* 2 */ }\n\n/**\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\n */\nb,\nstrong {\n  font-weight: inherit; }\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder; }\n\n/**\n * Add the correct font style in Android 4.3-.\n */\ndfn {\n  font-style: italic; }\n\n/**\n * Add the correct background and color in IE 9-.\n */\nmark {\n  background-color: #ff0;\n  color: #000; }\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%; }\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\n\nsub {\n  bottom: -0.25em; }\n\nsup {\n  top: -0.5em; }\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\naudio,\nvideo {\n  display: inline-block; }\n\n/**\n * Add the correct display in iOS 4-7.\n */\naudio:not([controls]) {\n  display: none;\n  height: 0; }\n\n/**\n * Remove the border on images inside links in IE 10-.\n */\nimg {\n  border-style: none; }\n\n/**\n * Hide the overflow in IE.\n */\nsvg:not(:root) {\n  overflow: hidden; }\n\n/* Forms\n   ========================================================================== */\n/**\n * Known issues:\n * - `select`:\n *   By default, Chrome on OS X and Safari on OS X allow very limited styling of\n *   select, unless a border property is set. The default font weight on\n *   optgroup elements cannot safely be changed in Chrome on OSX and Safari on\n *   OS X.\n * - `[type=\"checkbox\"]`:\n *   It is recommended that you do not style checkbox and radio inputs as\n *   Firefox's implementation does not respect box-sizing, padding, or width.\n * - `[type=\"number\"]`:\n *   Certain font size values applied to number inputs cause the cursor style of\n *   the decrement button to change from `default` to `text`.\n * - `[type=\"search\"]`:\n *   The search input is not fully stylable by default. In Chrome and Safari on\n *   OSX/iOS you can't control `font`, `padding`, `border`, or `background`. In\n *   Chrome and Safari on Windows you can't control `border` properly. It will\n *   apply `border-width` but will only show a border color (which cannot be\n *   controlled) for the outer 1px of that border. Applying\n *   `-webkit-appearance: textfield` addresses these issues without removing the\n *   benefits of search inputs (e.g. showing past searches). Safari (but not\n *   Chrome) will clip the cancel button on when it has padding (and `textfield`\n *   appearance).\n * - `::placeholder`:\n *   In Edge, placeholders will disappear on `relative` or `absolute` positioned\n *   `<input>` elements if you use `opacity` less than `1` due to a\n *   [bug](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/3901363/).\n */\n/**\n * 1. Change the font styles in all browsers (opinionated).\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  line-height: 1.5rem;\n  /* 1 */\n  font-family: \"Nunito\", sans-serif;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  margin: 0;\n  /* 2 */ }\n\n/**\n * Show the overflow in IE.\n */\nbutton {\n  overflow: visible; }\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none; }\n\n/**\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\n *    controls in Android 4.\n * 2. Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\nhtml [type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */ }\n\nbutton,\n[type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  /**\n   * Remove the inner border and padding in Firefox.\n   */\n  /**\n   * Restore the focus styles unset by the previous rule.\n   */ }\n  button::-moz-focus-inner,\n  [type=\"button\"]::-moz-focus-inner,\n  [type=\"reset\"]::-moz-focus-inner,\n  [type=\"submit\"]::-moz-focus-inner {\n    border-style: none;\n    padding: 0; }\n  button:-moz-focusring,\n  [type=\"button\"]:-moz-focusring,\n  [type=\"reset\"]:-moz-focusring,\n  [type=\"submit\"]:-moz-focusring {\n    outline: 1px dotted ButtonText; }\n\n/**\n * Show the overflow in Edge.\n */\ninput {\n  overflow: visible; }\n\n/**\n * 1. Add the correct box sizing in IE 10-.\n * 2. Remove the padding in IE 10-.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n  /**\n   * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.\n   */ }\n  [type=\"search\"]::-webkit-search-cancel-button, [type=\"search\"]::-webkit-search-decoration {\n    -webkit-appearance: none; }\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */ }\n\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em; }\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  color: inherit;\n  /* 2 */\n  white-space: normal;\n  /* 1 */ }\n\n/**\n * 1. Add the correct display in IE 9-.\n * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */ }\n\n/**\n * Remove the default vertical scrollbar in IE.\n */\ntextarea {\n  overflow: auto; }\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in Edge, IE, and Firefox.\n */\ndetails {\n  display: block; }\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item; }\n\n/*\n * Add the correct display in IE 9-.\n */\nmenu {\n  display: block;\n  /*\n     * 1. Set 1 unit of vertical rhythm on the top and bottom margin.\n     * 2. Set consistent space for the list style image.\n     */\n  margin: 1.5rem 0;\n  /* 1 */\n  padding: 0 0 0 1.35em;\n  /* 2 */\n  /**\n     * Turn off margins on nested lists.\n     */ }\n  menu menu,\n  ol menu,\n  ul menu {\n    margin: 0; }\n\n/* Scripting\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\ncanvas {\n  display: inline-block; }\n\n/**\n * Add the correct display in IE.\n */\ntemplate {\n  display: none; }\n\n/* Hidden\n   ========================================================================== */\n/**\n * Add the correct display in IE 10-.\n */\n[hidden] {\n  display: none; }\n\n:root {\n  --color-primary: #eb7c22;\n  --color-secondary: rgba(235, 124, 34, 0.55);\n  --color-blue: #0ed2f7;\n  --color-teal: #06beb6;\n  --color-light-grey: #979797;\n  --color-grey: #707070;\n  --color-dark-grey: #4a4a4a; }\n\nhtml,\nbody {\n  margin: 0;\n  padding: 0;\n  width: 100vw;\n  height: 100vh;\n  font-size: 3.777vmin; }\n  @media screen and (min-width: 768px) {\n    html,\n    body {\n      font-size: 2vmin; } }\n\nbody {\n  font-family: 'Roboto', sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  letter-spacing: -0.01em;\n  color: #4a4a4a; }\n\n#root {\n  height: 100vh; }\n  #root::before {\n    content: '';\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n    background: linear-gradient(135deg, rgba(235, 124, 34, 0.34) 0%, rgba(235, 124, 34, 0.89) 100%);\n    z-index: -1; }\n  #root::after {\n    content: '';\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n    background: linear-gradient(90deg, rgba(248, 181, 0, 0.34) 0%, rgba(248, 181, 0, 0.89) 100%);\n    z-index: -1; }\n  #root > div {\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-end;\n    height: 100vh; }\n\nh1 {\n  font-family: 'Zilla Slab', serif;\n  font-weight: 700;\n  font-style: normal;\n  letter-spacing: -0.01em;\n  display: inline-block;\n  margin-bottom: 0;\n  letter-spacing: -0.03em; }\n\np {\n  margin-bottom: 0; }\n\na {\n  color: var(--color-dark-grey);\n  font-weight: 500;\n  text-decoration: none; }\n  a:hover {\n    padding-right: 0.05em;\n    padding-left: 0.05em;\n    background-image: linear-gradient(to right, #0ed2f7 0%, #0ed2f7 100%);\n    background-position: 0 1em;\n    background-repeat: repeat-x;\n    background-size: 100% 13px; }\n\nnav {\n  display: none;\n  position: absolute;\n  top: 0;\n  right: 0; }\n\nmain {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  align-items: center; }\n\nfooter {\n  font-family: 'Zilla Slab', serif;\n  font-weight: 700;\n  font-style: normal;\n  letter-spacing: -0.01em;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  align-items: center;\n  min-height: 13vh; }\n  footer p {\n    margin-bottom: 1em;\n    font-size: 1.2em; }\n  footer a {\n    font-weight: 600; }\n    footer a:hover {\n      padding-right: 0.05em;\n      padding-left: 0.05em;\n      background-image: linear-gradient(to right, #4a4a4a 0%, #4a4a4a 100%);\n      background-position: 0 1em;\n      background-repeat: repeat-x;\n      background-size: 100% 2px; }\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 28 */
 /***/ (function(module, exports) {
 
 module.exports = require("lodash/delay");
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1600,11 +1659,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(2);
+var _propTypes = __webpack_require__(3);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-__webpack_require__(29);
+__webpack_require__(30);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1641,10 +1700,10 @@ Count.defaultProps = {
 exports.default = Count;
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -1655,7 +1714,7 @@ exports.push([module.i, "[data-term] span + span::before {\n  content: '/';\n  d
 
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1667,7 +1726,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _map = __webpack_require__(31);
+var _map = __webpack_require__(32);
 
 var _map2 = _interopRequireDefault(_map);
 
@@ -1675,7 +1734,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(2);
+var _propTypes = __webpack_require__(3);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -1683,7 +1742,7 @@ var _reactStatic = __webpack_require__(1);
 
 var _commitHistory = __webpack_require__(5);
 
-__webpack_require__(32);
+__webpack_require__(33);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1839,16 +1898,16 @@ Graph.defaultProps = {
 exports.default = (0, _reactStatic.withRouter)(Graph);
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports) {
 
 module.exports = require("lodash/map");
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -1859,10 +1918,10 @@ exports.push([module.i, "#graph-container {\n  flex: 1 1 99%;\n  position: relat
 
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -1875,4 +1934,4 @@ exports.push([module.i, "div.day {\n  position: relative;\n  display: flex;\n  f
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.bc7e8d01.js.map
+//# sourceMappingURL=static.00fa0acb.js.map
