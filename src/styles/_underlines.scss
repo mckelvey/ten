@@ -1,6 +1,6 @@
 // Underlines
 
-@mixin underline($color, $width: 0.75em, $vertical-position: 1.05em) {
+@mixin underline($color, $width: 0.75em, $vertical-position: 1em) {
   padding-right: 0.05em;
   padding-left: 0.05em;
   background-image: linear-gradient(to right, $color 0%, $color 100%);

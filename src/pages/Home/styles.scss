@@ -3,17 +3,22 @@
 @import "../../styles/index";
 
 .index {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto 0 3em;
   padding: 0 3rem;
+  max-width: 21em;
   text-align: center;
 
   h1 {
-    @include underline($blue);
+    @include underline($dark-grey);
 
-    color: var(--color-blue);
+    color: $dark-grey;
 
     + p {
       margin-top: 0;
-      color: var(--color-light-grey);
       font-size: 0.89em;
     }
   }
@@ -22,15 +27,54 @@
     display: inline-block;
     padding: 0.5em 0.75em;
     color: white;
-    background-color: var(--color-blue);
+    background-color: $orange;
     border-radius: 1.5em;
+
+    &:hover {
+      @include no-underlines();
+    }
   }
 
   .name {
+    margin-top: 0;
+
     &::before {
       content: '~';
       display: inline-block;
       width: 100%;
+      line-height: 1;
+    }
+  }
+
+  .begin {
+    position: relative;
+    display: block;
+    width: 3.777em;
+    height: 3.777em;
+    color: transparent;
+    background-color: $orange;
+    border-radius: 50%;
+    opacity: 0.75;
+    transform: scale(1);
+    transition: opacity 144ms ease, transform 144ms ease;
+
+    &::before {
+      content: '\25b6';
+      display: block;
+      position: absolute;
+      top: 53%;
+      left: 55%;
+      color: white;
+      font-size: 1.5em;
+      line-height: 1;
+      transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+      @include no-underlines();
+
+      opacity: 1;
+      transform: scale(1.1);
     }
   }
 }

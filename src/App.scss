@@ -3,12 +3,12 @@
 @import "./styles/index";
 
 :root {
-  --color-primary: rebeccapurple;
+  --color-primary: #{$blue};
   --color-secondary: rgba(0, 0, 0, 0.25);
   --color-blue: #{$blue};
   --color-teal: #{$teal};
-  --color-light-grey: #{lighten($dark-grey, 34%)};
-  --color-grey: #{lighten($dark-grey, 13%)};
+  --color-light-grey: #{$light-grey};
+  --color-grey: #{$grey};
   --color-dark-grey: #{$dark-grey};
 }
 
@@ -18,6 +18,11 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
+  font-size: 3.777vmin;
+
+  @media screen and (min-width: 768px) {
+    font-size: 2vmin;
+  }
 }
 
 body {
@@ -36,7 +41,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(135deg, rgba($orange, 0.55) 0%, rgba($orange, 0.89) 100%);
+    background: linear-gradient(135deg, rgba($orange, 0.34) 0%, rgba($orange, 0.89) 100%);
     z-index: -1;
   }
 
@@ -47,39 +52,73 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba($yellow, 0.55) 0%, rgba($yellow, 0.89) 100%);
+    background: linear-gradient(90deg, rgba($yellow, 0.34) 0%, rgba($yellow, 0.89) 100%);
     z-index: -1;
   }
 
   > div {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     height: 100vh;
   }
-}
-
-nav {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-footer {
-  text-align: center;
 }
 
 h1 {
   @include serif(700);
 
-  display: inline;
+  display: inline-block;
+  margin-bottom: 0;
   letter-spacing: -0.03em;
 }
 
 p {
   margin-bottom: 0;
+}
 
-  &:first-child {
-    margin-top: 0;
+a {
+  color: var(--color-dark-grey);
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover {
+    @include underline($blue);
+  }
+}
+
+nav {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer {
+  @include serif(700);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 13vh;
+
+  p {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+  }
+
+  a {
+    font-weight: 600;
+
+    &:hover {
+      @include underline($dark-grey, 0.145em);
+    }
   }
 }
