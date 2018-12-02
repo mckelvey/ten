@@ -1,5 +1,7 @@
 // Graph
 
+@import "../../styles/index";
+
 #graph-container {
   flex: 1 1 99%;
   position: relative;
@@ -15,20 +17,20 @@ svg {
 }
 
 rect {
-  fill: var(--color-primary);
+  fill: var(--color-teal, #{$orange});
   stroke: transparent;
 }
 
 g rect {
-  fill: var(--color-secondary);
+  fill: var(--color-teal-medium, #{$orange});
 
   &.current,
   &:hover {
-    fill: var(--color-primary);
+    fill: var(--color-teal, #{$orange});
     opacity: 1;
   }
 }
 
 path {
-  stroke: var(--color-primary);
+  stroke: var(--color-teal, #{$orange});
 }

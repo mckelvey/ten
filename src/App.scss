@@ -1,15 +1,42 @@
 // App
 
 @import "./styles/index";
+@import '~normalize-scss/fork-versions/default/normalize';
 
 :root {
-  --color-primary: #{$blue};
-  --color-secondary: rgba(0, 0, 0, 0.25);
-  --color-blue: #{$blue};
+  --color-yellow: #{$yellow};
+  --color-yellow-strong: #{rgba($yellow, 0.89)};
+  --color-yellow-medium: #{rgba($yellow, 0.55)};
+  --color-yellow-pale: #{rgba($yellow, 0.34)};
+  --color-orange: #{$orange};
+  --color-orange-strong: #{rgba($orange, 0.89)};
+  --color-orange-medium: #{rgba($orange, 0.55)};
+  --color-orange-pale: #{rgba($orange, 0.34)};
   --color-teal: #{$teal};
-  --color-light-grey: #{$light-grey};
-  --color-grey: #{$grey};
+  --color-teal-strong: #{rgba($teal, 0.89)};
+  --color-teal-medium: #{rgba($teal, 0.55)};
+  --color-teal-pale: #{rgba($teal, 0.34)};
+  --color-blue: #{$blue};
+  --color-blue-strong: #{rgba($blue, 0.89)};
+  --color-blue-medium: #{rgba($blue, 0.55)};
+  --color-blue-pale: #{rgba($blue, 0.34)};
   --color-dark-grey: #{$dark-grey};
+  --color-grey: #{lighten($dark-grey, 15%)};
+  --color-light-grey: #{lighten($dark-grey, 30%)};
+  --color-primary: var(--color-orange, #{$orange});
+  --color-primary-strong: var(--color-orange-strong, #{rgba($orange, 0.89)});
+  --color-primary-medium: var(--color-orange-medium, #{rgba($orange, 0.55)});
+  --color-primary-pale: var(--color-orange-pale, #{rgba($orange, 0.34)});
+  --color-primary-gradient-strong: var(--color-orange-strong, #{rgba($orange, 0.89)});
+  --color-primary-gradient-pale: var(--color-orange-pale, #{rgba($orange, 0.34)});
+  --color-secondary-gradient-strong: var(--color-yellow-strong, #{rgba($yellow, 0.89)});
+  --color-secondary-gradient-pale: var(--color-yellow-pale, #{rgba($yellow, 0.34)});
+  --color-secondary: var(--color-yellow, #{$yellow});
+  --color-secondary-strong: var(--color-yellow-strong, #{rgba($yellow, 0.89)});
+  --color-secondary-medium: var(--color-yellow-medium, #{rgba($yellow, 0.55)});
+  --color-secondary-pale: var(--color-yellow-pale, #{rgba($yellow, 0.34)});
+  --angle-primary-gradient: 135deg;
+  --angle-secondary-gradient: 90deg;
 }
 
 html,
@@ -28,7 +55,7 @@ body {
 body {
   @include sans-serif();
 
-  color: $dark-grey;
+  color: var(--color-dark-grey, #{$dark-grey});
 }
 
 #root {
@@ -41,7 +68,11 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(135deg, rgba($orange, 0.34) 0%, rgba($orange, 0.89) 100%);
+    background: linear-gradient(
+      var(--angle-primary-gradient, 135deg),
+      var(--color-primary-gradient-pale, #{rgba($orange, 0.34)}) 0%,
+      var(--color-primary-gradient-strong, #{rgba($orange, 0.99)}) 100%
+    );
     z-index: -1;
   }
 
@@ -52,7 +83,11 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba($yellow, 0.34) 0%, rgba($yellow, 0.89) 100%);
+    background: linear-gradient(
+      var(--angle-secondary-gradient, 90deg),
+      var(--color-secondary-gradient-pale, #{rgba($yellow, 0.34)}) 0%,
+      var(--color-secondary-gradient-strong, #{rgba($yellow, 0.89)}) 100%
+    );
     z-index: -1;
   }
 
@@ -67,6 +102,7 @@ body {
 h1 {
   @include serif(700);
 
+  color: var(--color-dark-grey, #{$dark-grey});
   display: inline-block;
   margin-bottom: 0;
   letter-spacing: -0.03em;
@@ -82,7 +118,7 @@ a {
   text-decoration: none;
 
   &:hover {
-    @include underline($blue);
+    @include underline(var(--color-primary, #{$blue}));
   }
 }
 
@@ -98,6 +134,7 @@ main {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  max-height: 95vh;
 }
 
 footer {
@@ -107,10 +144,10 @@ footer {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  min-height: 13vh;
+  max-height: 5vh;
 
   p {
-    margin-bottom: 1em;
+    margin: 0.5em 0;
     font-size: 1.2em;
   }
 
@@ -118,7 +155,7 @@ footer {
     font-weight: 600;
 
     &:hover {
-      @include underline($dark-grey, 0.145em);
+      @include underline(var(--color-dark-grey), 0.145em);
     }
   }
 }

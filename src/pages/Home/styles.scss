@@ -13,9 +13,7 @@
   text-align: center;
 
   h1 {
-    @include underline($dark-grey);
-
-    color: $dark-grey;
+    @include underline(var(--color-dark-grey, #{$dark-grey}));
 
     + p {
       margin-top: 0;
@@ -27,7 +25,7 @@
     display: inline-block;
     padding: 0.5em 0.75em;
     color: white;
-    background-color: $orange;
+    background-color: var(--color-primary, #{$orange});
     border-radius: 1.5em;
 
     &:hover {
@@ -52,7 +50,7 @@
     width: 3.777em;
     height: 3.777em;
     color: transparent;
-    background-color: $orange;
+    background-color: var(--color-primary, #{$orange});
     border-radius: 50%;
     opacity: 0.75;
     transform: scale(1);

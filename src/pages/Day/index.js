@@ -14,7 +14,7 @@ class Day extends React.PureComponent {
   }
 
   componentDidUpdate() {
-    this.next();
+    // this.next();
   }
 
   next() {
