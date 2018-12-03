@@ -43,22 +43,4 @@
       line-height: 1;
     }
   }
-
-  .begin {
-    position: relative;
-    display: block;
-    width: 3.777em;
-    height: 3.777em;
-    color: transparent;
-    background-color: var(--color-primary, #{$orange});
-    border-radius: 50%;
-    opacity: 0.75;
-    transform: scale(1);
-    transition: opacity 144ms ease, transform 144ms ease;
-
-    &:hover {
-      opacity: 1;
-      transform: scale(1.1);
-    }
-  }
 }
