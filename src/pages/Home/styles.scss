@@ -56,21 +56,7 @@
     transform: scale(1);
     transition: opacity 144ms ease, transform 144ms ease;
 
-    &::before {
-      content: '\25b6';
-      display: block;
-      position: absolute;
-      top: 53%;
-      left: 55%;
-      color: white;
-      font-size: 1.5em;
-      line-height: 1;
-      transform: translate(-50%, -50%);
-    }
-
     &:hover {
-      @include no-underlines();
-
       opacity: 1;
       transform: scale(1.1);
     }

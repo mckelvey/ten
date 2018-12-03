@@ -11,7 +11,6 @@ class Graph extends React.PureComponent {
   constructor(props){
     super(props);
     this.handleClick = this.handleClick.bind(this);
-    this.handleGrab = this.handleGrab.bind(this);
   }
 
   componentDidMount() {
@@ -27,10 +26,6 @@ class Graph extends React.PureComponent {
       const { barWidth, date: currentDate } = this.props;
       this.root.scrollLeft = currentIndex(currentDate) * barWidth;
     }
-  }
-
-  handleGrab() {
-    //
   }
 
   handleClick(event) {

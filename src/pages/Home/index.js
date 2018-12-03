@@ -19,8 +19,8 @@ export default withSiteData(() => (
     <p className="name">
       <a href="mailto:david@mckelveycreative.co">David</a>
     </p>
-    <p>
+    <nav>
       <Link className="begin" to="/day/2008-12-06">Begin</Link>
-    </p>
+    </nav>
   </div>
 ))

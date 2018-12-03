@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head, Router, Link, Route, Switch } from 'react-static';
+import { Head, Router, Route, Switch } from 'react-static';
 import universal from 'react-universal-component';
 import { hot } from 'react-hot-loader';
 
@@ -14,10 +14,6 @@ const App = () => (
       <Head>
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Zilla+Slab:500,700&amp;subset=latin-ext" rel="stylesheet" />
       </Head>
-      <nav>
-        <Link exact to="/">Home</Link>
-        <Link to="/day/2008-12-06">Day</Link>
-      </nav>
       <main>
         <Switch>
           <Route path="/day/:date" component={Day} />
