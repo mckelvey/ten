@@ -17,20 +17,20 @@ svg {
 }
 
 rect {
-  fill: var(--color-teal, #{$orange});
+  fill: var(--color-primary, #{$orange});
   stroke: transparent;
 }
 
 g rect {
-  fill: var(--color-teal-medium, #{$orange});
+  fill: var(--color-primary-medium, #{rgba($orange, 0.55)});
 
   &.current,
   &:hover {
-    fill: var(--color-teal, #{$orange});
+    fill: var(--color-primary, #{$orange});
     opacity: 1;
   }
 }
 
 path {
-  stroke: var(--color-teal, #{$orange});
+  stroke: var(--color-primary, #{$orange});
 }

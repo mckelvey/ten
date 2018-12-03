@@ -41,7 +41,7 @@ class Graph extends React.PureComponent {
     }
   }
 
-  renderCommit(currentDate, date, index) {
+  renderCommit(currentIndex, date, index) {
     const { barWidth, height } = this.props;
     const { count } = day(date);
     if (typeof count === 'number') {
@@ -56,7 +56,7 @@ class Graph extends React.PureComponent {
       const y = height - barHeight;
       return (
         <rect
-          className={currentDate === date ? 'current' : ''}
+          className={currentIndex === index ? 'current' : ''}
           data-date={date}
           fill="rebeccapurple"
           height={height - y}
@@ -72,8 +72,8 @@ class Graph extends React.PureComponent {
   }
 
   render() {
-    const { barWidth, date: currentDate, height } = this.props;
-    const left = currentIndex(currentDate) / summary.dayCount * -100;
+    const { barWidth, height, currentIndex } = this.props;
+    const left = currentIndex / summary.dayCount * -100;
     return (
       <div
         id="graph-container"
@@ -85,7 +85,7 @@ class Graph extends React.PureComponent {
           style={{ transform: `translateX(${left}%)` }}
         >
           <g>
-            {map(series, (date, index) => this.renderCommit(currentDate, date, index))}
+            {map(series, (date, index) => this.renderCommit(currentIndex, date, index))}
           </g>
           <path d={`M 0,${height} L ${summary.dayCount * barWidth},${height} Z`} />
           <rect
@@ -93,7 +93,7 @@ class Graph extends React.PureComponent {
             height={barWidth}
             style={{ opacity: 1 }}
             width={barWidth}
-            x={currentIndex(currentDate) * barWidth}
+            x={currentIndex * barWidth}
             y={height}
           />
         </svg>
@@ -105,6 +105,7 @@ class Graph extends React.PureComponent {
 
 Graph.propTypes = {
   barWidth: PropTypes.number,
+  currentIndex: PropTypes.number.isRequired,
   height: PropTypes.number,
 };
 
