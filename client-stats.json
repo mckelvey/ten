@@ -2,37 +2,37 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "9073be4156db4b57804c",
-  "time": 7013,
+  "hash": "b16a5a3956337cddced7",
+  "time": 7316,
   "publicPath": "https://mckelvey.github.io/ten/",
   "assetsByChunkName": {
     "pages/Day": [
-      "templates/pages/Day.5eab3582.js",
-      "templates/pages/Day.5eab3582.js.map"
+      "templates/pages/Day.74480d4b.js",
+      "templates/pages/Day.74480d4b.js.map"
     ],
     "src/pages/Home": [
-      "templates/src/pages/Home.0c710b42.js",
-      "templates/src/pages/Home.0c710b42.js.map"
+      "templates/src/pages/Home.f6973dd8.js",
+      "templates/src/pages/Home.f6973dd8.js.map"
     ],
     "src/pages/404": [
       "templates/src/pages/404.04dc5c00.js",
       "templates/src/pages/404.04dc5c00.js.map"
     ],
     "main": [
-      "main.29566e44.js",
-      "styles.9073be41.css",
-      "main.29566e44.js.map",
-      "styles.9073be41.css.map"
+      "main.58c7502d.js",
+      "styles.b16a5a39.css",
+      "main.58c7502d.js.map",
+      "styles.b16a5a39.css.map"
     ],
     "bootstrap": [
-      "bootstrap.f1fe85d5.js",
-      "bootstrap.f1fe85d5.js.map"
+      "bootstrap.7f9be21b.js",
+      "bootstrap.7f9be21b.js.map"
     ]
   },
   "assets": [
     {
-      "name": "templates/pages/Day.5eab3582.js.map",
-      "size": 930909,
+      "name": "templates/pages/Day.74480d4b.js.map",
+      "size": 933255,
       "chunks": [
         0
       ],
@@ -42,8 +42,8 @@
       "emitted": true
     },
     {
-      "name": "templates/pages/Day.5eab3582.js",
-      "size": 217874,
+      "name": "templates/pages/Day.74480d4b.js",
+      "size": 218367,
       "chunks": [
         0
       ],
@@ -64,8 +64,8 @@
       "emitted": true
     },
     {
-      "name": "main.29566e44.js",
-      "size": 274398,
+      "name": "main.58c7502d.js",
+      "size": 274244,
       "chunks": [
         3
       ],
@@ -76,7 +76,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.f1fe85d5.js",
+      "name": "bootstrap.7f9be21b.js",
       "size": 1552,
       "chunks": [
         4
@@ -87,8 +87,8 @@
       "emitted": true
     },
     {
-      "name": "styles.9073be41.css",
-      "size": 8208,
+      "name": "styles.b16a5a39.css",
+      "size": 11519,
       "chunks": [
         3
       ],
@@ -98,8 +98,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.0c710b42.js",
-      "size": 200969,
+      "name": "templates/src/pages/Home.f6973dd8.js",
+      "size": 200971,
       "chunks": [
         1
       ],
@@ -109,8 +109,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.0c710b42.js.map",
-      "size": 751151,
+      "name": "templates/src/pages/Home.f6973dd8.js.map",
+      "size": 751157,
       "chunks": [
         1
       ],
@@ -131,8 +131,8 @@
       "emitted": true
     },
     {
-      "name": "main.29566e44.js.map",
-      "size": 1492481,
+      "name": "main.58c7502d.js.map",
+      "size": 1491859,
       "chunks": [
         3
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.9073be41.css.map",
+      "name": "styles.b16a5a39.css.map",
       "size": 96,
       "chunks": [
         3
@@ -153,7 +153,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.f1fe85d5.js.map",
+      "name": "bootstrap.7f9be21b.js.map",
       "size": 14453,
       "chunks": [
         4
@@ -172,12 +172,12 @@
         3
       ],
       "assets": [
-        "bootstrap.f1fe85d5.js",
-        "bootstrap.f1fe85d5.js.map",
-        "main.29566e44.js",
-        "styles.9073be41.css",
-        "main.29566e44.js.map",
-        "styles.9073be41.css.map"
+        "bootstrap.7f9be21b.js",
+        "bootstrap.7f9be21b.js.map",
+        "main.58c7502d.js",
+        "styles.b16a5a39.css",
+        "main.58c7502d.js.map",
+        "styles.b16a5a39.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -189,15 +189,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 310391,
+      "size": 311512,
       "names": [
         "pages/Day"
       ],
       "files": [
-        "templates/pages/Day.5eab3582.js",
-        "templates/pages/Day.5eab3582.js.map"
+        "templates/pages/Day.74480d4b.js",
+        "templates/pages/Day.74480d4b.js.map"
       ],
-      "hash": "5eab35825553f54f2bc3",
+      "hash": "74480d4b03f36e6d793b",
       "parents": [
         3
       ],
@@ -208,7 +208,7 @@
           "name": "./src/pages/Day/index.js",
           "index": 193,
           "index2": 264,
-          "size": 4797,
+          "size": 6051,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -247,7 +247,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 2,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _get = require('lodash/get');\n\nvar _get2 = _interopRequireDefault(_get);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _Count = require('../../components/Count');\n\nvar _Count2 = _interopRequireDefault(_Count);\n\nvar _Graph = require('../../components/Graph');\n\nvar _Graph2 = _interopRequireDefault(_Graph);\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar getIndex = function getIndex(props) {\n  var date = (0, _get2.default)(props, 'match.params.date');\n  return (0, _commitHistory.currentIndex)(date);\n};\n\nvar Day = function (_React$PureComponent) {\n  _inherits(Day, _React$PureComponent);\n\n  function Day(props) {\n    _classCallCheck(this, Day);\n\n    var _this = _possibleConstructorReturn(this, (Day.__proto__ || Object.getPrototypeOf(Day)).call(this, props));\n\n    var index = getIndex(props);\n    _this.delay = null;\n    _this.state = { index: index };\n    return _this;\n  }\n\n  _createClass(Day, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      this.next();\n    }\n  }, {\n    key: 'componentWillReceiveProps',\n    value: function componentWillReceiveProps(nextProps) {\n      clearTimeout(this.delay);\n      var index = getIndex(nextProps);\n      if (index && index !== this.state.index) {\n        this.setState({ index: index });\n      }\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      this.next();\n    }\n  }, {\n    key: 'componentWillUnmount',\n    value: function componentWillUnmount() {\n      clearTimeout(this.delay);\n    }\n  }, {\n    key: 'next',\n    value: function next() {\n      var _this2 = this;\n\n      this.delay = setTimeout(function () {\n        var index = _this2.state.index;\n\n        if (index < _commitHistory.summary.dayCount - 1) {\n          _this2.setState({ index: index + 1 });\n        }\n      }, 1);\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var date = (0, _get2.default)(this.props, 'match.params.date');\n      var index = this.state.index;\n\n      var counts = (0, _commitHistory.day)(_commitHistory.series[index]);\n      if (date) {\n        return _react2.default.createElement(\n          'div',\n          { className: 'day' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            _react2.default.createElement(\n              'span',\n              { className: 'title' },\n              'Day'\n            ),\n            _react2.default.createElement(_Count2.default, {\n              count: index + 1,\n              term: 'day',\n              total: _commitHistory.summary.dayCount\n            })\n          ),\n          _react2.default.createElement(_Graph2.default, { date: date, currentIndex: index }),\n          counts && _react2.default.createElement(_Count2.default, {\n            count: counts.totalToDate,\n            term: 'commits',\n            total: _commitHistory.summary.commitCount\n          })\n        );\n      }\n      return null;\n    }\n  }]);\n\n  return Day;\n}(_react2.default.PureComponent);\n\nexports.default = (0, _reactStatic.withRouter)(Day);"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _get = require('lodash/get');\n\nvar _get2 = _interopRequireDefault(_get);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _Count = require('../../components/Count');\n\nvar _Count2 = _interopRequireDefault(_Count);\n\nvar _Graph = require('../../components/Graph');\n\nvar _Graph2 = _interopRequireDefault(_Graph);\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar initialState = function initialState(props) {\n  var date = (0, _get2.default)(props, 'match.params.date');\n  var index = (0, _commitHistory.currentIndex)(date);\n  return {\n    index: index,\n    playing: index === 0\n  };\n};\n\nvar Day = function (_React$PureComponent) {\n  _inherits(Day, _React$PureComponent);\n\n  function Day(props) {\n    _classCallCheck(this, Day);\n\n    var _this = _possibleConstructorReturn(this, (Day.__proto__ || Object.getPrototypeOf(Day)).call(this, props));\n\n    _this.delay = null;\n    _this.state = initialState(props);\n    _this.handlePlayClick = _this.handlePlayClick.bind(_this);\n    return _this;\n  }\n\n  _createClass(Day, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      this.next();\n    }\n  }, {\n    key: 'componentWillReceiveProps',\n    value: function componentWillReceiveProps(nextProps) {\n      clearTimeout(this.delay);\n      this.setState(initialState(nextProps));\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      this.next();\n    }\n  }, {\n    key: 'componentWillUnmount',\n    value: function componentWillUnmount() {\n      clearTimeout(this.delay);\n    }\n  }, {\n    key: 'next',\n    value: function next() {\n      var _this2 = this;\n\n      var playing = this.state.playing;\n\n      if (!playing) {\n        clearTimeout(this.delay);\n        return;\n      }\n      this.delay = setTimeout(function () {\n        var index = _this2.state.index;\n\n        if (index < _commitHistory.summary.dayCount - 1) {\n          _this2.setState({ index: index + 1 });\n        }\n      }, 1);\n    }\n  }, {\n    key: 'handlePlayClick',\n    value: function handlePlayClick(event) {\n      event.preventDefault();\n      this.setState({ playing: true });\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var date = (0, _get2.default)(this.props, 'match.params.date');\n      var _state = this.state,\n          index = _state.index,\n          playing = _state.playing;\n\n      var counts = (0, _commitHistory.day)(_commitHistory.series[index]);\n      if (date) {\n        return _react2.default.createElement(\n          'div',\n          { className: 'day' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            _react2.default.createElement(\n              'span',\n              { className: 'title' },\n              'Day'\n            ),\n            _react2.default.createElement(_Count2.default, {\n              count: index + 1,\n              term: 'day',\n              total: _commitHistory.summary.dayCount\n            })\n          ),\n          _react2.default.createElement(\n            'nav',\n            null,\n            _react2.default.createElement(\n              _reactStatic.Link,\n              { className: 'home', exact: true, to: '/' },\n              'Home'\n            ),\n            _react2.default.createElement(\n              _reactStatic.Link,\n              { className: 'restart', to: '/day/2008-12-06' },\n              'Day'\n            ),\n            playing && _react2.default.createElement(\n              _reactStatic.Link,\n              { className: 'pause', to: '/day/' + _commitHistory.series[index] },\n              'Day'\n            ),\n            !playing && _react2.default.createElement(\n              'button',\n              {\n                className: 'play',\n                onClick: this.handlePlayClick,\n                type: 'button'\n              },\n              'play'\n            )\n          ),\n          _react2.default.createElement(_Graph2.default, { date: date, currentIndex: index }),\n          counts && _react2.default.createElement(_Count2.default, {\n            count: counts.totalToDate,\n            term: 'commits',\n            total: _commitHistory.summary.commitCount\n          })\n        );\n      }\n      return null;\n    }\n  }]);\n\n  return Day;\n}(_react2.default.PureComponent);\n\nexports.default = (0, _reactStatic.withRouter)(Day);"
         },
         {
           "id": 135,
@@ -562,9 +562,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_hashClear.js",
-          "issuerId": 168,
-          "issuerName": "./node_modules/lodash/_hashClear.js",
+          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_hashGet.js",
+          "issuerId": 174,
+          "issuerName": "./node_modules/lodash/_hashGet.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -712,9 +712,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_listCacheDelete.js",
-          "issuerId": 178,
-          "issuerName": "./node_modules/lodash/_listCacheDelete.js",
+          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_listCacheGet.js",
+          "issuerId": 179,
+          "issuerName": "./node_modules/lodash/_listCacheGet.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3832,7 +3832,7 @@
           "name": "./src/components/Graph/index.js",
           "index": 196,
           "index2": 262,
-          "size": 6186,
+          "size": 6053,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3862,7 +3862,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _map = require('lodash/map');\n\nvar _map2 = _interopRequireDefault(_map);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactStatic = require('react-static');\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Graph = function (_React$PureComponent) {\n  _inherits(Graph, _React$PureComponent);\n\n  function Graph(props) {\n    _classCallCheck(this, Graph);\n\n    var _this = _possibleConstructorReturn(this, (Graph.__proto__ || Object.getPrototypeOf(Graph)).call(this, props));\n\n    _this.handleClick = _this.handleClick.bind(_this);\n    _this.handleGrab = _this.handleGrab.bind(_this);\n    return _this;\n  }\n\n  _createClass(Graph, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      this.scrollToDate();\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      this.scrollToDate();\n    }\n  }, {\n    key: 'scrollToDate',\n    value: function scrollToDate() {\n      if (this.root) {\n        var _props = this.props,\n            barWidth = _props.barWidth,\n            currentDate = _props.date;\n\n        this.root.scrollLeft = (0, _commitHistory.currentIndex)(currentDate) * barWidth;\n      }\n    }\n  }, {\n    key: 'handleGrab',\n    value: function handleGrab() {\n      //\n    }\n  }, {\n    key: 'handleClick',\n    value: function handleClick(event) {\n      event.preventDefault();\n      var date = event.currentTarget.getAttribute('data-date');\n      if (date) {\n        this.props.history.push('/day/' + date);\n      }\n    }\n  }, {\n    key: 'renderCommit',\n    value: function renderCommit(currentIndex, date, index) {\n      var _props2 = this.props,\n          barWidth = _props2.barWidth,\n          height = _props2.height;\n\n      var _day = (0, _commitHistory.day)(date),\n          count = _day.count;\n\n      if (typeof count === 'number') {\n        var barHeight = 0;\n        if (count <= 10) {\n          barHeight = height / 2 / 10 * count;\n        } else if (count <= 100) {\n          barHeight = height / 16 * 5 / 90 * (count - 10) + height / 2;\n        } else {\n          // less than 1000\n          barHeight = height / 16 * 3 / 900 * (count - 100) + height / 16 * 13;\n        }\n        var y = height - barHeight;\n        return _react2.default.createElement('rect', {\n          className: currentIndex === index ? 'current' : '',\n          'data-date': date,\n          fill: 'rebeccapurple',\n          height: height - y,\n          key: date,\n          onClick: this.handleClick,\n          width: barWidth,\n          x: index * barWidth,\n          y: y\n        });\n      }\n      return null;\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _this2 = this;\n\n      var _props3 = this.props,\n          barWidth = _props3.barWidth,\n          height = _props3.height,\n          currentIndex = _props3.currentIndex;\n\n      var left = currentIndex / _commitHistory.summary.dayCount * -100;\n      return _react2.default.createElement(\n        'div',\n        {\n          id: 'graph-container',\n          ref: function ref(node) {\n            _this2.root = node;\n          }\n        },\n        _react2.default.createElement(\n          'svg',\n          {\n            viewBox: '0 0 ' + _commitHistory.summary.dayCount * barWidth + ' ' + (height + barWidth),\n            xmlns: 'http://www.w3.org/2000/svg',\n            style: { transform: 'translateX(' + left + '%)' }\n          },\n          _react2.default.createElement(\n            'g',\n            null,\n            (0, _map2.default)(_commitHistory.series, function (date, index) {\n              return _this2.renderCommit(currentIndex, date, index);\n            })\n          ),\n          _react2.default.createElement('path', { d: 'M 0,' + height + ' L ' + _commitHistory.summary.dayCount * barWidth + ',' + height + ' Z' }),\n          _react2.default.createElement('rect', {\n            fill: 'rebeccapurple',\n            height: barWidth,\n            style: { opacity: 1 },\n            width: barWidth,\n            x: currentIndex * barWidth,\n            y: height\n          })\n        )\n      );\n    }\n  }]);\n\n  return Graph;\n}(_react2.default.PureComponent);\n\nGraph.propTypes = {\n  barWidth: _propTypes2.default.number,\n  currentIndex: _propTypes2.default.number.isRequired,\n  height: _propTypes2.default.number\n};\n\nGraph.defaultProps = {\n  barWidth: 3,\n  height: 300\n};\n\nexports.default = (0, _reactStatic.withRouter)(Graph);"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _map = require('lodash/map');\n\nvar _map2 = _interopRequireDefault(_map);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactStatic = require('react-static');\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Graph = function (_React$PureComponent) {\n  _inherits(Graph, _React$PureComponent);\n\n  function Graph(props) {\n    _classCallCheck(this, Graph);\n\n    var _this = _possibleConstructorReturn(this, (Graph.__proto__ || Object.getPrototypeOf(Graph)).call(this, props));\n\n    _this.handleClick = _this.handleClick.bind(_this);\n    return _this;\n  }\n\n  _createClass(Graph, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      this.scrollToDate();\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      this.scrollToDate();\n    }\n  }, {\n    key: 'scrollToDate',\n    value: function scrollToDate() {\n      if (this.root) {\n        var _props = this.props,\n            barWidth = _props.barWidth,\n            currentDate = _props.date;\n\n        this.root.scrollLeft = (0, _commitHistory.currentIndex)(currentDate) * barWidth;\n      }\n    }\n  }, {\n    key: 'handleClick',\n    value: function handleClick(event) {\n      event.preventDefault();\n      var date = event.currentTarget.getAttribute('data-date');\n      if (date) {\n        this.props.history.push('/day/' + date);\n      }\n    }\n  }, {\n    key: 'renderCommit',\n    value: function renderCommit(currentIndex, date, index) {\n      var _props2 = this.props,\n          barWidth = _props2.barWidth,\n          height = _props2.height;\n\n      var _day = (0, _commitHistory.day)(date),\n          count = _day.count;\n\n      if (typeof count === 'number') {\n        var barHeight = 0;\n        if (count <= 10) {\n          barHeight = height / 2 / 10 * count;\n        } else if (count <= 100) {\n          barHeight = height / 16 * 5 / 90 * (count - 10) + height / 2;\n        } else {\n          // less than 1000\n          barHeight = height / 16 * 3 / 900 * (count - 100) + height / 16 * 13;\n        }\n        var y = height - barHeight;\n        return _react2.default.createElement('rect', {\n          className: currentIndex === index ? 'current' : '',\n          'data-date': date,\n          fill: 'rebeccapurple',\n          height: height - y,\n          key: date,\n          onClick: this.handleClick,\n          width: barWidth,\n          x: index * barWidth,\n          y: y\n        });\n      }\n      return null;\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _this2 = this;\n\n      var _props3 = this.props,\n          barWidth = _props3.barWidth,\n          height = _props3.height,\n          currentIndex = _props3.currentIndex;\n\n      var left = currentIndex / _commitHistory.summary.dayCount * -100;\n      return _react2.default.createElement(\n        'div',\n        {\n          id: 'graph-container',\n          ref: function ref(node) {\n            _this2.root = node;\n          }\n        },\n        _react2.default.createElement(\n          'svg',\n          {\n            viewBox: '0 0 ' + _commitHistory.summary.dayCount * barWidth + ' ' + (height + barWidth),\n            xmlns: 'http://www.w3.org/2000/svg',\n            style: { transform: 'translateX(' + left + '%)' }\n          },\n          _react2.default.createElement(\n            'g',\n            null,\n            (0, _map2.default)(_commitHistory.series, function (date, index) {\n              return _this2.renderCommit(currentIndex, date, index);\n            })\n          ),\n          _react2.default.createElement('path', { d: 'M 0,' + height + ' L ' + _commitHistory.summary.dayCount * barWidth + ',' + height + ' Z' }),\n          _react2.default.createElement('rect', {\n            fill: 'rebeccapurple',\n            height: barWidth,\n            style: { opacity: 1 },\n            width: barWidth,\n            x: currentIndex * barWidth,\n            y: height\n          })\n        )\n      );\n    }\n  }]);\n\n  return Graph;\n}(_react2.default.PureComponent);\n\nGraph.propTypes = {\n  barWidth: _propTypes2.default.number,\n  currentIndex: _propTypes2.default.number.isRequired,\n  height: _propTypes2.default.number\n};\n\nGraph.defaultProps = {\n  barWidth: 3,\n  height: 300\n};\n\nexports.default = (0, _reactStatic.withRouter)(Graph);"
         },
         {
           "id": 209,
@@ -6088,15 +6088,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 245039,
+      "size": 245041,
       "names": [
         "src/pages/Home"
       ],
       "files": [
-        "templates/src/pages/Home.0c710b42.js",
-        "templates/src/pages/Home.0c710b42.js.map"
+        "templates/src/pages/Home.f6973dd8.js",
+        "templates/src/pages/Home.f6973dd8.js.map"
       ],
-      "hash": "0c710b4273bdd59fc7a4",
+      "hash": "f6973dd8a490650f743c",
       "parents": [
         3
       ],
@@ -6107,7 +6107,7 @@
           "name": "./src/pages/Home/index.js",
           "index": 131,
           "index2": 187,
-          "size": 1851,
+          "size": 1853,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -6146,7 +6146,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withSiteData)(function () {\n  return _react2.default.createElement(\n    'div',\n    { className: 'index' },\n    _react2.default.createElement(\n      'h1',\n      null,\n      'Ten'\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      'Celebrating my decade on GitHub.'\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Link,\n        { className: 'commits', to: '/day/2008-12-06' },\n        _commitHistory.summary.commitCount,\n        ' Commits'\n      )\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      'This is a simple and fun celebration of my decade on GitHub. Naturally, you can fork',\n      ' ',\n      _react2.default.createElement(\n        'a',\n        { href: 'https://github.com/mckelvey/ten', target: '_blank', rel: 'noreferrer noopener' },\n        'this repo'\n      ),\n      ' ',\n      'and make it your own. If you do, let me know as I\\u2019d love to see where this goes.'\n    ),\n    _react2.default.createElement(\n      'p',\n      { className: 'name' },\n      _react2.default.createElement(\n        'a',\n        { href: 'mailto:david@mckelveycreative.co' },\n        'David'\n      )\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Link,\n        { className: 'begin', to: '/day/2008-12-06' },\n        'Begin'\n      )\n    )\n  );\n});"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withSiteData)(function () {\n  return _react2.default.createElement(\n    'div',\n    { className: 'index' },\n    _react2.default.createElement(\n      'h1',\n      null,\n      'Ten'\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      'Celebrating my decade on GitHub.'\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Link,\n        { className: 'commits', to: '/day/2008-12-06' },\n        _commitHistory.summary.commitCount,\n        ' Commits'\n      )\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      'This is a simple and fun celebration of my decade on GitHub. Naturally, you can fork',\n      ' ',\n      _react2.default.createElement(\n        'a',\n        { href: 'https://github.com/mckelvey/ten', target: '_blank', rel: 'noreferrer noopener' },\n        'this repo'\n      ),\n      ' ',\n      'and make it your own. If you do, let me know as I\\u2019d love to see where this goes.'\n    ),\n    _react2.default.createElement(\n      'p',\n      { className: 'name' },\n      _react2.default.createElement(\n        'a',\n        { href: 'mailto:david@mckelveycreative.co' },\n        'David'\n      )\n    ),\n    _react2.default.createElement(\n      'nav',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Link,\n        { className: 'begin', to: '/day/2008-12-06' },\n        'Begin'\n      )\n    )\n  );\n});"
         },
         {
           "id": 135,
@@ -6461,9 +6461,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_hashClear.js",
-          "issuerId": 168,
-          "issuerName": "./node_modules/lodash/_hashClear.js",
+          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_hashGet.js",
+          "issuerId": 174,
+          "issuerName": "./node_modules/lodash/_hashGet.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -6611,9 +6611,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_listCacheDelete.js",
-          "issuerId": 178,
-          "issuerName": "./node_modules/lodash/_listCacheDelete.js",
+          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_listCacheGet.js",
+          "issuerId": 179,
+          "issuerName": "./node_modules/lodash/_listCacheGet.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -9196,17 +9196,17 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 521221,
+      "size": 520883,
       "names": [
         "main"
       ],
       "files": [
-        "main.29566e44.js",
-        "styles.9073be41.css",
-        "main.29566e44.js.map",
-        "styles.9073be41.css.map"
+        "main.58c7502d.js",
+        "styles.b16a5a39.css",
+        "main.58c7502d.js.map",
+        "styles.b16a5a39.css.map"
       ],
-      "hash": "29566e448b52ca09c353",
+      "hash": "58c7502da5878914b57c",
       "parents": [
         4
       ],
@@ -13350,7 +13350,7 @@
           "name": "./src/App.js",
           "index": 8,
           "index2": 265,
-          "size": 3143,
+          "size": 2805,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -13380,7 +13380,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 1,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _path2 = require('path');\n\nvar _path3 = _interopRequireDefault(_path2);\n\nvar _importCss2 = require('babel-plugin-universal-import/importCss');\n\nvar _importCss3 = _interopRequireDefault(_importCss2);\n\nvar _universalImport2 = require('babel-plugin-universal-import/universalImport');\n\nvar _universalImport3 = _interopRequireDefault(_universalImport2);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactUniversalComponent = require('react-universal-component');\n\nvar _reactUniversalComponent2 = _interopRequireDefault(_reactUniversalComponent);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nrequire('./App.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Day = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({\n  id: './pages/Day',\n  file: '/Users/david/Sites/ten/src/App.js',\n  load: function load() {\n    return Promise.all([import( /* webpackChunkName: 'pages/Day' */'./pages/Day'), (0, _importCss3.default)('pages/Day', {\n      disableWarnings: true\n    })]).then(function (proms) {\n      return proms[0];\n    });\n  },\n  path: function path() {\n    return _path3.default.join(__dirname, './pages/Day');\n  },\n  resolve: function resolve() {\n    return require.resolveWeak('./pages/Day');\n  },\n  chunkName: function chunkName() {\n    return 'pages/Day';\n  }\n}));\n\nvar App = function App() {\n  return _react2.default.createElement(\n    _reactStatic.Router,\n    null,\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Roboto:400,500|Zilla+Slab:500,700&subset=latin-ext', rel: 'stylesheet' })\n      ),\n      _react2.default.createElement(\n        'nav',\n        null,\n        _react2.default.createElement(\n          _reactStatic.Link,\n          { exact: true, to: '/' },\n          'Home'\n        ),\n        _react2.default.createElement(\n          _reactStatic.Link,\n          { to: '/day/2008-12-06' },\n          'Day'\n        )\n      ),\n      _react2.default.createElement(\n        'main',\n        null,\n        _react2.default.createElement(\n          _reactStatic.Switch,\n          null,\n          _react2.default.createElement(_reactStatic.Route, { path: '/day/:date', component: Day }),\n          _react2.default.createElement(_reactStaticRoutes2.default, null)\n        )\n      ),\n      _react2.default.createElement(\n        'footer',\n        null,\n        _react2.default.createElement(\n          'p',\n          null,\n          _react2.default.createElement(\n            'a',\n            { href: 'https://sitesmade4people.co' },\n            'Sites Made for People'\n          )\n        )\n      )\n    )\n  );\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _path2 = require('path');\n\nvar _path3 = _interopRequireDefault(_path2);\n\nvar _importCss2 = require('babel-plugin-universal-import/importCss');\n\nvar _importCss3 = _interopRequireDefault(_importCss2);\n\nvar _universalImport2 = require('babel-plugin-universal-import/universalImport');\n\nvar _universalImport3 = _interopRequireDefault(_universalImport2);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactUniversalComponent = require('react-universal-component');\n\nvar _reactUniversalComponent2 = _interopRequireDefault(_reactUniversalComponent);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nrequire('./App.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Day = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({\n  id: './pages/Day',\n  file: '/Users/david/Sites/ten/src/App.js',\n  load: function load() {\n    return Promise.all([import( /* webpackChunkName: 'pages/Day' */'./pages/Day'), (0, _importCss3.default)('pages/Day', {\n      disableWarnings: true\n    })]).then(function (proms) {\n      return proms[0];\n    });\n  },\n  path: function path() {\n    return _path3.default.join(__dirname, './pages/Day');\n  },\n  resolve: function resolve() {\n    return require.resolveWeak('./pages/Day');\n  },\n  chunkName: function chunkName() {\n    return 'pages/Day';\n  }\n}));\n\nvar App = function App() {\n  return _react2.default.createElement(\n    _reactStatic.Router,\n    null,\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Roboto:400,500|Zilla+Slab:500,700&subset=latin-ext', rel: 'stylesheet' })\n      ),\n      _react2.default.createElement(\n        'main',\n        null,\n        _react2.default.createElement(\n          _reactStatic.Switch,\n          null,\n          _react2.default.createElement(_reactStatic.Route, { path: '/day/:date', component: Day }),\n          _react2.default.createElement(_reactStaticRoutes2.default, null)\n        )\n      ),\n      _react2.default.createElement(\n        'footer',\n        null,\n        _react2.default.createElement(\n          'p',\n          null,\n          _react2.default.createElement(\n            'a',\n            { href: 'https://sitesmade4people.co' },\n            'Sites Made for People'\n          )\n        )\n      )\n    )\n  );\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
         },
         {
           "id": 63,
@@ -16226,10 +16226,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.f1fe85d5.js",
-        "bootstrap.f1fe85d5.js.map"
+        "bootstrap.7f9be21b.js",
+        "bootstrap.7f9be21b.js.map"
       ],
-      "hash": "f1fe85d57c1fe351e86e",
+      "hash": "7f9be21b5f9b5d1da453",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -20158,7 +20158,7 @@
       "name": "./src/pages/Home/index.js",
       "index": 131,
       "index2": 187,
-      "size": 1851,
+      "size": 1853,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -20197,7 +20197,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withSiteData)(function () {\n  return _react2.default.createElement(\n    'div',\n    { className: 'index' },\n    _react2.default.createElement(\n      'h1',\n      null,\n      'Ten'\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      'Celebrating my decade on GitHub.'\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Link,\n        { className: 'commits', to: '/day/2008-12-06' },\n        _commitHistory.summary.commitCount,\n        ' Commits'\n      )\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      'This is a simple and fun celebration of my decade on GitHub. Naturally, you can fork',\n      ' ',\n      _react2.default.createElement(\n        'a',\n        { href: 'https://github.com/mckelvey/ten', target: '_blank', rel: 'noreferrer noopener' },\n        'this repo'\n      ),\n      ' ',\n      'and make it your own. If you do, let me know as I\\u2019d love to see where this goes.'\n    ),\n    _react2.default.createElement(\n      'p',\n      { className: 'name' },\n      _react2.default.createElement(\n        'a',\n        { href: 'mailto:david@mckelveycreative.co' },\n        'David'\n      )\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Link,\n        { className: 'begin', to: '/day/2008-12-06' },\n        'Begin'\n      )\n    )\n  );\n});"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withSiteData)(function () {\n  return _react2.default.createElement(\n    'div',\n    { className: 'index' },\n    _react2.default.createElement(\n      'h1',\n      null,\n      'Ten'\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      'Celebrating my decade on GitHub.'\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Link,\n        { className: 'commits', to: '/day/2008-12-06' },\n        _commitHistory.summary.commitCount,\n        ' Commits'\n      )\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      'This is a simple and fun celebration of my decade on GitHub. Naturally, you can fork',\n      ' ',\n      _react2.default.createElement(\n        'a',\n        { href: 'https://github.com/mckelvey/ten', target: '_blank', rel: 'noreferrer noopener' },\n        'this repo'\n      ),\n      ' ',\n      'and make it your own. If you do, let me know as I\\u2019d love to see where this goes.'\n    ),\n    _react2.default.createElement(\n      'p',\n      { className: 'name' },\n      _react2.default.createElement(\n        'a',\n        { href: 'mailto:david@mckelveycreative.co' },\n        'David'\n      )\n    ),\n    _react2.default.createElement(\n      'nav',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Link,\n        { className: 'begin', to: '/day/2008-12-06' },\n        'Begin'\n      )\n    )\n  );\n});"
     },
     {
       "id": 54,
@@ -20252,7 +20252,7 @@
       "name": "./src/pages/Day/index.js",
       "index": 193,
       "index2": 264,
-      "size": 4797,
+      "size": 6051,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -20291,7 +20291,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 2,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _get = require('lodash/get');\n\nvar _get2 = _interopRequireDefault(_get);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _Count = require('../../components/Count');\n\nvar _Count2 = _interopRequireDefault(_Count);\n\nvar _Graph = require('../../components/Graph');\n\nvar _Graph2 = _interopRequireDefault(_Graph);\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar getIndex = function getIndex(props) {\n  var date = (0, _get2.default)(props, 'match.params.date');\n  return (0, _commitHistory.currentIndex)(date);\n};\n\nvar Day = function (_React$PureComponent) {\n  _inherits(Day, _React$PureComponent);\n\n  function Day(props) {\n    _classCallCheck(this, Day);\n\n    var _this = _possibleConstructorReturn(this, (Day.__proto__ || Object.getPrototypeOf(Day)).call(this, props));\n\n    var index = getIndex(props);\n    _this.delay = null;\n    _this.state = { index: index };\n    return _this;\n  }\n\n  _createClass(Day, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      this.next();\n    }\n  }, {\n    key: 'componentWillReceiveProps',\n    value: function componentWillReceiveProps(nextProps) {\n      clearTimeout(this.delay);\n      var index = getIndex(nextProps);\n      if (index && index !== this.state.index) {\n        this.setState({ index: index });\n      }\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      this.next();\n    }\n  }, {\n    key: 'componentWillUnmount',\n    value: function componentWillUnmount() {\n      clearTimeout(this.delay);\n    }\n  }, {\n    key: 'next',\n    value: function next() {\n      var _this2 = this;\n\n      this.delay = setTimeout(function () {\n        var index = _this2.state.index;\n\n        if (index < _commitHistory.summary.dayCount - 1) {\n          _this2.setState({ index: index + 1 });\n        }\n      }, 1);\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var date = (0, _get2.default)(this.props, 'match.params.date');\n      var index = this.state.index;\n\n      var counts = (0, _commitHistory.day)(_commitHistory.series[index]);\n      if (date) {\n        return _react2.default.createElement(\n          'div',\n          { className: 'day' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            _react2.default.createElement(\n              'span',\n              { className: 'title' },\n              'Day'\n            ),\n            _react2.default.createElement(_Count2.default, {\n              count: index + 1,\n              term: 'day',\n              total: _commitHistory.summary.dayCount\n            })\n          ),\n          _react2.default.createElement(_Graph2.default, { date: date, currentIndex: index }),\n          counts && _react2.default.createElement(_Count2.default, {\n            count: counts.totalToDate,\n            term: 'commits',\n            total: _commitHistory.summary.commitCount\n          })\n        );\n      }\n      return null;\n    }\n  }]);\n\n  return Day;\n}(_react2.default.PureComponent);\n\nexports.default = (0, _reactStatic.withRouter)(Day);"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _get = require('lodash/get');\n\nvar _get2 = _interopRequireDefault(_get);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _Count = require('../../components/Count');\n\nvar _Count2 = _interopRequireDefault(_Count);\n\nvar _Graph = require('../../components/Graph');\n\nvar _Graph2 = _interopRequireDefault(_Graph);\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar initialState = function initialState(props) {\n  var date = (0, _get2.default)(props, 'match.params.date');\n  var index = (0, _commitHistory.currentIndex)(date);\n  return {\n    index: index,\n    playing: index === 0\n  };\n};\n\nvar Day = function (_React$PureComponent) {\n  _inherits(Day, _React$PureComponent);\n\n  function Day(props) {\n    _classCallCheck(this, Day);\n\n    var _this = _possibleConstructorReturn(this, (Day.__proto__ || Object.getPrototypeOf(Day)).call(this, props));\n\n    _this.delay = null;\n    _this.state = initialState(props);\n    _this.handlePlayClick = _this.handlePlayClick.bind(_this);\n    return _this;\n  }\n\n  _createClass(Day, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      this.next();\n    }\n  }, {\n    key: 'componentWillReceiveProps',\n    value: function componentWillReceiveProps(nextProps) {\n      clearTimeout(this.delay);\n      this.setState(initialState(nextProps));\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      this.next();\n    }\n  }, {\n    key: 'componentWillUnmount',\n    value: function componentWillUnmount() {\n      clearTimeout(this.delay);\n    }\n  }, {\n    key: 'next',\n    value: function next() {\n      var _this2 = this;\n\n      var playing = this.state.playing;\n\n      if (!playing) {\n        clearTimeout(this.delay);\n        return;\n      }\n      this.delay = setTimeout(function () {\n        var index = _this2.state.index;\n\n        if (index < _commitHistory.summary.dayCount - 1) {\n          _this2.setState({ index: index + 1 });\n        }\n      }, 1);\n    }\n  }, {\n    key: 'handlePlayClick',\n    value: function handlePlayClick(event) {\n      event.preventDefault();\n      this.setState({ playing: true });\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var date = (0, _get2.default)(this.props, 'match.params.date');\n      var _state = this.state,\n          index = _state.index,\n          playing = _state.playing;\n\n      var counts = (0, _commitHistory.day)(_commitHistory.series[index]);\n      if (date) {\n        return _react2.default.createElement(\n          'div',\n          { className: 'day' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            _react2.default.createElement(\n              'span',\n              { className: 'title' },\n              'Day'\n            ),\n            _react2.default.createElement(_Count2.default, {\n              count: index + 1,\n              term: 'day',\n              total: _commitHistory.summary.dayCount\n            })\n          ),\n          _react2.default.createElement(\n            'nav',\n            null,\n            _react2.default.createElement(\n              _reactStatic.Link,\n              { className: 'home', exact: true, to: '/' },\n              'Home'\n            ),\n            _react2.default.createElement(\n              _reactStatic.Link,\n              { className: 'restart', to: '/day/2008-12-06' },\n              'Day'\n            ),\n            playing && _react2.default.createElement(\n              _reactStatic.Link,\n              { className: 'pause', to: '/day/' + _commitHistory.series[index] },\n              'Day'\n            ),\n            !playing && _react2.default.createElement(\n              'button',\n              {\n                className: 'play',\n                onClick: this.handlePlayClick,\n                type: 'button'\n              },\n              'play'\n            )\n          ),\n          _react2.default.createElement(_Graph2.default, { date: date, currentIndex: index }),\n          counts && _react2.default.createElement(_Count2.default, {\n            count: counts.totalToDate,\n            term: 'commits',\n            total: _commitHistory.summary.commitCount\n          })\n        );\n      }\n      return null;\n    }\n  }]);\n\n  return Day;\n}(_react2.default.PureComponent);\n\nexports.default = (0, _reactStatic.withRouter)(Day);"
     },
     {
       "id": 56,
@@ -20517,7 +20517,7 @@
       "name": "./src/App.js",
       "index": 8,
       "index2": 265,
-      "size": 3143,
+      "size": 2805,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -20547,7 +20547,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 1,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _path2 = require('path');\n\nvar _path3 = _interopRequireDefault(_path2);\n\nvar _importCss2 = require('babel-plugin-universal-import/importCss');\n\nvar _importCss3 = _interopRequireDefault(_importCss2);\n\nvar _universalImport2 = require('babel-plugin-universal-import/universalImport');\n\nvar _universalImport3 = _interopRequireDefault(_universalImport2);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactUniversalComponent = require('react-universal-component');\n\nvar _reactUniversalComponent2 = _interopRequireDefault(_reactUniversalComponent);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nrequire('./App.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Day = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({\n  id: './pages/Day',\n  file: '/Users/david/Sites/ten/src/App.js',\n  load: function load() {\n    return Promise.all([import( /* webpackChunkName: 'pages/Day' */'./pages/Day'), (0, _importCss3.default)('pages/Day', {\n      disableWarnings: true\n    })]).then(function (proms) {\n      return proms[0];\n    });\n  },\n  path: function path() {\n    return _path3.default.join(__dirname, './pages/Day');\n  },\n  resolve: function resolve() {\n    return require.resolveWeak('./pages/Day');\n  },\n  chunkName: function chunkName() {\n    return 'pages/Day';\n  }\n}));\n\nvar App = function App() {\n  return _react2.default.createElement(\n    _reactStatic.Router,\n    null,\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Roboto:400,500|Zilla+Slab:500,700&subset=latin-ext', rel: 'stylesheet' })\n      ),\n      _react2.default.createElement(\n        'nav',\n        null,\n        _react2.default.createElement(\n          _reactStatic.Link,\n          { exact: true, to: '/' },\n          'Home'\n        ),\n        _react2.default.createElement(\n          _reactStatic.Link,\n          { to: '/day/2008-12-06' },\n          'Day'\n        )\n      ),\n      _react2.default.createElement(\n        'main',\n        null,\n        _react2.default.createElement(\n          _reactStatic.Switch,\n          null,\n          _react2.default.createElement(_reactStatic.Route, { path: '/day/:date', component: Day }),\n          _react2.default.createElement(_reactStaticRoutes2.default, null)\n        )\n      ),\n      _react2.default.createElement(\n        'footer',\n        null,\n        _react2.default.createElement(\n          'p',\n          null,\n          _react2.default.createElement(\n            'a',\n            { href: 'https://sitesmade4people.co' },\n            'Sites Made for People'\n          )\n        )\n      )\n    )\n  );\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _path2 = require('path');\n\nvar _path3 = _interopRequireDefault(_path2);\n\nvar _importCss2 = require('babel-plugin-universal-import/importCss');\n\nvar _importCss3 = _interopRequireDefault(_importCss2);\n\nvar _universalImport2 = require('babel-plugin-universal-import/universalImport');\n\nvar _universalImport3 = _interopRequireDefault(_universalImport2);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactUniversalComponent = require('react-universal-component');\n\nvar _reactUniversalComponent2 = _interopRequireDefault(_reactUniversalComponent);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nrequire('./App.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Day = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({\n  id: './pages/Day',\n  file: '/Users/david/Sites/ten/src/App.js',\n  load: function load() {\n    return Promise.all([import( /* webpackChunkName: 'pages/Day' */'./pages/Day'), (0, _importCss3.default)('pages/Day', {\n      disableWarnings: true\n    })]).then(function (proms) {\n      return proms[0];\n    });\n  },\n  path: function path() {\n    return _path3.default.join(__dirname, './pages/Day');\n  },\n  resolve: function resolve() {\n    return require.resolveWeak('./pages/Day');\n  },\n  chunkName: function chunkName() {\n    return 'pages/Day';\n  }\n}));\n\nvar App = function App() {\n  return _react2.default.createElement(\n    _reactStatic.Router,\n    null,\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Roboto:400,500|Zilla+Slab:500,700&subset=latin-ext', rel: 'stylesheet' })\n      ),\n      _react2.default.createElement(\n        'main',\n        null,\n        _react2.default.createElement(\n          _reactStatic.Switch,\n          null,\n          _react2.default.createElement(_reactStatic.Route, { path: '/day/:date', component: Day }),\n          _react2.default.createElement(_reactStaticRoutes2.default, null)\n        )\n      ),\n      _react2.default.createElement(\n        'footer',\n        null,\n        _react2.default.createElement(\n          'p',\n          null,\n          _react2.default.createElement(\n            'a',\n            { href: 'https://sitesmade4people.co' },\n            'Sites Made for People'\n          )\n        )\n      )\n    )\n  );\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
     },
     {
       "id": 63,
@@ -23681,9 +23681,9 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/david/Sites/ten/node_modules/lodash/_hashClear.js",
-      "issuerId": 168,
-      "issuerName": "./node_modules/lodash/_hashClear.js",
+      "issuer": "/Users/david/Sites/ten/node_modules/lodash/_hashGet.js",
+      "issuerId": 174,
+      "issuerName": "./node_modules/lodash/_hashGet.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -23831,9 +23831,9 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/david/Sites/ten/node_modules/lodash/_listCacheDelete.js",
-      "issuerId": 178,
-      "issuerName": "./node_modules/lodash/_listCacheDelete.js",
+      "issuer": "/Users/david/Sites/ten/node_modules/lodash/_listCacheGet.js",
+      "issuerId": 179,
+      "issuerName": "./node_modules/lodash/_listCacheGet.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -26989,7 +26989,7 @@
       "name": "./src/components/Graph/index.js",
       "index": 196,
       "index2": 262,
-      "size": 6186,
+      "size": 6053,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27019,7 +27019,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _map = require('lodash/map');\n\nvar _map2 = _interopRequireDefault(_map);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactStatic = require('react-static');\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Graph = function (_React$PureComponent) {\n  _inherits(Graph, _React$PureComponent);\n\n  function Graph(props) {\n    _classCallCheck(this, Graph);\n\n    var _this = _possibleConstructorReturn(this, (Graph.__proto__ || Object.getPrototypeOf(Graph)).call(this, props));\n\n    _this.handleClick = _this.handleClick.bind(_this);\n    _this.handleGrab = _this.handleGrab.bind(_this);\n    return _this;\n  }\n\n  _createClass(Graph, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      this.scrollToDate();\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      this.scrollToDate();\n    }\n  }, {\n    key: 'scrollToDate',\n    value: function scrollToDate() {\n      if (this.root) {\n        var _props = this.props,\n            barWidth = _props.barWidth,\n            currentDate = _props.date;\n\n        this.root.scrollLeft = (0, _commitHistory.currentIndex)(currentDate) * barWidth;\n      }\n    }\n  }, {\n    key: 'handleGrab',\n    value: function handleGrab() {\n      //\n    }\n  }, {\n    key: 'handleClick',\n    value: function handleClick(event) {\n      event.preventDefault();\n      var date = event.currentTarget.getAttribute('data-date');\n      if (date) {\n        this.props.history.push('/day/' + date);\n      }\n    }\n  }, {\n    key: 'renderCommit',\n    value: function renderCommit(currentIndex, date, index) {\n      var _props2 = this.props,\n          barWidth = _props2.barWidth,\n          height = _props2.height;\n\n      var _day = (0, _commitHistory.day)(date),\n          count = _day.count;\n\n      if (typeof count === 'number') {\n        var barHeight = 0;\n        if (count <= 10) {\n          barHeight = height / 2 / 10 * count;\n        } else if (count <= 100) {\n          barHeight = height / 16 * 5 / 90 * (count - 10) + height / 2;\n        } else {\n          // less than 1000\n          barHeight = height / 16 * 3 / 900 * (count - 100) + height / 16 * 13;\n        }\n        var y = height - barHeight;\n        return _react2.default.createElement('rect', {\n          className: currentIndex === index ? 'current' : '',\n          'data-date': date,\n          fill: 'rebeccapurple',\n          height: height - y,\n          key: date,\n          onClick: this.handleClick,\n          width: barWidth,\n          x: index * barWidth,\n          y: y\n        });\n      }\n      return null;\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _this2 = this;\n\n      var _props3 = this.props,\n          barWidth = _props3.barWidth,\n          height = _props3.height,\n          currentIndex = _props3.currentIndex;\n\n      var left = currentIndex / _commitHistory.summary.dayCount * -100;\n      return _react2.default.createElement(\n        'div',\n        {\n          id: 'graph-container',\n          ref: function ref(node) {\n            _this2.root = node;\n          }\n        },\n        _react2.default.createElement(\n          'svg',\n          {\n            viewBox: '0 0 ' + _commitHistory.summary.dayCount * barWidth + ' ' + (height + barWidth),\n            xmlns: 'http://www.w3.org/2000/svg',\n            style: { transform: 'translateX(' + left + '%)' }\n          },\n          _react2.default.createElement(\n            'g',\n            null,\n            (0, _map2.default)(_commitHistory.series, function (date, index) {\n              return _this2.renderCommit(currentIndex, date, index);\n            })\n          ),\n          _react2.default.createElement('path', { d: 'M 0,' + height + ' L ' + _commitHistory.summary.dayCount * barWidth + ',' + height + ' Z' }),\n          _react2.default.createElement('rect', {\n            fill: 'rebeccapurple',\n            height: barWidth,\n            style: { opacity: 1 },\n            width: barWidth,\n            x: currentIndex * barWidth,\n            y: height\n          })\n        )\n      );\n    }\n  }]);\n\n  return Graph;\n}(_react2.default.PureComponent);\n\nGraph.propTypes = {\n  barWidth: _propTypes2.default.number,\n  currentIndex: _propTypes2.default.number.isRequired,\n  height: _propTypes2.default.number\n};\n\nGraph.defaultProps = {\n  barWidth: 3,\n  height: 300\n};\n\nexports.default = (0, _reactStatic.withRouter)(Graph);"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _map = require('lodash/map');\n\nvar _map2 = _interopRequireDefault(_map);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactStatic = require('react-static');\n\nvar _commitHistory = require('../../store/commit-history');\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Graph = function (_React$PureComponent) {\n  _inherits(Graph, _React$PureComponent);\n\n  function Graph(props) {\n    _classCallCheck(this, Graph);\n\n    var _this = _possibleConstructorReturn(this, (Graph.__proto__ || Object.getPrototypeOf(Graph)).call(this, props));\n\n    _this.handleClick = _this.handleClick.bind(_this);\n    return _this;\n  }\n\n  _createClass(Graph, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      this.scrollToDate();\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      this.scrollToDate();\n    }\n  }, {\n    key: 'scrollToDate',\n    value: function scrollToDate() {\n      if (this.root) {\n        var _props = this.props,\n            barWidth = _props.barWidth,\n            currentDate = _props.date;\n\n        this.root.scrollLeft = (0, _commitHistory.currentIndex)(currentDate) * barWidth;\n      }\n    }\n  }, {\n    key: 'handleClick',\n    value: function handleClick(event) {\n      event.preventDefault();\n      var date = event.currentTarget.getAttribute('data-date');\n      if (date) {\n        this.props.history.push('/day/' + date);\n      }\n    }\n  }, {\n    key: 'renderCommit',\n    value: function renderCommit(currentIndex, date, index) {\n      var _props2 = this.props,\n          barWidth = _props2.barWidth,\n          height = _props2.height;\n\n      var _day = (0, _commitHistory.day)(date),\n          count = _day.count;\n\n      if (typeof count === 'number') {\n        var barHeight = 0;\n        if (count <= 10) {\n          barHeight = height / 2 / 10 * count;\n        } else if (count <= 100) {\n          barHeight = height / 16 * 5 / 90 * (count - 10) + height / 2;\n        } else {\n          // less than 1000\n          barHeight = height / 16 * 3 / 900 * (count - 100) + height / 16 * 13;\n        }\n        var y = height - barHeight;\n        return _react2.default.createElement('rect', {\n          className: currentIndex === index ? 'current' : '',\n          'data-date': date,\n          fill: 'rebeccapurple',\n          height: height - y,\n          key: date,\n          onClick: this.handleClick,\n          width: barWidth,\n          x: index * barWidth,\n          y: y\n        });\n      }\n      return null;\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _this2 = this;\n\n      var _props3 = this.props,\n          barWidth = _props3.barWidth,\n          height = _props3.height,\n          currentIndex = _props3.currentIndex;\n\n      var left = currentIndex / _commitHistory.summary.dayCount * -100;\n      return _react2.default.createElement(\n        'div',\n        {\n          id: 'graph-container',\n          ref: function ref(node) {\n            _this2.root = node;\n          }\n        },\n        _react2.default.createElement(\n          'svg',\n          {\n            viewBox: '0 0 ' + _commitHistory.summary.dayCount * barWidth + ' ' + (height + barWidth),\n            xmlns: 'http://www.w3.org/2000/svg',\n            style: { transform: 'translateX(' + left + '%)' }\n          },\n          _react2.default.createElement(\n            'g',\n            null,\n            (0, _map2.default)(_commitHistory.series, function (date, index) {\n              return _this2.renderCommit(currentIndex, date, index);\n            })\n          ),\n          _react2.default.createElement('path', { d: 'M 0,' + height + ' L ' + _commitHistory.summary.dayCount * barWidth + ',' + height + ' Z' }),\n          _react2.default.createElement('rect', {\n            fill: 'rebeccapurple',\n            height: barWidth,\n            style: { opacity: 1 },\n            width: barWidth,\n            x: currentIndex * barWidth,\n            y: height\n          })\n        )\n      );\n    }\n  }]);\n\n  return Graph;\n}(_react2.default.PureComponent);\n\nGraph.propTypes = {\n  barWidth: _propTypes2.default.number,\n  currentIndex: _propTypes2.default.number.isRequired,\n  height: _propTypes2.default.number\n};\n\nGraph.defaultProps = {\n  barWidth: 3,\n  height: 300\n};\n\nexports.default = (0, _reactStatic.withRouter)(Graph);"
     },
     {
       "id": 209,
@@ -29436,190 +29436,6 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 2609,
-          "names": [],
-          "files": [
-            "extract-text-webpack-plugin-output-filename"
-          ],
-          "hash": "e30b5e7dd77f610a6ec0",
-          "parents": [],
-          "modules": [
-            {
-              "id": 0,
-              "identifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
-              "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
-              "index": 0,
-              "index2": 1,
-              "size": 349,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "issuer": null,
-              "issuerId": null,
-              "issuerName": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 0,
-              "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"[data-term] span+span:before{content:\\\"/\\\";display:inline-block;padding:0 .145em}[data-term=commits]{padding-left:5vw;height:5vh;color:var(--color-dark-grey)}\", \"\"]);\n\n// exports\n"
-            },
-            {
-              "id": 1,
-              "identifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/lib/css-base.js",
-              "name": "./node_modules/react-static/node_modules/css-loader/lib/css-base.js",
-              "index": 1,
-              "index2": 0,
-              "size": 2260,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "issuer": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
-              "issuerId": 0,
-              "issuerName": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [
-                {
-                  "moduleId": 0,
-                  "moduleIdentifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
-                  "module": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
-                  "moduleName": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
-                  "type": "cjs require",
-                  "userRequest": "../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js",
-                  "loc": "1:27-112"
-                }
-              ],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 1,
-              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-            }
-          ],
-          "filteredModules": 0,
-          "origins": [
-            {
-              "moduleId": 0,
-              "module": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
-              "moduleIdentifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
-              "moduleName": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
-              "loc": "",
-              "reasons": []
-            }
-          ]
-        }
-      ],
-      "modules": [
-        {
-          "id": 0,
-          "identifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
-          "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
-          "index": 0,
-          "index2": 1,
-          "size": 349,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": null,
-          "issuerId": null,
-          "issuerName": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 0,
-          "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"[data-term] span+span:before{content:\\\"/\\\";display:inline-block;padding:0 .145em}[data-term=commits]{padding-left:5vw;height:5vh;color:var(--color-dark-grey)}\", \"\"]);\n\n// exports\n"
-        },
-        {
-          "id": 1,
-          "identifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/lib/css-base.js",
-          "name": "./node_modules/react-static/node_modules/css-loader/lib/css-base.js",
-          "index": 1,
-          "index2": 0,
-          "size": 2260,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
-          "issuerId": 0,
-          "issuerName": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 0,
-              "moduleIdentifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
-              "module": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
-              "moduleName": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
-              "type": "cjs require",
-              "userRequest": "../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js",
-              "loc": "1:27-112"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 1,
-          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-        }
-      ],
-      "filteredModules": 0,
-      "children": [],
-      "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!src/components/Count/styles.scss"
-    },
-    {
-      "errors": [],
-      "warnings": [],
-      "publicPath": "https://mckelvey.github.io/ten/",
-      "assetsByChunkName": {},
-      "assets": [],
-      "filteredAssets": 0,
-      "entrypoints": {
-        "undefined": {
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "extract-text-webpack-plugin-output-filename"
-          ]
-        }
-      },
-      "chunks": [
-        {
-          "id": 0,
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "extraAsync": false,
           "size": 2806,
           "names": [],
           "files": [
@@ -29804,21 +29620,21 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 3674,
+          "size": 2609,
           "names": [],
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "5314b400ea15105b541c",
+          "hash": "e30b5e7dd77f610a6ec0",
           "parents": [],
           "modules": [
             {
               "id": 0,
-              "identifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/pages/Home/styles.scss",
-              "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/pages/Home/styles.scss",
+              "identifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
+              "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
               "index": 0,
               "index2": 1,
-              "size": 1414,
+              "size": 349,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -29838,7 +29654,191 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".index{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;margin:auto 0 3em;padding:0 3rem;max-width:21em;text-align:center}.index h1{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey,#4a4a4a) 0,var(--color-dark-grey,#4a4a4a));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}.index h1+p{margin-top:0;font-size:.89em}.index .commits{display:inline-block;padding:.5em .75em;color:#fff;background-color:var(--color-primary,#eb7c22);border-radius:1.5em}.index .commits:hover{background-image:none;text-decoration:none}.index .name{margin-top:0}.index .name:before{content:\\\"~\\\";display:inline-block;width:100%;line-height:1}.index .begin{position:relative;display:block;width:3.777em;height:3.777em;color:transparent;background-color:var(--color-primary,#eb7c22);border-radius:50%;opacity:.75;transform:scale(1);transition:opacity 144ms ease,transform 144ms ease}.index .begin:before{content:\\\"\\\\25B6\\\";display:block;position:absolute;top:53%;left:55%;color:#fff;font-size:1.5em;line-height:1;transform:translate(-50%,-50%)}.index .begin:hover{background-image:none;text-decoration:none;opacity:1;transform:scale(1.1)}\", \"\"]);\n\n// exports\n"
+              "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"[data-term] span+span:before{content:\\\"/\\\";display:inline-block;padding:0 .145em}[data-term=commits]{padding-left:5vw;height:5vh;color:var(--color-dark-grey)}\", \"\"]);\n\n// exports\n"
+            },
+            {
+              "id": 1,
+              "identifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/lib/css-base.js",
+              "name": "./node_modules/react-static/node_modules/css-loader/lib/css-base.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2260,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [],
+              "issuer": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
+              "issuerId": 0,
+              "issuerName": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
+                  "module": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
+                  "moduleName": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
+                  "type": "cjs require",
+                  "userRequest": "../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js",
+                  "loc": "1:27-112"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "moduleId": 0,
+              "module": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
+              "moduleIdentifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
+              "moduleName": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
+              "loc": "",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
+          "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
+          "index": 0,
+          "index2": 1,
+          "size": 349,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"[data-term] span+span:before{content:\\\"/\\\";display:inline-block;padding:0 .145em}[data-term=commits]{padding-left:5vw;height:5vh;color:var(--color-dark-grey)}\", \"\"]);\n\n// exports\n"
+        },
+        {
+          "id": 1,
+          "identifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/lib/css-base.js",
+          "name": "./node_modules/react-static/node_modules/css-loader/lib/css-base.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2260,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
+          "issuerId": 0,
+          "issuerName": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/components/Count/styles.scss",
+              "module": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
+              "moduleName": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/components/Count/styles.scss",
+              "type": "cjs require",
+              "userRequest": "../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js",
+              "loc": "1:27-112"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!src/components/Count/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "https://mckelvey.github.io/ten/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ]
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "extraAsync": false,
+          "size": 3470,
+          "names": [],
+          "files": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "hash": "6e8a7ae7a063f315c1ca",
+          "parents": [],
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/Users/david/Sites/ten/node_modules/react-static/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/david/Sites/ten/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!/Users/david/Sites/ten/src/pages/Home/styles.scss",
+              "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/pages/Home/styles.scss",
+              "index": 0,
+              "index2": 1,
+              "size": 1210,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".index{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;margin:auto 0 3em;padding:0 3rem;max-width:21em;text-align:center}.index h1{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey,#4a4a4a) 0,var(--color-dark-grey,#4a4a4a));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}.index h1+p{margin-top:0;font-size:.89em}.index .commits{display:inline-block;padding:.5em .75em;color:#fff;background-color:var(--color-primary,#eb7c22);border-radius:1.5em}.index .commits:hover{background-image:none;text-decoration:none}.index .name{margin-top:0}.index .name:before{content:\\\"~\\\";display:inline-block;width:100%;line-height:1}.index .begin{position:relative;display:block;width:3.777em;height:3.777em;color:transparent;background-color:var(--color-primary,#eb7c22);border-radius:50%;opacity:.75;transform:scale(1);transition:opacity 144ms ease,transform 144ms ease}.index .begin:hover{opacity:1;transform:scale(1.1)}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -29899,7 +29899,7 @@
           "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/pages/Home/styles.scss",
           "index": 0,
           "index2": 1,
-          "size": 1414,
+          "size": 1210,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -29919,7 +29919,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".index{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;margin:auto 0 3em;padding:0 3rem;max-width:21em;text-align:center}.index h1{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey,#4a4a4a) 0,var(--color-dark-grey,#4a4a4a));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}.index h1+p{margin-top:0;font-size:.89em}.index .commits{display:inline-block;padding:.5em .75em;color:#fff;background-color:var(--color-primary,#eb7c22);border-radius:1.5em}.index .commits:hover{background-image:none;text-decoration:none}.index .name{margin-top:0}.index .name:before{content:\\\"~\\\";display:inline-block;width:100%;line-height:1}.index .begin{position:relative;display:block;width:3.777em;height:3.777em;color:transparent;background-color:var(--color-primary,#eb7c22);border-radius:50%;opacity:.75;transform:scale(1);transition:opacity 144ms ease,transform 144ms ease}.index .begin:before{content:\\\"\\\\25B6\\\";display:block;position:absolute;top:53%;left:55%;color:#fff;font-size:1.5em;line-height:1;transform:translate(-50%,-50%)}.index .begin:hover{background-image:none;text-decoration:none;opacity:1;transform:scale(1.1)}\", \"\"]);\n\n// exports\n"
+          "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".index{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;margin:auto 0 3em;padding:0 3rem;max-width:21em;text-align:center}.index h1{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey,#4a4a4a) 0,var(--color-dark-grey,#4a4a4a));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}.index h1+p{margin-top:0;font-size:.89em}.index .commits{display:inline-block;padding:.5em .75em;color:#fff;background-color:var(--color-primary,#eb7c22);border-radius:1.5em}.index .commits:hover{background-image:none;text-decoration:none}.index .name{margin-top:0}.index .name:before{content:\\\"~\\\";display:inline-block;width:100%;line-height:1}.index .begin{position:relative;display:block;width:3.777em;height:3.777em;color:transparent;background-color:var(--color-primary,#eb7c22);border-radius:50%;opacity:.75;transform:scale(1);transition:opacity 144ms ease,transform 144ms ease}.index .begin:hover{opacity:1;transform:scale(1.1)}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -29988,12 +29988,12 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 8658,
+          "size": 12256,
           "names": [],
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "27a52cab7d1e0218e2dc",
+          "hash": "e6b4d5dfb2db0a2c337b",
           "parents": [],
           "modules": [
             {
@@ -30002,7 +30002,7 @@
               "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/App.scss",
               "index": 0,
               "index2": 1,
-              "size": 6398,
+              "size": 9996,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -30022,7 +30022,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */html{font-family:Nunito,sans-serif;font-size:112.5%;line-height:1.5em;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:8rem;line-height:9rem}h1,h2{margin:1.5rem 0}h2{font-size:5rem;line-height:6rem}h3{font-size:3rem;line-height:4.5rem;margin:1.5rem 0}h4{font-size:2rem}h4,h5{line-height:3rem;margin:1.5rem 0}h5{font-size:1.618rem}h6{font-size:1rem;line-height:1.5rem;margin:1.5rem 0}blockquote{margin:1.5rem 1.35em}dl,ol,ul{margin:1.5rem 0}ol ol,ol ul,ul ol,ul ul{margin:0}dd{margin:0 0 0 1.35em}ol,ul{padding:0 0 0 1.35em}figcaption,figure{display:block}figure{margin:1.5rem 1.35em}hr{box-sizing:content-box;height:0;overflow:visible}main{display:block}p,pre{margin:1.5rem 0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{line-height:1.5rem;font-family:Nunito,sans-serif;font-size:100%;margin:0}button{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}input{overflow:visible}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;display:table;max-width:100%;padding:0;color:inherit;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}details{display:block}summary{display:list-item}menu{display:block;margin:1.5rem 0;padding:0 0 0 1.35em}menu menu,ol menu,ul menu{margin:0}canvas{display:inline-block}[hidden],template{display:none}:root{--color-yellow:#f8b500;--color-yellow-strong:rgba(248,181,0,.89);--color-yellow-medium:rgba(248,181,0,.55);--color-yellow-pale:rgba(248,181,0,.34);--color-orange:#eb7c22;--color-orange-strong:rgba(235,124,34,.89);--color-orange-medium:rgba(235,124,34,.55);--color-orange-pale:rgba(235,124,34,.34);--color-teal:#06beb6;--color-teal-strong:rgba(6,190,182,.89);--color-teal-medium:rgba(6,190,182,.55);--color-teal-pale:rgba(6,190,182,.34);--color-blue:#0ed2f7;--color-blue-strong:rgba(14,210,247,.89);--color-blue-medium:rgba(14,210,247,.55);--color-blue-pale:rgba(14,210,247,.34);--color-dark-grey:#4a4a4a;--color-grey:#707070;--color-light-grey:#979797;--color-primary:var(--color-orange,#eb7c22);--color-primary-strong:var(--color-orange-strong,rgba(235,124,34,.89));--color-primary-medium:var(--color-orange-medium,rgba(235,124,34,.55));--color-primary-pale:var(--color-orange-pale,rgba(235,124,34,.34));--color-primary-gradient-strong:var(--color-orange-strong,rgba(235,124,34,.89));--color-primary-gradient-pale:var(--color-orange-pale,rgba(235,124,34,.34));--color-secondary-gradient-strong:var(--color-yellow-strong,rgba(248,181,0,.89));--color-secondary-gradient-pale:var(--color-yellow-pale,rgba(248,181,0,.34));--color-secondary:var(--color-yellow,#f8b500);--color-secondary-strong:var(--color-yellow-strong,rgba(248,181,0,.89));--color-secondary-medium:var(--color-yellow-medium,rgba(248,181,0,.55));--color-secondary-pale:var(--color-yellow-pale,rgba(248,181,0,.34));--angle-primary-gradient:135deg;--angle-secondary-gradient:90deg}body,html{margin:0;padding:0;width:100vw;height:100vh;font-size:3.777vmin}@media screen and (min-width:768px){body,html{font-size:2vmin}}body{font-family:Roboto,sans-serif;font-weight:400;font-style:normal;letter-spacing:-.01em;color:var(--color-dark-grey,#4a4a4a)}#root{height:100vh}#root:before{background:linear-gradient(var(--angle-primary-gradient,135deg),var(--color-primary-gradient-pale,rgba(235,124,34,.34)),var(--color-primary-gradient-strong,rgba(235,124,34,.99)))}#root:after,#root:before{content:\\\"\\\";position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1}#root:after{background:linear-gradient(var(--angle-secondary-gradient,90deg),var(--color-secondary-gradient-pale,rgba(248,181,0,.34)),var(--color-secondary-gradient-strong,rgba(248,181,0,.89)))}#root>div{display:flex;flex-direction:column;justify-content:flex-end;height:100vh}h1{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;color:var(--color-dark-grey,#4a4a4a);display:inline-block;letter-spacing:-.03em}h1,p{margin-bottom:0}a{color:var(--color-dark-grey);font-weight:500;text-decoration:none}a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-primary,#0ed2f7) 0,var(--color-primary,#0ed2f7));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}nav{position:absolute;top:0;right:0;z-index:1}main{max-height:95vh}footer,main{display:flex;flex-direction:column;justify-content:flex-end;align-items:center}footer{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;max-height:5vh}footer p{margin:.5em 0;font-size:1.2em}footer a{font-weight:600}footer a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey) 0,var(--color-dark-grey));background-position:0 1em;background-repeat:repeat-x;background-size:100% 2px}\", \"\"]);\n\n// exports\n"
+              "source": "exports = module.exports = require(\"../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */html{font-family:Nunito,sans-serif;font-size:112.5%;line-height:1.5em;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:8rem;line-height:9rem}h1,h2{margin:1.5rem 0}h2{font-size:5rem;line-height:6rem}h3{font-size:3rem;line-height:4.5rem;margin:1.5rem 0}h4{font-size:2rem}h4,h5{line-height:3rem;margin:1.5rem 0}h5{font-size:1.618rem}h6{font-size:1rem;line-height:1.5rem;margin:1.5rem 0}blockquote{margin:1.5rem 1.35em}dl,ol,ul{margin:1.5rem 0}ol ol,ol ul,ul ol,ul ul{margin:0}dd{margin:0 0 0 1.35em}ol,ul{padding:0 0 0 1.35em}figcaption,figure{display:block}figure{margin:1.5rem 1.35em}hr{box-sizing:content-box;height:0;overflow:visible}main{display:block}p,pre{margin:1.5rem 0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{line-height:1.5rem;font-family:Nunito,sans-serif;font-size:100%;margin:0}button{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}input{overflow:visible}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;display:table;max-width:100%;padding:0;color:inherit;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}details{display:block}summary{display:list-item}menu{display:block;margin:1.5rem 0;padding:0 0 0 1.35em}menu menu,ol menu,ul menu{margin:0}canvas{display:inline-block}[hidden],template{display:none}:root{--color-yellow:#f8b500;--color-yellow-strong:rgba(248,181,0,.89);--color-yellow-medium:rgba(248,181,0,.55);--color-yellow-pale:rgba(248,181,0,.34);--color-orange:#eb7c22;--color-orange-strong:rgba(235,124,34,.89);--color-orange-medium:rgba(235,124,34,.55);--color-orange-pale:rgba(235,124,34,.34);--color-teal:#06beb6;--color-teal-strong:rgba(6,190,182,.89);--color-teal-medium:rgba(6,190,182,.55);--color-teal-pale:rgba(6,190,182,.34);--color-blue:#0ed2f7;--color-blue-strong:rgba(14,210,247,.89);--color-blue-medium:rgba(14,210,247,.55);--color-blue-pale:rgba(14,210,247,.34);--color-dark-grey:#4a4a4a;--color-grey:#707070;--color-light-grey:#979797;--color-primary:var(--color-orange,#eb7c22);--color-primary-strong:var(--color-orange-strong,rgba(235,124,34,.89));--color-primary-medium:var(--color-orange-medium,rgba(235,124,34,.55));--color-primary-pale:var(--color-orange-pale,rgba(235,124,34,.34));--color-primary-gradient-strong:var(--color-orange-strong,rgba(235,124,34,.89));--color-primary-gradient-pale:var(--color-orange-pale,rgba(235,124,34,.34));--color-secondary-gradient-strong:var(--color-yellow-strong,rgba(248,181,0,.89));--color-secondary-gradient-pale:var(--color-yellow-pale,rgba(248,181,0,.34));--color-secondary:var(--color-yellow,#f8b500);--color-secondary-strong:var(--color-yellow-strong,rgba(248,181,0,.89));--color-secondary-medium:var(--color-yellow-medium,rgba(248,181,0,.55));--color-secondary-pale:var(--color-yellow-pale,rgba(248,181,0,.34));--angle-primary-gradient:135deg;--angle-secondary-gradient:90deg}body,html{margin:0;padding:0;width:100vw;height:100vh;font-size:3.777vmin}@media screen and (min-width:768px){body,html{font-size:2vmin}}body{font-family:Roboto,sans-serif;font-weight:400;font-style:normal;letter-spacing:-.01em;color:var(--color-dark-grey,#4a4a4a)}#root{height:100vh}#root:before{background:linear-gradient(var(--angle-primary-gradient,135deg),var(--color-primary-gradient-pale,rgba(235,124,34,.34)),var(--color-primary-gradient-strong,rgba(235,124,34,.99)))}#root:after,#root:before{content:\\\"\\\";position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1}#root:after{background:linear-gradient(var(--angle-secondary-gradient,90deg),var(--color-secondary-gradient-pale,rgba(248,181,0,.34)),var(--color-secondary-gradient-strong,rgba(248,181,0,.89)))}#root>div{display:flex;flex-direction:column;justify-content:flex-end;height:100vh}h1{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;color:var(--color-dark-grey,#4a4a4a);display:inline-block;letter-spacing:-.03em}h1,p{margin-bottom:0}a,button{color:var(--color-dark-grey);font-weight:500;text-decoration:none}p a:hover,p button:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-primary,#0ed2f7) 0,var(--color-primary,#0ed2f7));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}nav{margin-top:1.5rem;z-index:1}nav a,nav button{position:relative;display:block;width:3.777em;height:3.777em;color:transparent;background-color:var(--color-primary,#eb7c22);background-position:50%;background-repeat:no-repeat;background-size:contain;border:none;border-radius:50%;opacity:.75;transform:scale(1);transition:opacity 144ms ease,transform 144ms ease}nav a:hover,nav button:hover{opacity:1;transform:scale(1.1)}nav a:focus,nav button:focus{outline:none}nav a.home,nav button.home{background-image:url('data:image/svg+xml;utf8,<svg height=\\\"1536\\\" viewBox=\\\"0 0 1536 1536\\\" width=\\\"1536\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"m706.391178 377.85191v245.424785c0 8.862562-3.236939 16.532086-9.71082 23.008574-6.47388 6.476487-14.140317 9.714731-22.99931 9.714731h-170.074345v-231.233446h-183.213406v231.233446h-170.074345c-8.858993 0-16.52543-3.238244-22.99931-9.714731-6.473881-6.476488-9.71082-14.146012-9.71082-23.008574v-245.424785c0-.340868.085182-.85217.255547-1.533905.170366-.681736.255548-1.193037.255548-1.533905l293.880083-242.356976 293.880083 242.356976c.34073.681735.511095 1.704338.511095 3.06781zm113.974363-35.279813-31.687939 37.836321c-2.725844 3.06781-6.303515 4.942582-10.733012 5.624318h-1.533287c-4.429498 0-8.007168-1.193037-10.733012-3.579112l-353.678291-295.0210441-353.6782908 295.0210441c-4.0887664 2.726942-8.1775327 3.91998-12.2662991 3.579112-4.4294971-.681736-8.0071676-2.556508-10.7330117-5.624318l-31.68793937-37.836321c-2.72584407-3.408678-3.91840127-7.413874-3.57767057-12.015589s2.21474828-8.266043 5.62205376-10.992985l367.47787778-306.2696804c10.903376-8.86256158 23.851137-13.2938426 38.84328-13.2938426s27.939904 4.43128102 38.84328 13.2938426l124.707375 104.3055334v-99.7038187c0-4.7721485 1.533287-8.69212784 4.599862-11.75993766s6.984976-4.60171473 11.755203-4.60171473h98.130393c4.770227 0 8.688629 1.53390491 11.755203 4.60171473 3.066575 3.06780982 4.599862 6.98778916 4.599862 11.75993766v208.6110677l111.92998 93.056898c3.407305 2.726942 5.281323 6.39127 5.622054 10.992985.34073 4.601715-.851827 8.606911-3.577671 12.015589z\\\" fill=\\\"#fff\\\" transform=\\\"translate(356 440)\\\"/></svg>')}nav a.pause,nav button.pause{background-image:url('data:image/svg+xml;utf8,<svg height=\\\"1536\\\" viewBox=\\\"0 0 1536 1536\\\" width=\\\"1536\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><g fill=\\\"#fff\\\" fill-rule=\\\"evenodd\\\"><rect height=\\\"660\\\" rx=\\\"62\\\" width=\\\"280\\\" x=\\\"416\\\" y=\\\"438\\\"/><rect height=\\\"660\\\" rx=\\\"62\\\" width=\\\"280\\\" x=\\\"840\\\" y=\\\"438\\\"/></g></svg>')}nav a.begin,nav a.play,nav button.begin,nav button.play{background-image:url('data:image/svg+xml;utf8,<svg height=\\\"1536\\\" viewBox=\\\"0 0 1536 1536\\\" width=\\\"1536\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"m1152 823c21.33333-12 32-30.333333 32-55s-10.66667-43-32-55l-544-320c-20.666667-12.666667-42-13-64-1-21.333333 12.666667-32 31.333333-32 56v640c0 24.66667 10.666667 43.33333 32 56 10.666667 5.33333 21.333333 8 32 8 11.333333 0 22-3 32-9z\\\" fill=\\\"#fff\\\"/></svg>')}nav a.restart,nav button.restart{background-image:url('data:image/svg+xml;utf8,<svg height=\\\"1536\\\" viewBox=\\\"0 0 1536 1536\\\" width=\\\"1536\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><g fill=\\\"#fff\\\" fill-rule=\\\"evenodd\\\" transform=\\\"translate(334 383)\\\"><rect height=\\\"768.76\\\" rx=\\\"62\\\" width=\\\"144\\\" y=\\\"1\\\"/><path d=\\\"m816 440c21.333333-12 32-30.333333 32-55s-10.666667-43-32-55l-544-320c-20.666667-12.666667-42-13-64-1-21.333333 12.666667-32 31.333333-32 56v640c0 24.666667 10.666667 43.333333 32 56 10.666667 5.333333 21.333333 8 32 8 11.333333 0 22-3 32-9z\\\" fill-rule=\\\"nonzero\\\" transform=\\\"matrix(-1 0 0 1 1024 0)\\\"/></g></svg>')}main{max-height:95vh}footer,main{display:flex;flex-direction:column;justify-content:flex-end;align-items:center}footer{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;max-height:5vh}footer p{margin:.5em 0;font-size:1.2em}footer a{font-weight:600}footer a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey) 0,var(--color-dark-grey));background-position:0 1em;background-repeat:repeat-x;background-size:100% 2px}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -30083,7 +30083,7 @@
           "name": "./node_modules/react-static/node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/App.scss",
           "index": 0,
           "index2": 1,
-          "size": 6398,
+          "size": 9996,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -30103,7 +30103,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */html{font-family:Nunito,sans-serif;font-size:112.5%;line-height:1.5em;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:8rem;line-height:9rem}h1,h2{margin:1.5rem 0}h2{font-size:5rem;line-height:6rem}h3{font-size:3rem;line-height:4.5rem;margin:1.5rem 0}h4{font-size:2rem}h4,h5{line-height:3rem;margin:1.5rem 0}h5{font-size:1.618rem}h6{font-size:1rem;line-height:1.5rem;margin:1.5rem 0}blockquote{margin:1.5rem 1.35em}dl,ol,ul{margin:1.5rem 0}ol ol,ol ul,ul ol,ul ul{margin:0}dd{margin:0 0 0 1.35em}ol,ul{padding:0 0 0 1.35em}figcaption,figure{display:block}figure{margin:1.5rem 1.35em}hr{box-sizing:content-box;height:0;overflow:visible}main{display:block}p,pre{margin:1.5rem 0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{line-height:1.5rem;font-family:Nunito,sans-serif;font-size:100%;margin:0}button{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}input{overflow:visible}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;display:table;max-width:100%;padding:0;color:inherit;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}details{display:block}summary{display:list-item}menu{display:block;margin:1.5rem 0;padding:0 0 0 1.35em}menu menu,ol menu,ul menu{margin:0}canvas{display:inline-block}[hidden],template{display:none}:root{--color-yellow:#f8b500;--color-yellow-strong:rgba(248,181,0,.89);--color-yellow-medium:rgba(248,181,0,.55);--color-yellow-pale:rgba(248,181,0,.34);--color-orange:#eb7c22;--color-orange-strong:rgba(235,124,34,.89);--color-orange-medium:rgba(235,124,34,.55);--color-orange-pale:rgba(235,124,34,.34);--color-teal:#06beb6;--color-teal-strong:rgba(6,190,182,.89);--color-teal-medium:rgba(6,190,182,.55);--color-teal-pale:rgba(6,190,182,.34);--color-blue:#0ed2f7;--color-blue-strong:rgba(14,210,247,.89);--color-blue-medium:rgba(14,210,247,.55);--color-blue-pale:rgba(14,210,247,.34);--color-dark-grey:#4a4a4a;--color-grey:#707070;--color-light-grey:#979797;--color-primary:var(--color-orange,#eb7c22);--color-primary-strong:var(--color-orange-strong,rgba(235,124,34,.89));--color-primary-medium:var(--color-orange-medium,rgba(235,124,34,.55));--color-primary-pale:var(--color-orange-pale,rgba(235,124,34,.34));--color-primary-gradient-strong:var(--color-orange-strong,rgba(235,124,34,.89));--color-primary-gradient-pale:var(--color-orange-pale,rgba(235,124,34,.34));--color-secondary-gradient-strong:var(--color-yellow-strong,rgba(248,181,0,.89));--color-secondary-gradient-pale:var(--color-yellow-pale,rgba(248,181,0,.34));--color-secondary:var(--color-yellow,#f8b500);--color-secondary-strong:var(--color-yellow-strong,rgba(248,181,0,.89));--color-secondary-medium:var(--color-yellow-medium,rgba(248,181,0,.55));--color-secondary-pale:var(--color-yellow-pale,rgba(248,181,0,.34));--angle-primary-gradient:135deg;--angle-secondary-gradient:90deg}body,html{margin:0;padding:0;width:100vw;height:100vh;font-size:3.777vmin}@media screen and (min-width:768px){body,html{font-size:2vmin}}body{font-family:Roboto,sans-serif;font-weight:400;font-style:normal;letter-spacing:-.01em;color:var(--color-dark-grey,#4a4a4a)}#root{height:100vh}#root:before{background:linear-gradient(var(--angle-primary-gradient,135deg),var(--color-primary-gradient-pale,rgba(235,124,34,.34)),var(--color-primary-gradient-strong,rgba(235,124,34,.99)))}#root:after,#root:before{content:\\\"\\\";position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1}#root:after{background:linear-gradient(var(--angle-secondary-gradient,90deg),var(--color-secondary-gradient-pale,rgba(248,181,0,.34)),var(--color-secondary-gradient-strong,rgba(248,181,0,.89)))}#root>div{display:flex;flex-direction:column;justify-content:flex-end;height:100vh}h1{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;color:var(--color-dark-grey,#4a4a4a);display:inline-block;letter-spacing:-.03em}h1,p{margin-bottom:0}a{color:var(--color-dark-grey);font-weight:500;text-decoration:none}a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-primary,#0ed2f7) 0,var(--color-primary,#0ed2f7));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}nav{position:absolute;top:0;right:0;z-index:1}main{max-height:95vh}footer,main{display:flex;flex-direction:column;justify-content:flex-end;align-items:center}footer{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;max-height:5vh}footer p{margin:.5em 0;font-size:1.2em}footer a{font-weight:600}footer a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey) 0,var(--color-dark-grey));background-position:0 1em;background-repeat:repeat-x;background-size:100% 2px}\", \"\"]);\n\n// exports\n"
+          "source": "exports = module.exports = require(\"../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */html{font-family:Nunito,sans-serif;font-size:112.5%;line-height:1.5em;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:8rem;line-height:9rem}h1,h2{margin:1.5rem 0}h2{font-size:5rem;line-height:6rem}h3{font-size:3rem;line-height:4.5rem;margin:1.5rem 0}h4{font-size:2rem}h4,h5{line-height:3rem;margin:1.5rem 0}h5{font-size:1.618rem}h6{font-size:1rem;line-height:1.5rem;margin:1.5rem 0}blockquote{margin:1.5rem 1.35em}dl,ol,ul{margin:1.5rem 0}ol ol,ol ul,ul ol,ul ul{margin:0}dd{margin:0 0 0 1.35em}ol,ul{padding:0 0 0 1.35em}figcaption,figure{display:block}figure{margin:1.5rem 1.35em}hr{box-sizing:content-box;height:0;overflow:visible}main{display:block}p,pre{margin:1.5rem 0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{line-height:1.5rem;font-family:Nunito,sans-serif;font-size:100%;margin:0}button{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}input{overflow:visible}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;display:table;max-width:100%;padding:0;color:inherit;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}details{display:block}summary{display:list-item}menu{display:block;margin:1.5rem 0;padding:0 0 0 1.35em}menu menu,ol menu,ul menu{margin:0}canvas{display:inline-block}[hidden],template{display:none}:root{--color-yellow:#f8b500;--color-yellow-strong:rgba(248,181,0,.89);--color-yellow-medium:rgba(248,181,0,.55);--color-yellow-pale:rgba(248,181,0,.34);--color-orange:#eb7c22;--color-orange-strong:rgba(235,124,34,.89);--color-orange-medium:rgba(235,124,34,.55);--color-orange-pale:rgba(235,124,34,.34);--color-teal:#06beb6;--color-teal-strong:rgba(6,190,182,.89);--color-teal-medium:rgba(6,190,182,.55);--color-teal-pale:rgba(6,190,182,.34);--color-blue:#0ed2f7;--color-blue-strong:rgba(14,210,247,.89);--color-blue-medium:rgba(14,210,247,.55);--color-blue-pale:rgba(14,210,247,.34);--color-dark-grey:#4a4a4a;--color-grey:#707070;--color-light-grey:#979797;--color-primary:var(--color-orange,#eb7c22);--color-primary-strong:var(--color-orange-strong,rgba(235,124,34,.89));--color-primary-medium:var(--color-orange-medium,rgba(235,124,34,.55));--color-primary-pale:var(--color-orange-pale,rgba(235,124,34,.34));--color-primary-gradient-strong:var(--color-orange-strong,rgba(235,124,34,.89));--color-primary-gradient-pale:var(--color-orange-pale,rgba(235,124,34,.34));--color-secondary-gradient-strong:var(--color-yellow-strong,rgba(248,181,0,.89));--color-secondary-gradient-pale:var(--color-yellow-pale,rgba(248,181,0,.34));--color-secondary:var(--color-yellow,#f8b500);--color-secondary-strong:var(--color-yellow-strong,rgba(248,181,0,.89));--color-secondary-medium:var(--color-yellow-medium,rgba(248,181,0,.55));--color-secondary-pale:var(--color-yellow-pale,rgba(248,181,0,.34));--angle-primary-gradient:135deg;--angle-secondary-gradient:90deg}body,html{margin:0;padding:0;width:100vw;height:100vh;font-size:3.777vmin}@media screen and (min-width:768px){body,html{font-size:2vmin}}body{font-family:Roboto,sans-serif;font-weight:400;font-style:normal;letter-spacing:-.01em;color:var(--color-dark-grey,#4a4a4a)}#root{height:100vh}#root:before{background:linear-gradient(var(--angle-primary-gradient,135deg),var(--color-primary-gradient-pale,rgba(235,124,34,.34)),var(--color-primary-gradient-strong,rgba(235,124,34,.99)))}#root:after,#root:before{content:\\\"\\\";position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1}#root:after{background:linear-gradient(var(--angle-secondary-gradient,90deg),var(--color-secondary-gradient-pale,rgba(248,181,0,.34)),var(--color-secondary-gradient-strong,rgba(248,181,0,.89)))}#root>div{display:flex;flex-direction:column;justify-content:flex-end;height:100vh}h1{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;color:var(--color-dark-grey,#4a4a4a);display:inline-block;letter-spacing:-.03em}h1,p{margin-bottom:0}a,button{color:var(--color-dark-grey);font-weight:500;text-decoration:none}p a:hover,p button:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-primary,#0ed2f7) 0,var(--color-primary,#0ed2f7));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}nav{margin-top:1.5rem;z-index:1}nav a,nav button{position:relative;display:block;width:3.777em;height:3.777em;color:transparent;background-color:var(--color-primary,#eb7c22);background-position:50%;background-repeat:no-repeat;background-size:contain;border:none;border-radius:50%;opacity:.75;transform:scale(1);transition:opacity 144ms ease,transform 144ms ease}nav a:hover,nav button:hover{opacity:1;transform:scale(1.1)}nav a:focus,nav button:focus{outline:none}nav a.home,nav button.home{background-image:url('data:image/svg+xml;utf8,<svg height=\\\"1536\\\" viewBox=\\\"0 0 1536 1536\\\" width=\\\"1536\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"m706.391178 377.85191v245.424785c0 8.862562-3.236939 16.532086-9.71082 23.008574-6.47388 6.476487-14.140317 9.714731-22.99931 9.714731h-170.074345v-231.233446h-183.213406v231.233446h-170.074345c-8.858993 0-16.52543-3.238244-22.99931-9.714731-6.473881-6.476488-9.71082-14.146012-9.71082-23.008574v-245.424785c0-.340868.085182-.85217.255547-1.533905.170366-.681736.255548-1.193037.255548-1.533905l293.880083-242.356976 293.880083 242.356976c.34073.681735.511095 1.704338.511095 3.06781zm113.974363-35.279813-31.687939 37.836321c-2.725844 3.06781-6.303515 4.942582-10.733012 5.624318h-1.533287c-4.429498 0-8.007168-1.193037-10.733012-3.579112l-353.678291-295.0210441-353.6782908 295.0210441c-4.0887664 2.726942-8.1775327 3.91998-12.2662991 3.579112-4.4294971-.681736-8.0071676-2.556508-10.7330117-5.624318l-31.68793937-37.836321c-2.72584407-3.408678-3.91840127-7.413874-3.57767057-12.015589s2.21474828-8.266043 5.62205376-10.992985l367.47787778-306.2696804c10.903376-8.86256158 23.851137-13.2938426 38.84328-13.2938426s27.939904 4.43128102 38.84328 13.2938426l124.707375 104.3055334v-99.7038187c0-4.7721485 1.533287-8.69212784 4.599862-11.75993766s6.984976-4.60171473 11.755203-4.60171473h98.130393c4.770227 0 8.688629 1.53390491 11.755203 4.60171473 3.066575 3.06780982 4.599862 6.98778916 4.599862 11.75993766v208.6110677l111.92998 93.056898c3.407305 2.726942 5.281323 6.39127 5.622054 10.992985.34073 4.601715-.851827 8.606911-3.577671 12.015589z\\\" fill=\\\"#fff\\\" transform=\\\"translate(356 440)\\\"/></svg>')}nav a.pause,nav button.pause{background-image:url('data:image/svg+xml;utf8,<svg height=\\\"1536\\\" viewBox=\\\"0 0 1536 1536\\\" width=\\\"1536\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><g fill=\\\"#fff\\\" fill-rule=\\\"evenodd\\\"><rect height=\\\"660\\\" rx=\\\"62\\\" width=\\\"280\\\" x=\\\"416\\\" y=\\\"438\\\"/><rect height=\\\"660\\\" rx=\\\"62\\\" width=\\\"280\\\" x=\\\"840\\\" y=\\\"438\\\"/></g></svg>')}nav a.begin,nav a.play,nav button.begin,nav button.play{background-image:url('data:image/svg+xml;utf8,<svg height=\\\"1536\\\" viewBox=\\\"0 0 1536 1536\\\" width=\\\"1536\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"m1152 823c21.33333-12 32-30.333333 32-55s-10.66667-43-32-55l-544-320c-20.666667-12.666667-42-13-64-1-21.333333 12.666667-32 31.333333-32 56v640c0 24.66667 10.666667 43.33333 32 56 10.666667 5.33333 21.333333 8 32 8 11.333333 0 22-3 32-9z\\\" fill=\\\"#fff\\\"/></svg>')}nav a.restart,nav button.restart{background-image:url('data:image/svg+xml;utf8,<svg height=\\\"1536\\\" viewBox=\\\"0 0 1536 1536\\\" width=\\\"1536\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><g fill=\\\"#fff\\\" fill-rule=\\\"evenodd\\\" transform=\\\"translate(334 383)\\\"><rect height=\\\"768.76\\\" rx=\\\"62\\\" width=\\\"144\\\" y=\\\"1\\\"/><path d=\\\"m816 440c21.333333-12 32-30.333333 32-55s-10.666667-43-32-55l-544-320c-20.666667-12.666667-42-13-64-1-21.333333 12.666667-32 31.333333-32 56v640c0 24.666667 10.666667 43.333333 32 56 10.666667 5.333333 21.333333 8 32 8 11.333333 0 22-3 32-9z\\\" fill-rule=\\\"nonzero\\\" transform=\\\"matrix(-1 0 0 1 1024 0)\\\"/></g></svg>')}main{max-height:95vh}footer,main{display:flex;flex-direction:column;justify-content:flex-end;align-items:center}footer{font-family:Zilla Slab,serif;font-weight:700;font-style:normal;letter-spacing:-.01em;max-height:5vh}footer p{margin:.5em 0;font-size:1.2em}footer a{font-weight:600}footer a:hover{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey) 0,var(--color-dark-grey));background-position:0 1em;background-repeat:repeat-x;background-size:100% 2px}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
