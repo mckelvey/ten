@@ -1,0 +1,26 @@
+// Footer
+
+@import "../../styles/index";
+
+footer {
+  @include serif(700);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1.5em;
+
+  p {
+    padding: 1em 0;
+    font-size: 1.2em;
+  }
+
+  a {
+    font-weight: 600;
+
+    &:hover {
+      @include underline(var(--color-dark-grey), 0.145em);
+    }
+  }
+}

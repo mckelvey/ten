@@ -14,17 +14,10 @@ const App = () => (
       <Head>
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Zilla+Slab:500,700&amp;subset=latin-ext" rel="stylesheet" />
       </Head>
-      <main>
-        <Switch>
-          <Route path="/day/:date" component={Day} />
-          <Routes />
-        </Switch>
-      </main>
-      <footer>
-        <p>
-          <a href="https://sitesmade4people.co">Sites Made for People</a>
-        </p>
-      </footer>
+      <Switch>
+        <Route path="/day/:date" component={Day} />
+        <Routes />
+      </Switch>
     </div>
   </Router>
 );

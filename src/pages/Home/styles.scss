@@ -7,10 +7,14 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  margin: auto 0 3em;
+  margin: auto 0 0;
   padding: 0 3rem;
   max-width: 21em;
   text-align: center;
+
+  > * {
+    order: 1;
+  }
 
   h1 {
     @include underline(var(--color-dark-grey, #{$dark-grey}));
@@ -42,5 +46,17 @@
       width: 100%;
       line-height: 1;
     }
+  }
+
+  main {
+    align-items: center;
+  }
+
+  nav {
+    order: 3;
+  }
+
+  footer {
+    order: 3;
   }
 }

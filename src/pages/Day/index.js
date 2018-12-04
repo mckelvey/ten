@@ -2,9 +2,10 @@ import get from 'lodash/get';
 import React from 'react';
 import { Link, withRouter } from 'react-static';
 
+import { currentIndex, day, series, summary } from '../../store/commit-history';
 import Count from '../../components/Count';
 import Graph from '../../components/Graph';
-import { currentIndex, day, series, summary } from '../../store/commit-history';
+import Footer from '../../components/Footer';
 import './styles.scss';
 
 const initialState = props => {
@@ -70,14 +71,16 @@ class Day extends React.PureComponent {
     if (date) {
       return (
         <div className="day">
-          <h1>
-            <span className="title">Day</span>
-            <Count
-              count={index + 1}
-              term="day"
-              total={summary.dayCount}
-            />
-          </h1>
+          <header>
+            <h1>
+              <span className="title">Day</span>
+              <Count
+                count={index + 1}
+                term="day"
+                total={summary.dayCount}
+              />
+            </h1>
+          </header>
           <nav>
             <Link className="home" exact to="/">Home</Link>
             <Link className="restart" to="/day/2008-12-06">Day</Link>
@@ -94,14 +97,17 @@ class Day extends React.PureComponent {
               </button>
             )}
           </nav>
-          <Graph date={date} currentIndex={index} />
-          {counts &&
-            <Count
-              count={counts.totalToDate}
-              term="commits"
-              total={summary.commitCount}
-            />
-          }
+          <main>
+            <Graph date={date} currentIndex={index} />
+            {counts &&
+              <Count
+                count={counts.totalToDate}
+                term="commits"
+                total={summary.commitCount}
+              />
+            }
+          </main>
+          <Footer />
         </div>
       );
     }

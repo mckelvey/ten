@@ -57,6 +57,7 @@ class Graph extends React.PureComponent {
           height={height - y}
           key={date}
           onClick={this.handleClick}
+          title={`${date}: ${count} commits`}
           width={barWidth}
           x={index * barWidth}
           y={y}
