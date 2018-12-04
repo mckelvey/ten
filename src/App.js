@@ -10,8 +10,10 @@ const Day = universal(import('./pages/Day'));
 
 class App extends React.PureComponent {
   componentWillMount() {
-    document.documentElement.style.setProperty('--color-primary-gradient-strong', 'var(--color-teal-strong)');
-    document.documentElement.style.setProperty('--color-primary-gradient-pale', 'var(--color-teal-pale)');
+    if (typeof window !== 'undefined') {
+      document.documentElement.style.setProperty('--color-primary-gradient-strong', 'var(--color-teal-strong)');
+      document.documentElement.style.setProperty('--color-primary-gradient-pale', 'var(--color-teal-pale)');
+    }
   }
 
   render() {
