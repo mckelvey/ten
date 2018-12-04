@@ -5,36 +5,32 @@
 
 :root {
   --color-yellow: #{$yellow};
-  --color-yellow-strong: #{rgba($yellow, 0.89)};
-  --color-yellow-medium: #{rgba($yellow, 0.55)};
-  --color-yellow-pale: #{rgba($yellow, 0.34)};
+  --color-yellow-strong: #{$yellow-strong};
+  --color-yellow-medium: #{$yellow-medium};
+  --color-yellow-pale: #{$yellow-pale};
   --color-orange: #{$orange};
-  --color-orange-strong: #{rgba($orange, 0.89)};
-  --color-orange-medium: #{rgba($orange, 0.55)};
-  --color-orange-pale: #{rgba($orange, 0.34)};
+  --color-orange-strong: #{$orange-strong};
+  --color-orange-medium: #{$orange-medium};
+  --color-orange-pale: #{$orange-pale};
   --color-teal: #{$teal};
-  --color-teal-strong: #{rgba($teal, 0.89)};
-  --color-teal-medium: #{rgba($teal, 0.55)};
-  --color-teal-pale: #{rgba($teal, 0.34)};
+  --color-teal-strong: #{$teal-strong};
+  --color-teal-medium: #{$teal-medium};
+  --color-teal-pale: #{$teal-pale};
   --color-blue: #{$blue};
-  --color-blue-strong: #{rgba($blue, 0.89)};
-  --color-blue-medium: #{rgba($blue, 0.55)};
-  --color-blue-pale: #{rgba($blue, 0.34)};
+  --color-blue-strong: #{$blue-strong};
+  --color-blue-medium: #{$blue-medium};
+  --color-blue-pale: #{$blue-pale};
   --color-dark-grey: #{$dark-grey};
-  --color-grey: #{lighten($dark-grey, 15%)};
-  --color-light-grey: #{lighten($dark-grey, 30%)};
+  --color-grey: #{$grey};
+  --color-light-grey: #{$light-grey};
   --color-primary: var(--color-orange, #{$orange});
-  --color-primary-strong: var(--color-orange-strong, #{rgba($orange, 0.89)});
-  --color-primary-medium: var(--color-orange-medium, #{rgba($orange, 0.55)});
-  --color-primary-pale: var(--color-orange-pale, #{rgba($orange, 0.34)});
-  --color-primary-gradient-strong: var(--color-orange-strong, #{rgba($orange, 0.89)});
-  --color-primary-gradient-pale: var(--color-orange-pale, #{rgba($orange, 0.34)});
-  --color-secondary-gradient-strong: var(--color-yellow-strong, #{rgba($yellow, 0.89)});
-  --color-secondary-gradient-pale: var(--color-yellow-pale, #{rgba($yellow, 0.34)});
-  --color-secondary: var(--color-yellow, #{$yellow});
-  --color-secondary-strong: var(--color-yellow-strong, #{rgba($yellow, 0.89)});
-  --color-secondary-medium: var(--color-yellow-medium, #{rgba($yellow, 0.55)});
-  --color-secondary-pale: var(--color-yellow-pale, #{rgba($yellow, 0.34)});
+  --color-primary-strong: var(--color-orange-strong, #{$orange-strong});
+  --color-primary-medium: var(--color-orange-medium, #{$orange-medium});
+  --color-primary-pale: var(--color-orange-pale, #{$orange-pale});
+  --color-primary-gradient-strong: var(--color-orange-strong, #{$orange-strong});
+  --color-primary-gradient-pale: var(--color-orange-pale, #{$orange-pale});
+  --color-secondary-gradient-strong: var(--color-yellow-strong, #{$yellow-strong});
+  --color-secondary-gradient-pale: var(--color-yellow-pale, #{$yellow-pale});
   --angle-primary-gradient: 135deg;
   --angle-secondary-gradient: 90deg;
 }
@@ -70,8 +66,8 @@ body {
     left: 0;
     background: linear-gradient(
       var(--angle-primary-gradient, 135deg),
-      var(--color-primary-gradient-pale, #{rgba($orange, 0.34)}) 0%,
-      var(--color-primary-gradient-strong, #{rgba($orange, 0.99)}) 100%
+      var(--color-primary-gradient-pale, #{$orange-pale}) 0%,
+      var(--color-primary-gradient-strong, #{$orange-strong}) 100%
     );
     z-index: -1;
   }
@@ -85,8 +81,8 @@ body {
     left: 0;
     background: linear-gradient(
       var(--angle-secondary-gradient, 90deg),
-      var(--color-secondary-gradient-pale, #{rgba($yellow, 0.34)}) 0%,
-      var(--color-secondary-gradient-strong, #{rgba($yellow, 0.89)}) 100%
+      var(--color-secondary-gradient-pale, #{$yellow-pale}) 0%,
+      var(--color-secondary-gradient-strong, #{$yellow-strong}) 100%
     );
     z-index: -1;
   }

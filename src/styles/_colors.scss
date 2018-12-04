@@ -1,9 +1,24 @@
 // Colors
 
-$orange: #eb7c22;
 $yellow: #f8b500;
-$blue: #0ed2f7;
+$yellow-strong: rgba($yellow, 0.89);
+$yellow-medium: rgba($yellow, 0.55);
+$yellow-pale: rgba($yellow, 0.34);
+
+$orange: #eb7c22;
+$orange-strong: rgba($orange, 0.89);
+$orange-medium: rgba($orange, 0.55);
+$orange-pale: rgba($orange, 0.34);
+
 $teal: #06beb6;
+$teal-strong: rgba($teal, 0.89);
+$teal-medium: rgba($teal, 0.55);
+$teal-pale: rgba($teal, 0.34);
+
+$blue: #0ed2f7;
+$blue-strong: rgba($blue, 0.89);
+$blue-medium: rgba($blue, 0.55);
+$blue-pale: rgba($blue, 0.34);
 
 $dark-grey: #4a4a4a;
 $grey: lighten(#4a4a4a, 15%);
