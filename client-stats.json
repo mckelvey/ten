@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "cb8aa9e0aae47e5806c9",
-  "time": 6715,
+  "hash": "f53f5af1a580aeec8b0e",
+  "time": 6584,
   "publicPath": "https://mckelvey.github.io/ten/",
   "assetsByChunkName": {
     "pages/Day": [
@@ -20,9 +20,9 @@
     ],
     "main": [
       "main.81391a41.js",
-      "styles.cb8aa9e0.css",
+      "styles.f53f5af1.css",
       "main.81391a41.js.map",
-      "styles.cb8aa9e0.css.map"
+      "styles.f53f5af1.css.map"
     ],
     "bootstrap": [
       "bootstrap.bc44db3c.js",
@@ -87,7 +87,7 @@
       "emitted": true
     },
     {
-      "name": "styles.cb8aa9e0.css",
+      "name": "styles.f53f5af1.css",
       "size": 11423,
       "chunks": [
         3
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.cb8aa9e0.css.map",
+      "name": "styles.f53f5af1.css.map",
       "size": 96,
       "chunks": [
         3
@@ -175,9 +175,9 @@
         "bootstrap.bc44db3c.js",
         "bootstrap.bc44db3c.js.map",
         "main.81391a41.js",
-        "styles.cb8aa9e0.css",
+        "styles.f53f5af1.css",
         "main.81391a41.js.map",
-        "styles.cb8aa9e0.css.map"
+        "styles.f53f5af1.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -9376,9 +9376,9 @@
       ],
       "files": [
         "main.81391a41.js",
-        "styles.cb8aa9e0.css",
+        "styles.f53f5af1.css",
         "main.81391a41.js.map",
-        "styles.cb8aa9e0.css.map"
+        "styles.f53f5af1.css.map"
       ],
       "hash": "81391a41394edc25e993",
       "parents": [
@@ -30272,7 +30272,7 @@
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "ab357b21548a4aa58a86",
+          "hash": "6cfec2502ea5cf7e725c",
           "parents": [],
           "modules": [
             {
@@ -30301,7 +30301,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".index{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;margin:auto 0 0;padding:0 3rem;max-width:21em;text-align:center}.index>*{order:1}.index h1{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey,#4a4a4a) 0,var(--color-dark-grey,#4a4a4a));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}.index h1+p{margin-top:0;font-size:.89em}.index .commits{display:inline-block;padding:.5em .75em;color:#fff;background-color:var(--color-primary,#eb7c22);border-radius:1.5em}.index .commits:hover{background-image:none;text-decoration:none}.index .name{margin-top:0}.index .name:before{content:\\\"~\\\";display:inline-block;width:100%;line-height:1}.index main{align-items:center}.index footer,.index nav{order:3}\", \"\"]);\n\n// exports\n"
+              "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".index{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;margin:auto 0 0;padding:0 3rem;text-align:center}.index>*{order:1}.index h1{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey,#4a4a4a) 0,var(--color-dark-grey,#4a4a4a));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}.index h1+p{margin-top:0;font-size:.89em}.index .commits{display:inline-block;padding:.5em .75em;color:#fff;background-color:var(--color-primary,#eb7c22);border-radius:1.5em}.index .commits:hover{background-image:none;text-decoration:none}.index .name{margin-top:0}.index .name:before{content:\\\"~\\\";display:inline-block;width:100%;line-height:1}.index main{align-items:center;max-width:21em}.index footer,.index nav{order:3}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -30382,7 +30382,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".index{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;margin:auto 0 0;padding:0 3rem;max-width:21em;text-align:center}.index>*{order:1}.index h1{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey,#4a4a4a) 0,var(--color-dark-grey,#4a4a4a));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}.index h1+p{margin-top:0;font-size:.89em}.index .commits{display:inline-block;padding:.5em .75em;color:#fff;background-color:var(--color-primary,#eb7c22);border-radius:1.5em}.index .commits:hover{background-image:none;text-decoration:none}.index .name{margin-top:0}.index .name:before{content:\\\"~\\\";display:inline-block;width:100%;line-height:1}.index main{align-items:center}.index footer,.index nav{order:3}\", \"\"]);\n\n// exports\n"
+          "source": "exports = module.exports = require(\"../../../node_modules/react-static/node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".index{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;margin:auto 0 0;padding:0 3rem;text-align:center}.index>*{order:1}.index h1{padding-right:.05em;padding-left:.05em;background-image:linear-gradient(90deg,var(--color-dark-grey,#4a4a4a) 0,var(--color-dark-grey,#4a4a4a));background-position:0 1em;background-repeat:repeat-x;background-size:100% 13px}.index h1+p{margin-top:0;font-size:.89em}.index .commits{display:inline-block;padding:.5em .75em;color:#fff;background-color:var(--color-primary,#eb7c22);border-radius:1.5em}.index .commits:hover{background-image:none;text-decoration:none}.index .name{margin-top:0}.index .name:before{content:\\\"~\\\";display:inline-block;width:100%;line-height:1}.index main{align-items:center;max-width:21em}.index footer,.index nav{order:3}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,

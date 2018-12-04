@@ -1764,7 +1764,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".index {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  align-items: center;\n  margin: auto 0 0;\n  padding: 0 3rem;\n  max-width: 21em;\n  text-align: center; }\n  .index > * {\n    order: 1; }\n  .index h1 {\n    padding-right: 0.05em;\n    padding-left: 0.05em;\n    background-image: linear-gradient(to right, var(--color-dark-grey, #4a4a4a) 0%, var(--color-dark-grey, #4a4a4a) 100%);\n    background-position: 0 1em;\n    background-repeat: repeat-x;\n    background-size: 100% 13px; }\n    .index h1 + p {\n      margin-top: 0;\n      font-size: 0.89em; }\n  .index .commits {\n    display: inline-block;\n    padding: 0.5em 0.75em;\n    color: white;\n    background-color: var(--color-primary, #eb7c22);\n    border-radius: 1.5em; }\n    .index .commits:hover {\n      background-image: none;\n      text-decoration: none; }\n  .index .name {\n    margin-top: 0; }\n    .index .name::before {\n      content: '~';\n      display: inline-block;\n      width: 100%;\n      line-height: 1; }\n  .index main {\n    align-items: center; }\n  .index nav {\n    order: 3; }\n  .index footer {\n    order: 3; }\n", ""]);
+exports.push([module.i, ".index {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  align-items: center;\n  margin: auto 0 0;\n  padding: 0 3rem;\n  text-align: center; }\n  .index > * {\n    order: 1; }\n  .index h1 {\n    padding-right: 0.05em;\n    padding-left: 0.05em;\n    background-image: linear-gradient(to right, var(--color-dark-grey, #4a4a4a) 0%, var(--color-dark-grey, #4a4a4a) 100%);\n    background-position: 0 1em;\n    background-repeat: repeat-x;\n    background-size: 100% 13px; }\n    .index h1 + p {\n      margin-top: 0;\n      font-size: 0.89em; }\n  .index .commits {\n    display: inline-block;\n    padding: 0.5em 0.75em;\n    color: white;\n    background-color: var(--color-primary, #eb7c22);\n    border-radius: 1.5em; }\n    .index .commits:hover {\n      background-image: none;\n      text-decoration: none; }\n  .index .name {\n    margin-top: 0; }\n    .index .name::before {\n      content: '~';\n      display: inline-block;\n      width: 100%;\n      line-height: 1; }\n  .index main {\n    align-items: center;\n    max-width: 21em; }\n  .index nav {\n    order: 3; }\n  .index footer {\n    order: 3; }\n", ""]);
 
 // exports
 
@@ -2108,4 +2108,4 @@ exports.push([module.i, "div.day {\n  position: relative;\n  display: flex;\n  f
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.b2f652de.js.map
+//# sourceMappingURL=static.59b3e7df.js.map
