@@ -17,12 +17,17 @@ svg {
   height: 100%;
 }
 
-rect {
-  fill: var(--color-primary, #{$orange});
-  stroke: transparent;
+g.axes path {
+  stroke: var(--color-primary-hint, #{rgba($orange, 0.34)});
+  stroke-width: 0.33px;
+
+  &.base {
+    stroke: var(--color-primary, #{$orange});
+    stroke-width: 1px;
+  }
 }
 
-g rect {
+g.bars rect {
   fill: var(--color-primary-medium, #{rgba($orange, 0.55)});
 
   &.current,
@@ -32,6 +37,6 @@ g rect {
   }
 }
 
-path {
-  stroke: var(--color-primary, #{$orange});
+rect.marker {
+  fill: var(--color-primary, #{$orange});
 }

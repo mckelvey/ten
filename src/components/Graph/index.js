@@ -37,23 +37,27 @@ class Graph extends React.PureComponent {
   }
 
   renderCommit(currentIndex, date, index) {
-    const { barWidth, height } = this.props;
+    const { barWidth, breakpoints, divisor, height, segments } = this.props;
     const { count } = day(date);
     if (typeof count === 'number') {
       let barHeight = 0;
-      if (count <= 10) {
-        barHeight = height / 2 / 10 * count;
-      } else if (count <= 100) {
-        barHeight = height / 16 * 5 / 90 * (count - 10) + (height / 2);
-      } else { // less than 1000
-        barHeight = height / 16 * 3 / 900 * (count - 100) + (height / 16 * 13);
+      if (count <= breakpoints.one) {
+        barHeight =
+          height / divisor * segments.one / breakpoints.one * count;
+      } else if (count <= breakpoints.two) {
+        barHeight =
+          height / divisor * segments.two / (breakpoints.two - breakpoints.one) *
+          (count - breakpoints.one) + (height / divisor * segments.one);
+      } else { // less than breakpoints.three
+        barHeight =
+          height / divisor * segments.three / (breakpoints.three - breakpoints.two) *
+          (count - breakpoints.two) + (height / divisor * (segments.one + segments.two));
       }
       const y = height - barHeight;
       return (
         <rect
           className={currentIndex === index ? 'current' : ''}
           data-date={date}
-          fill="rebeccapurple"
           height={height - y}
           key={date}
           onClick={this.handleClick}
@@ -68,7 +72,7 @@ class Graph extends React.PureComponent {
   }
 
   render() {
-    const { barWidth, height, currentIndex } = this.props;
+    const { barWidth, currentIndex, divisor, height, segments } = this.props;
     const left = currentIndex / summary.dayCount * -100;
     return (
       <div
@@ -80,12 +84,35 @@ class Graph extends React.PureComponent {
           xmlns="http://www.w3.org/2000/svg"
           style={{ transform: `translateX(${left}%)` }}
         >
-          <g>
+          <g className="axes">
+            <path
+              className="base"
+              d={`M 0,${height} L ${summary.dayCount * barWidth},${height} Z`}
+            />
+            <path
+              d={
+                `M 0,${
+                  height / divisor * segments.one
+                } L ${summary.dayCount * barWidth},${
+                  height / divisor * segments.one
+                } Z`
+              }
+            />
+            <path
+              d={
+                `M 0,${
+                  height / divisor * (segments.one + segments.two)
+                } L ${summary.dayCount * barWidth},${
+                  height / divisor * (segments.one + segments.two)
+                } Z`
+              }
+            />
+          </g>
+          <g className="bars">
             {map(series, (date, index) => this.renderCommit(currentIndex, date, index))}
           </g>
-          <path d={`M 0,${height} L ${summary.dayCount * barWidth},${height} Z`} />
           <rect
-            fill="rebeccapurple"
+            className="marker"
             height={barWidth}
             style={{ opacity: 1 }}
             width={barWidth}
@@ -101,13 +128,35 @@ class Graph extends React.PureComponent {
 
 Graph.propTypes = {
   barWidth: PropTypes.number,
+  breakpoints: PropTypes.shape({
+    one: PropTypes.number.isRequired,
+    two: PropTypes.number.isRequired,
+    three: PropTypes.number.isRequired,
+  }),
   currentIndex: PropTypes.number.isRequired,
+  divisor: PropTypes.number,
   height: PropTypes.number,
+  segments: PropTypes.shape({
+    one: PropTypes.number.isRequired,
+    two: PropTypes.number.isRequired,
+    three: PropTypes.number.isRequired,
+  }),
 };
 
 Graph.defaultProps = {
   barWidth: 3,
+  breakpoints: {
+    one: 30,
+    two: 100,
+    three: 1000,
+  },
   height: 300,
+  divisor: 15,
+  segments: {
+    one: 5,
+    two: 5,
+    three: 5,
+  },
 };
 
 export default withRouter(Graph);
