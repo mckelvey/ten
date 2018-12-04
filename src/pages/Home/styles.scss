@@ -9,7 +9,6 @@
   align-items: center;
   margin: auto 0 0;
   padding: 0 3rem;
-  max-width: 21em;
   text-align: center;
 
   > * {
@@ -50,6 +49,7 @@
 
   main {
     align-items: center;
+    max-width: 21em;
   }
 
   nav {
