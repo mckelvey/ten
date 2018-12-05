@@ -42,6 +42,9 @@ class App extends React.PureComponent {
       <Router>
         <div>
           <Head>
+            <meta charset="utf-8" />
+            <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+            <title>TEN : My Decade on GitHub</title>
             <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16" />
             <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32" />
             <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96" />
@@ -52,6 +55,22 @@ class App extends React.PureComponent {
             <meta name="msapplication-TileColor" content="#ffffff" />
             <meta name="msapplication-TileImage" content="/browserconfig.xml" />
             <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Zilla+Slab:500,700&amp;subset=latin-ext" rel="stylesheet" />
+            <meta name="keywords" content="" />
+            <meta name="twitter:title" content="TEN : My Decade on GitHub" />
+            <meta property="og:title" content="TEN : My Decade on GitHub" />
+            <meta name="twitter:image" content="" />
+            <meta property="og:image" content="" />
+            <meta property="og:image:width" content="" />
+            <meta property="og:image:height" content="" />
+            <meta name="twitter:image:alt" content="" />
+            <meta name="description" content="" />
+            <meta name="twitter:description" content="" />
+            <meta property="og:description" content="" />
+            <meta property="og:type" content="website" />
+            <meta property="og:site_name" content="TEN : My Decade on GitHub" />
+            <meta property="og:url" content="https://mckelvey.github.io/ten/" />
+            <meta name="twitter:site" content="@mckelvey" />
+            <meta name="twitter:card" content="summary_large_image" />
           </Head>
           <Switch>
             <Route path="/day/:date" component={Day} />
