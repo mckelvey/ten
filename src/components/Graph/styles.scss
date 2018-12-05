@@ -18,7 +18,7 @@ svg {
 }
 
 g.axes path {
-  stroke: var(--color-primary-hint, #{$orange-pale});
+  stroke: var(--color-primary-pale, #{$orange-pale});
   stroke-width: 0.33px;
 
   &.base {
