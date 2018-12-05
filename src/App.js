@@ -42,6 +42,15 @@ class App extends React.PureComponent {
       <Router>
         <div>
           <Head>
+            <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16" />
+            <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32" />
+            <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96" />
+            <link rel="apple-touch-icon" href="/favicons/apple-touch-icon-120x120.png" sizes="120x120" />
+            <link rel="apple-touch-icon" href="/favicons/apple-touch-icon-152x152.png" sizes="152x152" />
+            <link rel="apple-touch-icon" href="/favicons/apple-touch-icon-167x167.png" sizes="167x167" />
+            <link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180" />
+            <meta name="msapplication-TileColor" content="#ffffff" />
+            <meta name="msapplication-TileImage" content="/browserconfig.xml" />
             <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Zilla+Slab:500,700&amp;subset=latin-ext" rel="stylesheet" />
           </Head>
           <Switch>
