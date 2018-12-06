@@ -55,17 +55,17 @@ class App extends React.PureComponent {
             <meta name="msapplication-TileColor" content="#ffffff" />
             <meta name="msapplication-TileImage" content="/browserconfig.xml" />
             <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Zilla+Slab:500,700&amp;subset=latin-ext" rel="stylesheet" />
-            <meta name="keywords" content="" />
+            <meta name="keywords" content="mckelvey github git repository commit count decade ten years" />
             <meta name="twitter:title" content="TEN : My Decade on GitHub" />
             <meta property="og:title" content="TEN : My Decade on GitHub" />
-            <meta name="twitter:image" content="" />
-            <meta property="og:image" content="" />
-            <meta property="og:image:width" content="" />
-            <meta property="og:image:height" content="" />
-            <meta name="twitter:image:alt" content="" />
-            <meta name="description" content="" />
-            <meta name="twitter:description" content="" />
-            <meta property="og:description" content="" />
+            <meta name="twitter:image" content="/favicons/share.png" />
+            <meta property="og:image" content="/favicons/share.png" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+            <meta name="twitter:image:alt" content="TEN : My Decade on GitHub" />
+            <meta name="description" content="This is a simple and fun celebration of my decade on GitHub." />
+            <meta name="twitter:description" content="This is a simple and fun celebration of my decade on GitHub." />
+            <meta property="og:description" content="This is a simple and fun celebration of my decade on GitHub." />
             <meta property="og:type" content="website" />
             <meta property="og:site_name" content="TEN : My Decade on GitHub" />
             <meta property="og:url" content="https://mckelvey.github.io/ten/" />
