@@ -1,10 +1,8 @@
-# React-Static - Basic Example
+# Ten
 
-This example is the most basic version of react-static available. It includes:
-- Babel
-- CSS imports
-- Image imports
-- File imports
-- Automatic Routing
+This is a simple and fun celebration of my decade on GitHub. Naturally, you can fork this repo and make it your own. If you do, let me know as I’d love to see where this goes.
 
-To get started, run `react-static create` and use the `basic` template.
+~ David
+
+[Sites made for people.](https://sitesmade4people.co)
+[mckelvey/creative](https://mckelveycreative.com)
