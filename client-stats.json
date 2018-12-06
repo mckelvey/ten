@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "ae11dcd972f0cb9c2fcb",
-  "time": 7492,
+  "hash": "f5b959baff4f2fbc40f2",
+  "time": 7625,
   "publicPath": "https://mckelvey.github.io/ten/",
   "assetsByChunkName": {
     "pages/Day": [
@@ -11,8 +11,8 @@
       "templates/pages/Day.1b8e3ccd.js.map"
     ],
     "src/pages/Home": [
-      "templates/src/pages/Home.a26b22d1.js",
-      "templates/src/pages/Home.a26b22d1.js.map"
+      "templates/src/pages/Home.df55242b.js",
+      "templates/src/pages/Home.df55242b.js.map"
     ],
     "src/pages/404": [
       "templates/src/pages/404.08adc48d.js",
@@ -20,13 +20,13 @@
     ],
     "main": [
       "main.7a61a575.js",
-      "styles.ae11dcd9.css",
+      "styles.f5b959ba.css",
       "main.7a61a575.js.map",
-      "styles.ae11dcd9.css.map"
+      "styles.f5b959ba.css.map"
     ],
     "bootstrap": [
-      "bootstrap.28da3661.js",
-      "bootstrap.28da3661.js.map"
+      "bootstrap.4875d5e7.js",
+      "bootstrap.4875d5e7.js.map"
     ]
   },
   "assets": [
@@ -76,7 +76,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.28da3661.js",
+      "name": "bootstrap.4875d5e7.js",
       "size": 1552,
       "chunks": [
         4
@@ -87,7 +87,7 @@
       "emitted": true
     },
     {
-      "name": "styles.ae11dcd9.css",
+      "name": "styles.f5b959ba.css",
       "size": 11442,
       "chunks": [
         3
@@ -98,8 +98,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.a26b22d1.js",
-      "size": 201877,
+      "name": "templates/src/pages/Home.df55242b.js",
+      "size": 202042,
       "chunks": [
         1
       ],
@@ -109,8 +109,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.a26b22d1.js.map",
-      "size": 740511,
+      "name": "templates/src/pages/Home.df55242b.js.map",
+      "size": 741020,
       "chunks": [
         1
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.ae11dcd9.css.map",
+      "name": "styles.f5b959ba.css.map",
       "size": 96,
       "chunks": [
         3
@@ -153,7 +153,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.28da3661.js.map",
+      "name": "bootstrap.4875d5e7.js.map",
       "size": 14453,
       "chunks": [
         4
@@ -172,12 +172,12 @@
         3
       ],
       "assets": [
-        "bootstrap.28da3661.js",
-        "bootstrap.28da3661.js.map",
+        "bootstrap.4875d5e7.js",
+        "bootstrap.4875d5e7.js.map",
         "main.7a61a575.js",
-        "styles.ae11dcd9.css",
+        "styles.f5b959ba.css",
         "main.7a61a575.js.map",
-        "styles.ae11dcd9.css.map"
+        "styles.f5b959ba.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -490,9 +490,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_listCacheGet.js",
-          "issuerId": 205,
-          "issuerName": "./node_modules/lodash/_listCacheGet.js",
+          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_listCacheDelete.js",
+          "issuerId": 204,
+          "issuerName": "./node_modules/lodash/_listCacheDelete.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4684,15 +4684,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 241537,
+      "size": 241804,
       "names": [
         "src/pages/Home"
       ],
       "files": [
-        "templates/src/pages/Home.a26b22d1.js",
-        "templates/src/pages/Home.a26b22d1.js.map"
+        "templates/src/pages/Home.df55242b.js",
+        "templates/src/pages/Home.df55242b.js.map"
       ],
-      "hash": "a26b22d1913fc317a29d",
+      "hash": "df55242b43091f856546",
       "parents": [
         3
       ],
@@ -4703,7 +4703,7 @@
           "name": "./src/pages/Home/index.js",
           "index": 168,
           "index2": 215,
-          "size": 2232,
+          "size": 2499,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4742,7 +4742,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _commitHistory = require('../../store/commit-history');\n\nvar _Footer = require('../../components/Footer');\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withSiteData)(function () {\n  return _react2.default.createElement(\n    'div',\n    { className: 'index' },\n    _react2.default.createElement(\n      'header',\n      null,\n      _react2.default.createElement(\n        'h1',\n        null,\n        'Ten'\n      ),\n      _react2.default.createElement(\n        'p',\n        null,\n        'Celebrating my decade on GitHub.'\n      )\n    ),\n    _react2.default.createElement(\n      'nav',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Link,\n        { className: 'begin', to: '/day/2008-12-06' },\n        'Begin'\n      )\n    ),\n    _react2.default.createElement(\n      'main',\n      null,\n      _react2.default.createElement(\n        'p',\n        null,\n        _react2.default.createElement(\n          _reactStatic.Link,\n          { className: 'commits', to: '/day/2008-12-06' },\n          _commitHistory.summary.commitCount,\n          ' Commits'\n        )\n      ),\n      _react2.default.createElement(\n        'p',\n        null,\n        'This is a simple and fun celebration of my decade on GitHub. Naturally, you can fork',\n        ' ',\n        _react2.default.createElement(\n          'a',\n          { href: 'https://github.com/mckelvey/ten', target: '_blank', rel: 'noreferrer noopener' },\n          'this repo'\n        ),\n        ' ',\n        'and make it your own. If you do, let me know as I\\u2019d love to see where this goes.'\n      ),\n      _react2.default.createElement(\n        'p',\n        { className: 'name' },\n        _react2.default.createElement(\n          'a',\n          { href: 'mailto:david@mckelveycreative.co' },\n          'David'\n        )\n      )\n    ),\n    _react2.default.createElement(_Footer2.default, null)\n  );\n});"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _commitHistory = require('../../store/commit-history');\n\nvar _Footer = require('../../components/Footer');\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withSiteData)(function () {\n  return _react2.default.createElement(\n    'div',\n    { className: 'index' },\n    _react2.default.createElement(\n      'header',\n      null,\n      _react2.default.createElement(\n        'h1',\n        null,\n        'Ten'\n      ),\n      _react2.default.createElement(\n        'p',\n        null,\n        'Celebrating my decade on GitHub.'\n      )\n    ),\n    _react2.default.createElement(\n      'nav',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Link,\n        { className: 'begin', to: '/day/2008-12-06' },\n        'Begin'\n      )\n    ),\n    _react2.default.createElement(\n      'main',\n      null,\n      _react2.default.createElement(\n        'p',\n        null,\n        _react2.default.createElement(\n          _reactStatic.Link,\n          { className: 'commits', to: '/day/2008-12-06' },\n          _commitHistory.summary.commitCount,\n          ' Commits'\n        )\n      ),\n      _react2.default.createElement(\n        'p',\n        null,\n        'This is a simple and fun celebration of my decade on GitHub. Naturally, you can fork',\n        ' ',\n        _react2.default.createElement(\n          'a',\n          { href: 'https://github.com/mckelvey/ten', target: '_blank', rel: 'noreferrer noopener' },\n          'this repo'\n        ),\n        ' ',\n        'and make it your own. If you do, let me know as I\\u2019d love to see where this goes.'\n      ),\n      _react2.default.createElement(\n        'p',\n        null,\n        _react2.default.createElement(\n          'a',\n          { href: 'https://github.com/mckelvey/ten', target: '_blank', rel: 'noreferrer noopener' },\n          'View the ReadMe.'\n        )\n      ),\n      _react2.default.createElement(\n        'p',\n        { className: 'name' },\n        _react2.default.createElement(\n          'a',\n          { href: 'mailto:david@mckelveycreative.co' },\n          'David'\n        )\n      )\n    ),\n    _react2.default.createElement(_Footer2.default, null)\n  );\n});"
         },
         {
           "id": 172,
@@ -4985,9 +4985,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_listCacheGet.js",
-          "issuerId": 205,
-          "issuerName": "./node_modules/lodash/_listCacheGet.js",
+          "issuer": "/Users/david/Sites/ten/node_modules/lodash/_listCacheDelete.js",
+          "issuerId": 204,
+          "issuerName": "./node_modules/lodash/_listCacheDelete.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -7168,9 +7168,9 @@
       ],
       "files": [
         "main.7a61a575.js",
-        "styles.ae11dcd9.css",
+        "styles.f5b959ba.css",
         "main.7a61a575.js.map",
-        "styles.ae11dcd9.css.map"
+        "styles.f5b959ba.css.map"
       ],
       "hash": "7a61a575ce8f4782538b",
       "parents": [
@@ -8405,9 +8405,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/Users/david/Sites/ten/node_modules/react-static/lib/client/components/RouteData.js",
-          "issuerId": 132,
-          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+          "issuer": "/Users/david/Sites/ten/node_modules/react-static/lib/client/components/Router.js",
+          "issuerId": 158,
+          "issuerName": "./node_modules/react-static/lib/client/components/Router.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -16021,10 +16021,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.28da3661.js",
-        "bootstrap.28da3661.js.map"
+        "bootstrap.4875d5e7.js",
+        "bootstrap.4875d5e7.js.map"
       ],
-      "hash": "28da3661e73ad0c9976f",
+      "hash": "4875d5e7db5fad2a4380",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -17260,9 +17260,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/Users/david/Sites/ten/node_modules/react-static/lib/client/components/RouteData.js",
-      "issuerId": 132,
-      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+      "issuer": "/Users/david/Sites/ten/node_modules/react-static/lib/client/components/Router.js",
+      "issuerId": 158,
+      "issuerName": "./node_modules/react-static/lib/client/components/Router.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21022,7 +21022,7 @@
       "name": "./src/pages/Home/index.js",
       "index": 168,
       "index2": 215,
-      "size": 2232,
+      "size": 2499,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -21061,7 +21061,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _commitHistory = require('../../store/commit-history');\n\nvar _Footer = require('../../components/Footer');\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withSiteData)(function () {\n  return _react2.default.createElement(\n    'div',\n    { className: 'index' },\n    _react2.default.createElement(\n      'header',\n      null,\n      _react2.default.createElement(\n        'h1',\n        null,\n        'Ten'\n      ),\n      _react2.default.createElement(\n        'p',\n        null,\n        'Celebrating my decade on GitHub.'\n      )\n    ),\n    _react2.default.createElement(\n      'nav',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Link,\n        { className: 'begin', to: '/day/2008-12-06' },\n        'Begin'\n      )\n    ),\n    _react2.default.createElement(\n      'main',\n      null,\n      _react2.default.createElement(\n        'p',\n        null,\n        _react2.default.createElement(\n          _reactStatic.Link,\n          { className: 'commits', to: '/day/2008-12-06' },\n          _commitHistory.summary.commitCount,\n          ' Commits'\n        )\n      ),\n      _react2.default.createElement(\n        'p',\n        null,\n        'This is a simple and fun celebration of my decade on GitHub. Naturally, you can fork',\n        ' ',\n        _react2.default.createElement(\n          'a',\n          { href: 'https://github.com/mckelvey/ten', target: '_blank', rel: 'noreferrer noopener' },\n          'this repo'\n        ),\n        ' ',\n        'and make it your own. If you do, let me know as I\\u2019d love to see where this goes.'\n      ),\n      _react2.default.createElement(\n        'p',\n        { className: 'name' },\n        _react2.default.createElement(\n          'a',\n          { href: 'mailto:david@mckelveycreative.co' },\n          'David'\n        )\n      )\n    ),\n    _react2.default.createElement(_Footer2.default, null)\n  );\n});"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _commitHistory = require('../../store/commit-history');\n\nvar _Footer = require('../../components/Footer');\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nrequire('./styles.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withSiteData)(function () {\n  return _react2.default.createElement(\n    'div',\n    { className: 'index' },\n    _react2.default.createElement(\n      'header',\n      null,\n      _react2.default.createElement(\n        'h1',\n        null,\n        'Ten'\n      ),\n      _react2.default.createElement(\n        'p',\n        null,\n        'Celebrating my decade on GitHub.'\n      )\n    ),\n    _react2.default.createElement(\n      'nav',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Link,\n        { className: 'begin', to: '/day/2008-12-06' },\n        'Begin'\n      )\n    ),\n    _react2.default.createElement(\n      'main',\n      null,\n      _react2.default.createElement(\n        'p',\n        null,\n        _react2.default.createElement(\n          _reactStatic.Link,\n          { className: 'commits', to: '/day/2008-12-06' },\n          _commitHistory.summary.commitCount,\n          ' Commits'\n        )\n      ),\n      _react2.default.createElement(\n        'p',\n        null,\n        'This is a simple and fun celebration of my decade on GitHub. Naturally, you can fork',\n        ' ',\n        _react2.default.createElement(\n          'a',\n          { href: 'https://github.com/mckelvey/ten', target: '_blank', rel: 'noreferrer noopener' },\n          'this repo'\n        ),\n        ' ',\n        'and make it your own. If you do, let me know as I\\u2019d love to see where this goes.'\n      ),\n      _react2.default.createElement(\n        'p',\n        null,\n        _react2.default.createElement(\n          'a',\n          { href: 'https://github.com/mckelvey/ten', target: '_blank', rel: 'noreferrer noopener' },\n          'View the ReadMe.'\n        )\n      ),\n      _react2.default.createElement(\n        'p',\n        { className: 'name' },\n        _react2.default.createElement(\n          'a',\n          { href: 'mailto:david@mckelveycreative.co' },\n          'David'\n        )\n      )\n    ),\n    _react2.default.createElement(_Footer2.default, null)\n  );\n});"
     },
     {
       "id": 71,
@@ -25233,9 +25233,9 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/david/Sites/ten/node_modules/lodash/_listCacheGet.js",
-      "issuerId": 205,
-      "issuerName": "./node_modules/lodash/_listCacheGet.js",
+      "issuer": "/Users/david/Sites/ten/node_modules/lodash/_listCacheDelete.js",
+      "issuerId": 204,
+      "issuerName": "./node_modules/lodash/_listCacheDelete.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,

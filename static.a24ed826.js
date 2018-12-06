@@ -831,6 +831,15 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
       ),
       _react2.default.createElement(
         'p',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'https://github.com/mckelvey/ten', target: '_blank', rel: 'noreferrer noopener' },
+          'View the ReadMe.'
+        )
+      ),
+      _react2.default.createElement(
+        'p',
         { className: 'name' },
         _react2.default.createElement(
           'a',
@@ -2167,4 +2176,4 @@ exports.push([module.i, "div.day {\n  position: relative;\n  display: flex;\n  f
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.161517f9.js.map
+//# sourceMappingURL=static.a24ed826.js.map
