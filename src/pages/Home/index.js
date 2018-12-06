@@ -23,6 +23,9 @@ export default withSiteData(() => (
         <a href="https://github.com/mckelvey/ten" target="_blank" rel="noreferrer noopener">this repo</a>{' '}
         and make it your own. If you do, let me know as I’d love to see where this goes.
       </p>
+      <p>
+        <a href="https://github.com/mckelvey/ten" target="_blank" rel="noreferrer noopener">View the ReadMe.</a>
+      </p>
       <p className="name">
         <a href="mailto:david@mckelveycreative.co">David</a>
       </p>
