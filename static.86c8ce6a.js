@@ -1229,7 +1229,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var Day = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: './pages/Day',
-  file: '/Users/david/Sites/ten/src/App.js',
+  file: '/Users/david/Sites/mckelveycreative/ten/src/App.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 15)), (0, _importCss3.default)('pages/Day', {
       disableWarnings: true
@@ -1673,7 +1673,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Home',
-  file: '/Users/david/Sites/ten/dist/react-static-routes.js',
+  file: '/Users/david/Sites/mckelveycreative/ten/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 11)), (0, _importCss3.default)('src/pages/Home', {
       disableWarnings: true
@@ -1693,7 +1693,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/404',
-  file: '/Users/david/Sites/ten/dist/react-static-routes.js',
+  file: '/Users/david/Sites/mckelveycreative/ten/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 14)), (0, _importCss3.default)('src/pages/404', {
       disableWarnings: true
@@ -2176,4 +2176,4 @@ exports.push([module.i, "div.day {\n  position: relative;\n  display: flex;\n  f
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.c8a5b398.js.map
+//# sourceMappingURL=static.86c8ce6a.js.map
