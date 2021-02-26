@@ -24,7 +24,7 @@
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
     "gh-pages": "^2.0.1",
-    "serve": ">=7.0.0"
+    "serve": ">=10.1.2"
   },
   "scripts": {
     "parse": "node --experimental-modules data/parser.mjs",
